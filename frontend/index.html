@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartReco - Smart Travel & Food Recommendations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a9b8e;
+            --primary-dark: #0d5f57;
+            --primary-light: #4db8aa;
+            --secondary: #e8f4f8;
+            --text-dark: #1a1a1a;
+            --text-light: #666;
+            --border: #e0e0e0;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f9fb 0%, #e8f4f8 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Navigation */
+        header {
+            background: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: var(--secondary);
+            border-radius: 25px;
+            padding: 0.5rem 1.5rem;
+            border: 2px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .search-bar input {
+            border: none;
+            background: transparent;
+            padding: 0.5rem;
+            width: 200px;
+            outline: none;
+            font-size: 0.95rem;
+        }
+
+        .search-bar:focus-within {
+            border-color: var(--primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--secondary);
+        }
+
+        /* Features Section */
+        .features {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: var(--text-dark);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Recommendations Section */
+        .recommendations {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .recommendation-types {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .recommendation-type {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .recommendation-type:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .rec-header {
+            background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .rec-header h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .rec-body {
+            padding: 1.5rem;
+        }
+
+        .rec-item {
+            padding: 0.75rem 0;
+            font-size: 0.95rem;
+            color: var(--text-light);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .rec-item:last-child {
+            border-bottom: none;
+        }
+
+        .rec-item span {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .rec-footer {
+            padding: 0 1.5rem 1.5rem;
+        }
+
+        .rec-footer a {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .rec-footer a:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: white;
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+
+        .stat {
+            padding: 1.5rem;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .item-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s;
+        }
+
+        .item-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .card-header {
+            height: 200px;
+            background: linear-gradient(135deg, var(--secondary) 0%, #d0e8ed 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--text-light);
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-content h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        .card-content p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            background: var(--secondary);
+            color: var(--primary);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Modals */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+
+        .close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 2rem;
+            cursor: pointer;
+            color: var(--text-light);
+            line-height: 1;
+        }
+
+        .close:hover {
+            color: var(--text-dark);
+        }
+
+        /* Input Form */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                padding: 2rem 1rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .search-bar input {
+                width: 150px;
+            }
+
+            .recommendation-types {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Utilities */
+        .hidden {
+            display: none !important;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid var(--secondary);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a onclick="scrollToSection('hero')">Home</a></li>
+                <li><a onclick="scrollToSection('features')">Features</a></li>
+                <li><a onclick="scrollToSection('recommendations')">Recommendations</a></li>
+                <li><a onclick="showModal('preferencesModal')">Get Started</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search recommendations...">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>EXPENSEMATE AI Smart Travel & Food Recommendations</h1>
+            <p class="subtitle">Discover personalized restaurants, destinations, and smart budget analysis. Make better travel decisions with AI-powered recommendations tailored just for you.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="showModal('preferencesModal')">Get Recommendations</button>
+                <button class="btn btn-secondary" onclick="loadAllRecommendations()">Explore All</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">Why Choose SmartReco?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>Personalized</h3>
+                <p>Get recommendations based on your preferences, budget, and travel style.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💡</div>
+                <h3>Smart Analysis</h3>
+                <p>Advanced algorithms analyze your spending patterns and preferences.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Diverse Options</h3>
+                <p>Explore thousands of restaurants and destinations worldwide.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Budget Friendly</h3>
+                <p>Find amazing experiences that fit your budget perfectly.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast & Easy</h3>
+                <p>Get recommendations in seconds with our streamlined process.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Detailed Insights</h3>
+                <p>See comprehensive analytics and expense breakdowns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section class="recommendations" id="recommendations">
+        <h2 class="section-title">Get Your Recommendations</h2>
+        
+        <!-- Stats -->
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-value" id="restaurantCount">0</div>
+                <div class="stat-label">Restaurants</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="destinationCount">0</div>
+                <div class="stat-label">Destinations</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="cuisineCount">0</div>
+                <div class="stat-label">Cuisines</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="categoryCount">0</div>
+                <div class="stat-label">Categories</div>
+            </div>
+        </div>
+
+        <!-- Recommendation Types -->
+        <div class="recommendation-types">
+            <div class="recommendation-type" onclick="showModal('foodRecommendationModal')">
+                <div class="rec-header">
+                    <div style="font-size: 2rem;">🍽️</div>
+                    <h3>Food Recommendations</h3>
+                </div>
+                <div class="rec-body">
+                    <div class="rec-item">Find <span id="foodRecCount">0</span> great restaurants</div>
+                    <div class="rec-item">Filtered by <span>cuisine & budget</span></div>
+                    <div class="rec-item">Get <span>best matches</span> for you</div>
+                </div>
+                <div class="rec-footer">
+                    <a href="#">Explore Restaurants →</a>
+                </div>
+            </div>
+
+            <div class="recommendation-type" onclick="showModal('travelRecommendationModal')">
+                <div class="rec-header">
+                    <div style="font-size: 2rem;">🌍</div>
+                    <h3>Travel Recommendations</h3>
+                </div>
+                <div class="rec-body">
+                    <div class="rec-item">Discover <span id="travelRecCount">0</span> amazing destinations</div>
+                    <div class="rec-item">Match your <span>travel style</span></div>
+                    <div class="rec-item">Plan your <span>perfect trip</span></div>
+                </div>
+                <div class="rec-footer">
+                    <a href="#">Explore Destinations →</a>
+                </div>
+            </div>
+
+            <div class="recommendation-type" onclick="showModal('budgetRecommendationModal')">
+                <div class="rec-header">
+                    <div style="font-size: 2rem;">💰</div>
+                    <h3>Budget Analysis</h3>
+                </div>
+                <div class="rec-body">
+                    <div class="rec-item">Analyze your <span>spending</span></div>
+                    <div class="rec-item">Get <span>optimization tips</span></div>
+                    <div class="rec-item">Smart <span>expense tracking</span></div>
+                </div>
+                <div class="rec-footer">
+                    <a href="#">View Analysis →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Recommendations Section -->
+    <section class="recommendations" id="foodSection">
+        <h2 class="section-title">Popular Food Recommendations</h2>
+        <div class="cards-grid" id="foodGrid"></div>
+    </section>
+
+    <!-- Travel Recommendations Section -->
+    <section class="recommendations" id="travelSection">
+        <h2 class="section-title">Amazing Travel Destinations</h2>
+        <div class="cards-grid" id="travelGrid"></div>
+    </section>
+
+    <!-- Budget Analysis Section -->
+    <section class="recommendations" id="budgetSection">
+        <h2 class="section-title">Budget Breakdown & Analysis</h2>
+        <div class="cards-grid" id="budgetGrid"></div>
+    </section>
+
+    <!-- Results Grid -->
+    <section class="recommendations" id="resultsSection" style="display: none;">
+        <h2 class="section-title" id="resultsTitle">Recommendations</h2>
+        <div class="cards-grid" id="resultsGrid"></div>
+    </section>
+
+    <!-- Preferences Modal -->
+    <div class="modal" id="preferencesModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('preferencesModal')">×</span>
+            <h2>Your Preferences</h2>
+            <p style="color: var(--text-light); margin-bottom: 1.5rem;">Tell us what you're looking for</p>
+            
+            <form id="preferencesForm">
+                <div class="form-group">
+                    <label for="budget">Budget (USD)</label>
+                    <input type="number" id="budget" min="10" max="10000" value="100" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cuisine">Preferred Cuisine</label>
+                        <select id="cuisine">
+                            <option value="">Any Cuisine</option>
+                            <option value="Italian">Italian</option>
+                            <option value="Chinese">Chinese</option>
+                            <option value="Indian">Indian</option>
+                            <option value="Mexican">Mexican</option>
+                            <option value="French">French</option>
+                            <option value="Japanese">Japanese</option>
+                            <option value="Thai">Thai</option>
+                            <option value="Spanish">Spanish</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="minRating">Minimum Rating</label>
+                        <select id="minRating">
+                            <option value="0">Any</option>
+                            <option value="3">3+ Stars</option>
+                            <option value="3.5">3.5+ Stars</option>
+                            <option value="4">4+ Stars</option>
+                            <option value="4.5">4.5+ Stars</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="travelType">Travel Type</label>
+                    <select id="travelType">
+                        <option value="">Any Type</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Beach">Beach</option>
+                        <option value="Cultural">Cultural</option>
+                        <option value="Urban">Urban</option>
+                        <option value="Mountain">Mountain</option>
+                        <option value="Relaxation">Relaxation</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="duration">Duration (Days)</label>
+                    <input type="number" id="duration" min="1" max="365" value="7">
+                </div>
+
+                <div style="display: flex; gap: 1rem;">
+                    <button type="submit" class="btn btn-primary" style="flex: 1;">Get Recommendations</button>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('preferencesModal')" style="flex: 1;">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Food Recommendation Modal -->
+    <div class="modal" id="foodRecommendationModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('foodRecommendationModal')">×</span>
+            <h2>🍽️ Food Recommendations</h2>
+            
+            <form onsubmit="getFoodRecommendations(event)">
+                <div class="form-group">
+                    <label for="foodBudget">Budget (USD)</label>
+                    <input type="number" id="foodBudget" min="5" max="1000" value="50" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="foodCuisine">Cuisine</label>
+                        <select id="foodCuisine">
+                            <option value="">Any</option>
+                            <option value="Italian">Italian</option>
+                            <option value="Chinese">Chinese</option>
+                            <option value="Indian">Indian</option>
+                            <option value="Mexican">Mexican</option>
+                            <option value="French">French</option>
+                            <option value="Japanese">Japanese</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="foodRating">Min Rating</label>
+                        <select id="foodRating">
+                            <option value="0">Any</option>
+                            <option value="3">3+</option>
+                            <option value="3.5">3.5+</option>
+                            <option value="4">4+</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Find Restaurants</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Travel Recommendation Modal -->
+    <div class="modal" id="travelRecommendationModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('travelRecommendationModal')">×</span>
+            <h2>🌍 Travel Recommendations</h2>
+            
+            <form onsubmit="getTravelRecommendations(event)">
+                <div class="form-group">
+                    <label for="travelBudget">Budget (USD)</label>
+                    <input type="number" id="travelBudget" min="100" max="50000" value="2000" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="destType">Destination Type</label>
+                        <select id="destType">
+                            <option value="">Any</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Beach">Beach</option>
+                            <option value="Cultural">Cultural</option>
+                            <option value="Urban">Urban</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tripDuration">Duration (Days)</label>
+                        <input type="number" id="tripDuration" min="1" max="30" value="7">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Find Destinations</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Budget Analysis Modal -->
+    <div class="modal" id="budgetRecommendationModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('budgetRecommendationModal')">×</span>
+            <h2>💰 Budget Analysis</h2>
+            
+            <form onsubmit="getBudgetAnalysis(event)">
+                <div class="form-group">
+                    <label for="expenseBudget">Total Budget (USD)</label>
+                    <input type="number" id="expenseBudget" min="100" max="100000" value="5000" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="expenseCategory">Category</label>
+                        <select id="expenseCategory">
+                            <option value="">All Categories</option>
+                            <option value="Food">Food</option>
+                            <option value="Transportation">Transportation</option>
+                            <option value="Accommodation">Accommodation</option>
+                            <option value="Activities">Activities</option>
+                            <option value="Shopping">Shopping</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="analysisDuration">Trip Duration (Days)</label>
+                        <input type="number" id="analysisDuration" min="1" max="30" value="7">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Analyze Budget</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SmartReco - Your AI-Powered Travel & Food Companion. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // API Base URL - adjust if needed
+        const API_BASE = 'http://localhost:5000/api';
+
+        // Modal Functions
+        function showModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.classList.remove('active');
+            }
+        }
+
+        // Scroll to Section
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Load Cuisines for dropdown
+        async function loadCuisines() {
+            try {
+                const response = await fetch(`${API_BASE}/cuisines`);
+                const cuisines = await response.json();
+                const select = document.getElementById('foodCuisine');
+                
+                // Add "Any" option
+                select.innerHTML = '<option value="">Any</option>';
+                
+                // Add each cuisine as an option
+                cuisines.forEach(cuisine => {
+                    const option = document.createElement('option');
+                    option.value = cuisine;
+                    option.textContent = cuisine;
+                    select.appendChild(option);
+                });
+                
+                console.log('Cuisines loaded:', cuisines);
+            } catch (error) {
+                console.error('Error loading cuisines:', error);
+            }
+        }
+
+        // Load Stats
+        async function loadStats() {
+            try {
+                // Fetch database status
+                const statusResponse = await fetch(`${API_BASE}/database/status`);
+                const statusData = await statusResponse.json();
+                
+                // Fetch cuisine types
+                const cuisineResponse = await fetch(`${API_BASE}/cuisines`);
+                const cuisines = await cuisineResponse.json();
+                
+                // Update stats
+                document.getElementById('restaurantCount').textContent = statusData.restaurants_count || 0;
+                document.getElementById('destinationCount').textContent = statusData.destinations_count || 0;
+                document.getElementById('cuisineCount').textContent = cuisines.length || 0;
+                document.getElementById('categoryCount').textContent = statusData.expenses_count || 0;
+                document.getElementById('foodRecCount').textContent = statusData.restaurants_count || 0;
+                document.getElementById('travelRecCount').textContent = statusData.destinations_count || 0;
+                
+                console.log('Stats loaded:', {
+                    restaurants: statusData.restaurants_count,
+                    destinations: statusData.destinations_count,
+                    cuisines: cuisines.length,
+                    expenses: statusData.expenses_count
+                });
+            } catch (error) {
+                console.error('Error loading stats:', error);
+                console.log('Make sure the API is running at ' + API_BASE);
+            }
+        }
+
+        // Get Food Recommendations
+        async function getFoodRecommendations(e) {
+            e.preventDefault();
+            const budget = document.getElementById('foodBudget').value;
+            const cuisine = document.getElementById('foodCuisine').value;
+            const rating = document.getElementById('foodRating').value;
+
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/food`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: parseFloat(budget), cuisine, min_rating: parseFloat(rating) })
+                });
+                const data = await response.json();
+                displayResults('Food Recommendations', data.recommendations || []);
+                closeModal('foodRecommendationModal');
+            } catch (error) {
+                alert('Error fetching recommendations. Make sure the API is running.');
+            }
+        }
+
+        // Get Travel Recommendations
+        async function getTravelRecommendations(e) {
+            e.preventDefault();
+            const budget = document.getElementById('travelBudget').value;
+            const type = document.getElementById('destType').value;
+            const duration = document.getElementById('tripDuration').value;
+
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/travel`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: parseFloat(budget), travel_type: type, duration: parseInt(duration) })
+                });
+                const data = await response.json();
+                displayResults('Travel Recommendations', data.recommendations || []);
+                closeModal('travelRecommendationModal');
+            } catch (error) {
+                alert('Error fetching recommendations. Make sure the API is running.');
+            }
+        }
+
+        // Get Budget Analysis
+        async function getBudgetAnalysis(e) {
+            e.preventDefault();
+            const budget = document.getElementById('expenseBudget').value;
+            const category = document.getElementById('expenseCategory').value;
+            const duration = document.getElementById('analysisDuration').value;
+
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/budget`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: parseFloat(budget), category, duration: parseInt(duration) })
+                });
+                const data = await response.json();
+                displayResults('Budget Analysis', data.recommendations || []);
+                closeModal('budgetRecommendationModal');
+            } catch (error) {
+                alert('Error fetching analysis. Make sure the API is running.');
+            }
+        }
+
+        // Display Results
+        function displayResults(title, recommendations) {
+            const grid = document.getElementById('resultsGrid');
+            grid.innerHTML = '';
+
+            if (recommendations.length === 0) {
+                grid.innerHTML = '<p style="text-align: center; color: var(--text-light);">No recommendations found. Try adjusting your criteria.</p>';
+            } else {
+                recommendations.forEach(rec => {
+                    const card = createResultCard(rec);
+                    grid.appendChild(card);
+                });
+            }
+
+            document.getElementById('resultsTitle').textContent = title;
+            document.getElementById('resultsSection').style.display = 'block';
+            document.getElementById('resultsSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Create Result Card
+        function createResultCard(item) {
+            const card = document.createElement('div');
+            card.className = 'item-card';
+            
+            const header = document.createElement('div');
+            header.className = 'card-header';
+            header.textContent = item.emoji || '📍';
+            
+            const content = document.createElement('div');
+            content.className = 'card-content';
+            
+            const name = document.createElement('h4');
+            name.textContent = item.name || item.title || 'Item';
+            
+            const description = document.createElement('p');
+            description.textContent = item.description || item.location || 'No description available';
+            
+            const tags = document.createElement('div');
+            tags.className = 'card-tags';
+            
+            if (item.cuisine) {
+                const tag = document.createElement('span');
+                tag.className = 'tag';
+                tag.textContent = item.cuisine;
+                tags.appendChild(tag);
+            }
+            
+            if (item.type) {
+                const tag = document.createElement('span');
+                tag.className = 'tag';
+                tag.textContent = item.type;
+                tags.appendChild(tag);
+            }
+            
+            if (item.category) {
+                const tag = document.createElement('span');
+                tag.className = 'tag';
+                tag.textContent = item.category;
+                tags.appendChild(tag);
+            }
+            
+            const price = document.createElement('p');
+            price.style.fontWeight = '600';
+            price.style.color = 'var(--primary)';
+            if (item.price) price.textContent = `$${item.price}`;
+            if (item.budget_range) price.textContent = `Budget: ${item.budget_range}`;
+            if (item.avg_price) price.textContent = `Avg: $${item.avg_price}`;
+            
+            content.appendChild(name);
+            if (tags.children.length > 0) content.appendChild(tags);
+            content.appendChild(description);
+            if (price.textContent) content.appendChild(price);
+            
+            card.appendChild(header);
+            card.appendChild(content);
+            
+            return card;
+        }
+
+        // Load Food Recommendations
+        async function loadFoodRecommendations() {
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/food`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: 100000, cuisine: '', min_rating: 0, top_n: 6 })
+                });
+                const data = await response.json();
+                
+                if (data.recommendations && data.recommendations.length > 0) {
+                    const grid = document.getElementById('foodGrid');
+                    grid.innerHTML = '';
+                    data.recommendations.forEach(rec => {
+                        const card = createResultCard(rec);
+                        grid.appendChild(card);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading food recommendations:', error);
+            }
+        }
+
+        // Load Travel Recommendations
+        async function loadTravelRecommendations() {
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/travel`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: 500000, travel_type: '', top_n: 6 })
+                });
+                const data = await response.json();
+                
+                if (data.recommendations && data.recommendations.length > 0) {
+                    const grid = document.getElementById('travelGrid');
+                    grid.innerHTML = '';
+                    data.recommendations.forEach(rec => {
+                        const card = createResultCard(rec);
+                        grid.appendChild(card);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading travel recommendations:', error);
+            }
+        }
+
+        // Load Budget Recommendations
+        async function loadBudgetRecommendations() {
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/budget`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: 500000, duration: 7, top_n: 5 })
+                });
+                const data = await response.json();
+                
+                if (data.recommendations && data.recommendations.length > 0) {
+                    const grid = document.getElementById('budgetGrid');
+                    grid.innerHTML = '';
+                    data.recommendations.forEach(rec => {
+                        const card = createResultCard(rec);
+                        grid.appendChild(card);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading budget recommendations:', error);
+            }
+        }
+
+        // Load Default Food Recommendations
+        async function loadDefaultFoodRecommendations() {
+            try {
+                console.log('Loading default food recommendations...');
+                const response = await fetch(`${API_BASE}/recommendations/food`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ budget: 100000, cuisine: '', min_rating: 0, top_n: 12 })
+                });
+                
+                if (!response.ok) {
+                    console.error('API response not ok:', response.status);
+                    return;
+                }
+                
+                const data = await response.json();
+                console.log('Food recommendations data:', data);
+                
+                if (data.recommendations && data.recommendations.length > 0) {
+                    displayResults('Food Recommendations', data.recommendations);
+                    console.log('Displayed', data.recommendations.length, 'food recommendations');
+                } else {
+                    console.warn('No recommendations returned from API');
+                }
+            } catch (error) {
+                console.error('Error loading default food recommendations:', error);
+            }
+        }
+
+        // Load All Recommendations
+        async function loadAllRecommendations() {
+            try {
+                const response = await fetch(`${API_BASE}/recommendations/all`);
+                const data = await response.json();
+                displayResults('All Recommendations', data.recommendations || []);
+            } catch (error) {
+                alert('Error loading recommendations. Make sure the API is running at ' + API_BASE);
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            loadStats();
+            loadCuisines();
+            
+            // Add a small delay to ensure API is ready
+            setTimeout(() => {
+                loadFoodRecommendations();
+                loadTravelRecommendations();
+                loadBudgetRecommendations();
+                loadDefaultFoodRecommendations();
+            }, 500);
+            
+            // Form submission
+            document.getElementById('preferencesForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                // For now, just close and show a message
+                alert('Preferences saved! Use the recommendation cards below to explore.');
+                closeModal('preferencesModal');
+            });
+        });
+    </script>
+</body>
+</html>

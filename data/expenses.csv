@@ -1,0 +1,2001 @@
+expense_id,user_id,category,amount,currency,description,date,location,tags
+exp1,user_001,SHOPPING,43.32,USD,Shopping in Arts District,2024-01-01,Arts District,shopping
+exp2,user_002,ACCOMMODATION,184.17,USD,Hotel/Hostel in Downtown,2024-01-02,Downtown,travel
+exp3,user_003,TRANSPORT,10.7,USD,Taxi/Bus/Train rides in Uptown,2024-01-03,Uptown,travel
+exp4,user_004,NIGHTLIFE,80.35,USD,Bar/Club in Plaza District,2024-01-04,Plaza District,nightlife
+exp5,user_005,SHOPPING,97.88,USD,Shopping in Downtown,2024-01-05,Downtown,shopping
+exp6,user_006,ACTIVITIES,133.66,USD,Tour/Adventure activity in Plaza District,2024-01-06,Plaza District,activities
+exp7,user_007,FOOD,46.91,USD,Lunch at restaurant in Plaza District,2024-01-07,Plaza District,meal
+exp8,user_008,NIGHTLIFE,21.4,USD,Bar/Club in Chinatown,2024-01-08,Chinatown,nightlife
+exp9,user_009,ENTERTAINMENT,144.79,USD,Concert/Movie/Show in Midtown,2024-01-09,Midtown,entertainment
+exp10,user_010,SHOPPING,30.96,USD,Shopping in Beach Area,2024-01-10,Beach Area,shopping
+exp11,user_011,DINING,59.26,USD,Dining experience in Arts District,2024-01-11,Arts District,meal
+exp12,user_012,FOOD,34.01,USD,Street food in Arts District,2024-01-12,Arts District,meal
+exp13,user_013,ENTERTAINMENT,86.43,USD,Concert/Movie/Show in Plaza District,2024-01-13,Plaza District,entertainment
+exp14,user_014,DINING,62.4,USD,Dining experience in Beach Area,2024-01-14,Beach Area,meal
+exp15,user_015,SHOPPING,151.52,USD,Shopping in Chinatown,2024-01-15,Chinatown,shopping
+exp16,user_016,SHOPPING,79.96,USD,Shopping in Midtown,2024-01-16,Midtown,shopping
+exp17,user_017,ENTERTAINMENT,33.06,USD,Concert/Movie/Show in Beach Area,2024-01-17,Beach Area,entertainment
+exp18,user_018,ACCOMMODATION,271.64,USD,Hotel/Hostel in Uptown,2024-01-18,Uptown,travel
+exp19,user_019,SHOPPING,71.39,USD,Shopping in Harbor,2024-01-19,Harbor,shopping
+exp20,user_020,DINING,33.27,USD,Dining experience in Harbor,2024-01-20,Harbor,meal
+exp21,user_021,ACTIVITIES,195.49,USD,Tour/Adventure activity in Uptown,2024-01-21,Uptown,activities
+exp22,user_022,ACTIVITIES,87.55,USD,Tour/Adventure activity in Arts District,2024-01-22,Arts District,activities
+exp23,user_023,NIGHTLIFE,74.39,USD,Bar/Club in Suburban,2024-01-23,Suburban,nightlife
+exp24,user_024,FOOD,30.33,USD,Street food in Plaza District,2024-01-24,Plaza District,meal
+exp25,user_025,TRANSPORT,87.77,USD,Taxi/Bus/Train rides in Downtown,2024-01-25,Downtown,travel
+exp26,user_026,ACCOMMODATION,281.07,USD,Hotel/Hostel in Chinatown,2024-01-26,Chinatown,travel
+exp27,user_027,FOOD,67.6,USD,Street food in Chinatown,2024-01-27,Chinatown,meal
+exp28,user_028,ACCOMMODATION,101.14,USD,Hotel/Hostel in Plaza District,2024-01-28,Plaza District,travel
+exp29,user_029,ACTIVITIES,194.33,USD,Tour/Adventure activity in Uptown,2024-01-29,Uptown,activities
+exp30,user_030,ACTIVITIES,159.04,USD,Tour/Adventure activity in Chinatown,2024-01-30,Chinatown,activities
+exp31,user_031,FOOD,56.23,USD,Snack in Downtown,2024-01-31,Downtown,meal
+exp32,user_032,ACTIVITIES,49.6,USD,Tour/Adventure activity in Plaza District,2024-02-01,Plaza District,activities
+exp33,user_033,NIGHTLIFE,85.23,USD,Bar/Club in Plaza District,2024-02-02,Plaza District,nightlife
+exp34,user_034,NIGHTLIFE,81.69,USD,Bar/Club in Midtown,2024-02-03,Midtown,nightlife
+exp35,user_035,ENTERTAINMENT,146.61,USD,Concert/Movie/Show in Plaza District,2024-02-04,Plaza District,entertainment
+exp36,user_036,ACTIVITIES,111.9,USD,Tour/Adventure activity in Plaza District,2024-02-05,Plaza District,activities
+exp37,user_037,ACTIVITIES,147.29,USD,Tour/Adventure activity in Arts District,2024-02-06,Arts District,activities
+exp38,user_038,ACTIVITIES,40.26,USD,Tour/Adventure activity in Suburban,2024-02-07,Suburban,activities
+exp39,user_039,ACTIVITIES,56.63,USD,Tour/Adventure activity in Arts District,2024-02-08,Arts District,activities
+exp40,user_040,ACTIVITIES,61.01,USD,Tour/Adventure activity in Uptown,2024-02-09,Uptown,activities
+exp41,user_041,FOOD,69.77,USD,Lunch at restaurant in Old Town,2024-02-10,Old Town,meal
+exp42,user_042,SHOPPING,121.67,USD,Shopping in Arts District,2024-02-11,Arts District,shopping
+exp43,user_043,ENTERTAINMENT,47.01,USD,Concert/Movie/Show in Harbor,2024-02-12,Harbor,entertainment
+exp44,user_044,ACCOMMODATION,122.31,USD,Hotel/Hostel in Old Town,2024-02-13,Old Town,travel
+exp45,user_045,TRANSPORT,75.56,USD,Taxi/Bus/Train rides in Chinatown,2024-02-14,Chinatown,travel
+exp46,user_046,FOOD,9.18,USD,Dessert in Plaza District,2024-02-15,Plaza District,meal
+exp47,user_047,ACCOMMODATION,93.02,USD,Hotel/Hostel in Chinatown,2024-02-16,Chinatown,travel
+exp48,user_048,FOOD,61.63,USD,Snack in Downtown,2024-02-17,Downtown,meal
+exp49,user_049,SHOPPING,150.83,USD,Shopping in Plaza District,2024-02-18,Plaza District,shopping
+exp50,user_050,TRANSPORT,43.35,USD,Taxi/Bus/Train rides in Midtown,2024-02-19,Midtown,travel
+exp51,user_001,ACTIVITIES,171.89,USD,Tour/Adventure activity in Chinatown,2024-02-20,Chinatown,activities
+exp52,user_002,TRANSPORT,34.06,USD,Taxi/Bus/Train rides in Old Town,2024-02-21,Old Town,travel
+exp53,user_003,DINING,61.57,USD,Dining experience in Uptown,2024-02-22,Uptown,meal
+exp54,user_004,ACCOMMODATION,212.91,USD,Hotel/Hostel in Downtown,2024-02-23,Downtown,travel
+exp55,user_005,ENTERTAINMENT,56.23,USD,Concert/Movie/Show in Harbor,2024-02-24,Harbor,entertainment
+exp56,user_006,ENTERTAINMENT,54.2,USD,Concert/Movie/Show in Midtown,2024-02-25,Midtown,entertainment
+exp57,user_007,ACTIVITIES,27.73,USD,Tour/Adventure activity in Midtown,2024-02-26,Midtown,activities
+exp58,user_008,TRANSPORT,13.15,USD,Taxi/Bus/Train rides in Plaza District,2024-02-27,Plaza District,travel
+exp59,user_009,FOOD,54.75,USD,Snack in Midtown,2024-02-28,Midtown,meal
+exp60,user_010,SHOPPING,172.17,USD,Shopping in Suburban,2024-02-29,Suburban,shopping
+exp61,user_011,ACTIVITIES,76.21,USD,Tour/Adventure activity in Harbor,2024-03-01,Harbor,activities
+exp62,user_012,ACTIVITIES,166.17,USD,Tour/Adventure activity in Downtown,2024-03-02,Downtown,activities
+exp63,user_013,ENTERTAINMENT,46.85,USD,Concert/Movie/Show in Chinatown,2024-03-03,Chinatown,entertainment
+exp64,user_014,FOOD,44.29,USD,Lunch at restaurant in Uptown,2024-03-04,Uptown,meal
+exp65,user_015,FOOD,59.8,USD,Dessert in Downtown,2024-03-05,Downtown,meal
+exp66,user_016,DINING,68.45,USD,Dining experience in Beach Area,2024-03-06,Beach Area,meal
+exp67,user_017,ACCOMMODATION,287.61,USD,Hotel/Hostel in Suburban,2024-03-07,Suburban,travel
+exp68,user_018,ACCOMMODATION,168.39,USD,Hotel/Hostel in Suburban,2024-03-08,Suburban,travel
+exp69,user_019,NIGHTLIFE,56.8,USD,Bar/Club in Downtown,2024-03-09,Downtown,nightlife
+exp70,user_020,TRANSPORT,35.63,USD,Taxi/Bus/Train rides in Arts District,2024-03-10,Arts District,travel
+exp71,user_021,DINING,59.04,USD,Dining experience in Uptown,2024-03-11,Uptown,meal
+exp72,user_022,ACTIVITIES,118.78,USD,Tour/Adventure activity in Chinatown,2024-03-12,Chinatown,activities
+exp73,user_023,ENTERTAINMENT,18.23,USD,Concert/Movie/Show in Midtown,2024-03-13,Midtown,entertainment
+exp74,user_024,SHOPPING,21.13,USD,Shopping in Uptown,2024-03-14,Uptown,shopping
+exp75,user_025,NIGHTLIFE,61.18,USD,Bar/Club in Arts District,2024-03-15,Arts District,nightlife
+exp76,user_026,ACCOMMODATION,211.69,USD,Hotel/Hostel in Downtown,2024-03-16,Downtown,travel
+exp77,user_027,ENTERTAINMENT,29.28,USD,Concert/Movie/Show in Uptown,2024-03-17,Uptown,entertainment
+exp78,user_028,ENTERTAINMENT,24.32,USD,Concert/Movie/Show in Beach Area,2024-03-18,Beach Area,entertainment
+exp79,user_029,TRANSPORT,53.87,USD,Taxi/Bus/Train rides in Suburban,2024-03-19,Suburban,travel
+exp80,user_030,NIGHTLIFE,61.61,USD,Bar/Club in Midtown,2024-03-20,Midtown,nightlife
+exp81,user_031,FOOD,17.69,USD,Café meal in Harbor,2024-03-21,Harbor,meal
+exp82,user_032,NIGHTLIFE,58.55,USD,Bar/Club in Suburban,2024-03-22,Suburban,nightlife
+exp83,user_033,TRANSPORT,83.17,USD,Taxi/Bus/Train rides in Plaza District,2024-03-23,Plaza District,travel
+exp84,user_034,SHOPPING,176.58,USD,Shopping in Plaza District,2024-03-24,Plaza District,shopping
+exp85,user_035,NIGHTLIFE,67.89,USD,Bar/Club in Old Town,2024-03-25,Old Town,nightlife
+exp86,user_036,NIGHTLIFE,64.71,USD,Bar/Club in Downtown,2024-03-26,Downtown,nightlife
+exp87,user_037,ACTIVITIES,84.11,USD,Tour/Adventure activity in Suburban,2024-03-27,Suburban,activities
+exp88,user_038,FOOD,71.58,USD,Street food in Midtown,2024-03-28,Midtown,meal
+exp89,user_039,ACCOMMODATION,282.67,USD,Hotel/Hostel in Beach Area,2024-03-29,Beach Area,travel
+exp90,user_040,ACTIVITIES,88.52,USD,Tour/Adventure activity in Chinatown,2024-03-30,Chinatown,activities
+exp91,user_041,FOOD,28.73,USD,Coffee break in Suburban,2024-03-31,Suburban,meal
+exp92,user_042,NIGHTLIFE,70.53,USD,Bar/Club in Downtown,2024-04-01,Downtown,nightlife
+exp93,user_043,NIGHTLIFE,17.83,USD,Bar/Club in Midtown,2024-04-02,Midtown,nightlife
+exp94,user_044,ACTIVITIES,125.92,USD,Tour/Adventure activity in Suburban,2024-04-03,Suburban,activities
+exp95,user_045,NIGHTLIFE,56.99,USD,Bar/Club in Beach Area,2024-04-04,Beach Area,nightlife
+exp96,user_046,DINING,87.71,USD,Dining experience in Beach Area,2024-04-05,Beach Area,meal
+exp97,user_047,NIGHTLIFE,77.61,USD,Bar/Club in Harbor,2024-04-06,Harbor,nightlife
+exp98,user_048,ACTIVITIES,118.05,USD,Tour/Adventure activity in Downtown,2024-04-07,Downtown,activities
+exp99,user_049,FOOD,46.68,USD,Lunch at restaurant in Uptown,2024-04-08,Uptown,meal
+exp100,user_050,ACCOMMODATION,217.05,USD,Hotel/Hostel in Midtown,2024-04-09,Midtown,travel
+exp101,user_001,ENTERTAINMENT,127.68,USD,Concert/Movie/Show in Downtown,2024-04-10,Downtown,entertainment
+exp102,user_002,FOOD,57.27,USD,Lunch at restaurant in Suburban,2024-04-11,Suburban,meal
+exp103,user_003,TRANSPORT,37.5,USD,Taxi/Bus/Train rides in Uptown,2024-04-12,Uptown,travel
+exp104,user_004,ACCOMMODATION,179.31,USD,Hotel/Hostel in Plaza District,2024-04-13,Plaza District,travel
+exp105,user_005,ENTERTAINMENT,65.9,USD,Concert/Movie/Show in Arts District,2024-04-14,Arts District,entertainment
+exp106,user_006,ENTERTAINMENT,19.55,USD,Concert/Movie/Show in Plaza District,2024-04-15,Plaza District,entertainment
+exp107,user_007,SHOPPING,53.07,USD,Shopping in Uptown,2024-04-16,Uptown,shopping
+exp108,user_008,TRANSPORT,39.75,USD,Taxi/Bus/Train rides in Old Town,2024-04-17,Old Town,travel
+exp109,user_009,ACTIVITIES,75.82,USD,Tour/Adventure activity in Old Town,2024-04-18,Old Town,activities
+exp110,user_010,NIGHTLIFE,92.3,USD,Bar/Club in Plaza District,2024-04-19,Plaza District,nightlife
+exp111,user_011,FOOD,39.88,USD,Coffee break in Plaza District,2024-04-20,Plaza District,meal
+exp112,user_012,ENTERTAINMENT,57.05,USD,Concert/Movie/Show in Plaza District,2024-04-21,Plaza District,entertainment
+exp113,user_013,FOOD,35.3,USD,Coffee break in Old Town,2024-04-22,Old Town,meal
+exp114,user_014,NIGHTLIFE,72.85,USD,Bar/Club in Midtown,2024-04-23,Midtown,nightlife
+exp115,user_015,NIGHTLIFE,21.37,USD,Bar/Club in Beach Area,2024-04-24,Beach Area,nightlife
+exp116,user_016,ENTERTAINMENT,96.45,USD,Concert/Movie/Show in Beach Area,2024-04-25,Beach Area,entertainment
+exp117,user_017,TRANSPORT,38.31,USD,Taxi/Bus/Train rides in Downtown,2024-04-26,Downtown,travel
+exp118,user_018,NIGHTLIFE,27.58,USD,Bar/Club in Arts District,2024-04-27,Arts District,nightlife
+exp119,user_019,SHOPPING,86.76,USD,Shopping in Midtown,2024-04-28,Midtown,shopping
+exp120,user_020,ACCOMMODATION,152.3,USD,Hotel/Hostel in Uptown,2024-04-29,Uptown,travel
+exp121,user_021,DINING,86.78,USD,Dining experience in Midtown,2024-04-30,Midtown,meal
+exp122,user_022,ACCOMMODATION,209.41,USD,Hotel/Hostel in Beach Area,2024-05-01,Beach Area,travel
+exp123,user_023,FOOD,64.76,USD,Lunch at restaurant in Arts District,2024-05-02,Arts District,meal
+exp124,user_024,DINING,94.61,USD,Dining experience in Beach Area,2024-05-03,Beach Area,meal
+exp125,user_025,SHOPPING,51.89,USD,Shopping in Plaza District,2024-05-04,Plaza District,shopping
+exp126,user_026,NIGHTLIFE,41.79,USD,Bar/Club in Downtown,2024-05-05,Downtown,nightlife
+exp127,user_027,ACCOMMODATION,285.7,USD,Hotel/Hostel in Uptown,2024-05-06,Uptown,travel
+exp128,user_028,ENTERTAINMENT,49.86,USD,Concert/Movie/Show in Chinatown,2024-05-07,Chinatown,entertainment
+exp129,user_029,FOOD,10.72,USD,Coffee break in Arts District,2024-05-08,Arts District,meal
+exp130,user_030,TRANSPORT,7.61,USD,Taxi/Bus/Train rides in Arts District,2024-05-09,Arts District,travel
+exp131,user_031,ENTERTAINMENT,23.33,USD,Concert/Movie/Show in Chinatown,2024-05-10,Chinatown,entertainment
+exp132,user_032,ACTIVITIES,73.29,USD,Tour/Adventure activity in Downtown,2024-05-11,Downtown,activities
+exp133,user_033,ACTIVITIES,140.87,USD,Tour/Adventure activity in Downtown,2024-05-12,Downtown,activities
+exp134,user_034,DINING,46.54,USD,Dining experience in Uptown,2024-05-13,Uptown,meal
+exp135,user_035,FOOD,61.5,USD,Coffee break in Midtown,2024-05-14,Midtown,meal
+exp136,user_036,FOOD,45.07,USD,Breakfast in Midtown,2024-05-15,Midtown,meal
+exp137,user_037,NIGHTLIFE,42.18,USD,Bar/Club in Chinatown,2024-05-16,Chinatown,nightlife
+exp138,user_038,SHOPPING,165.23,USD,Shopping in Suburban,2024-05-17,Suburban,shopping
+exp139,user_039,NIGHTLIFE,59.68,USD,Bar/Club in Plaza District,2024-05-18,Plaza District,nightlife
+exp140,user_040,ACCOMMODATION,85.6,USD,Hotel/Hostel in Arts District,2024-05-19,Arts District,travel
+exp141,user_041,SHOPPING,124.48,USD,Shopping in Arts District,2024-05-20,Arts District,shopping
+exp142,user_042,TRANSPORT,79.41,USD,Taxi/Bus/Train rides in Chinatown,2024-05-21,Chinatown,travel
+exp143,user_043,NIGHTLIFE,43.31,USD,Bar/Club in Downtown,2024-05-22,Downtown,nightlife
+exp144,user_044,ENTERTAINMENT,23.63,USD,Concert/Movie/Show in Old Town,2024-05-23,Old Town,entertainment
+exp145,user_045,ACTIVITIES,131.49,USD,Tour/Adventure activity in Harbor,2024-05-24,Harbor,activities
+exp146,user_046,ENTERTAINMENT,21.43,USD,Concert/Movie/Show in Suburban,2024-05-25,Suburban,entertainment
+exp147,user_047,ACCOMMODATION,93.22,USD,Hotel/Hostel in Uptown,2024-05-26,Uptown,travel
+exp148,user_048,FOOD,34.36,USD,Street food in Chinatown,2024-05-27,Chinatown,meal
+exp149,user_049,ACCOMMODATION,144.92,USD,Hotel/Hostel in Downtown,2024-05-28,Downtown,travel
+exp150,user_050,TRANSPORT,78.77,USD,Taxi/Bus/Train rides in Downtown,2024-05-29,Downtown,travel
+exp151,user_001,SHOPPING,196.72,USD,Shopping in Old Town,2024-05-30,Old Town,shopping
+exp152,user_002,NIGHTLIFE,17.04,USD,Bar/Club in Plaza District,2024-05-31,Plaza District,nightlife
+exp153,user_003,ACTIVITIES,186.6,USD,Tour/Adventure activity in Arts District,2024-06-01,Arts District,activities
+exp154,user_004,SHOPPING,119.76,USD,Shopping in Beach Area,2024-06-02,Beach Area,shopping
+exp155,user_005,DINING,47.44,USD,Dining experience in Beach Area,2024-06-03,Beach Area,meal
+exp156,user_006,DINING,20.09,USD,Dining experience in Midtown,2024-06-04,Midtown,meal
+exp157,user_007,NIGHTLIFE,60.28,USD,Bar/Club in Old Town,2024-06-05,Old Town,nightlife
+exp158,user_008,ACCOMMODATION,182.22,USD,Hotel/Hostel in Downtown,2024-06-06,Downtown,travel
+exp159,user_009,FOOD,63.62,USD,Dinner at restaurant in Suburban,2024-06-07,Suburban,meal
+exp160,user_010,ACTIVITIES,142.83,USD,Tour/Adventure activity in Downtown,2024-06-08,Downtown,activities
+exp161,user_011,DINING,99.1,USD,Dining experience in Arts District,2024-06-09,Arts District,meal
+exp162,user_012,ACCOMMODATION,137.46,USD,Hotel/Hostel in Old Town,2024-06-10,Old Town,travel
+exp163,user_013,FOOD,10.25,USD,Street food in Downtown,2024-06-11,Downtown,meal
+exp164,user_014,ACCOMMODATION,94.1,USD,Hotel/Hostel in Arts District,2024-06-12,Arts District,travel
+exp165,user_015,NIGHTLIFE,64.29,USD,Bar/Club in Uptown,2024-06-13,Uptown,nightlife
+exp166,user_016,TRANSPORT,69.95,USD,Taxi/Bus/Train rides in Midtown,2024-06-14,Midtown,travel
+exp167,user_017,ACTIVITIES,122.32,USD,Tour/Adventure activity in Uptown,2024-06-15,Uptown,activities
+exp168,user_018,ACTIVITIES,154.45,USD,Tour/Adventure activity in Midtown,2024-06-16,Midtown,activities
+exp169,user_019,ACCOMMODATION,83.46,USD,Hotel/Hostel in Downtown,2024-06-17,Downtown,travel
+exp170,user_020,DINING,35.63,USD,Dining experience in Midtown,2024-06-18,Midtown,meal
+exp171,user_021,NIGHTLIFE,69.37,USD,Bar/Club in Chinatown,2024-06-19,Chinatown,nightlife
+exp172,user_022,NIGHTLIFE,25.9,USD,Bar/Club in Harbor,2024-06-20,Harbor,nightlife
+exp173,user_023,ENTERTAINMENT,93.35,USD,Concert/Movie/Show in Downtown,2024-06-21,Downtown,entertainment
+exp174,user_024,FOOD,43.94,USD,Café meal in Harbor,2024-06-22,Harbor,meal
+exp175,user_025,DINING,87.74,USD,Dining experience in Old Town,2024-06-23,Old Town,meal
+exp176,user_026,FOOD,25.96,USD,Breakfast in Suburban,2024-06-24,Suburban,meal
+exp177,user_027,ACTIVITIES,130.09,USD,Tour/Adventure activity in Downtown,2024-06-25,Downtown,activities
+exp178,user_028,FOOD,22.8,USD,Café meal in Harbor,2024-06-26,Harbor,meal
+exp179,user_029,DINING,50.6,USD,Dining experience in Midtown,2024-06-27,Midtown,meal
+exp180,user_030,ACTIVITIES,145.16,USD,Tour/Adventure activity in Uptown,2024-06-28,Uptown,activities
+exp181,user_031,ACTIVITIES,28.98,USD,Tour/Adventure activity in Chinatown,2024-06-29,Chinatown,activities
+exp182,user_032,SHOPPING,126.57,USD,Shopping in Midtown,2024-06-30,Midtown,shopping
+exp183,user_033,ENTERTAINMENT,145.63,USD,Concert/Movie/Show in Suburban,2024-07-01,Suburban,entertainment
+exp184,user_034,TRANSPORT,12.51,USD,Taxi/Bus/Train rides in Midtown,2024-07-02,Midtown,travel
+exp185,user_035,NIGHTLIFE,64.58,USD,Bar/Club in Old Town,2024-07-03,Old Town,nightlife
+exp186,user_036,FOOD,63.83,USD,Coffee break in Uptown,2024-07-04,Uptown,meal
+exp187,user_037,FOOD,16.67,USD,Coffee break in Old Town,2024-07-05,Old Town,meal
+exp188,user_038,TRANSPORT,52.38,USD,Taxi/Bus/Train rides in Downtown,2024-07-06,Downtown,travel
+exp189,user_039,TRANSPORT,55.83,USD,Taxi/Bus/Train rides in Old Town,2024-07-07,Old Town,travel
+exp190,user_040,NIGHTLIFE,94.66,USD,Bar/Club in Beach Area,2024-07-08,Beach Area,nightlife
+exp191,user_041,FOOD,36.21,USD,Coffee break in Midtown,2024-07-09,Midtown,meal
+exp192,user_042,NIGHTLIFE,66.74,USD,Bar/Club in Harbor,2024-07-10,Harbor,nightlife
+exp193,user_043,ACTIVITIES,106.39,USD,Tour/Adventure activity in Harbor,2024-07-11,Harbor,activities
+exp194,user_044,ACCOMMODATION,237.27,USD,Hotel/Hostel in Old Town,2024-07-12,Old Town,travel
+exp195,user_045,ACCOMMODATION,79.57,USD,Hotel/Hostel in Beach Area,2024-07-13,Beach Area,travel
+exp196,user_046,DINING,68.04,USD,Dining experience in Midtown,2024-07-14,Midtown,meal
+exp197,user_047,DINING,45.49,USD,Dining experience in Beach Area,2024-07-15,Beach Area,meal
+exp198,user_048,ACTIVITIES,111.93,USD,Tour/Adventure activity in Beach Area,2024-07-16,Beach Area,activities
+exp199,user_049,ACTIVITIES,189.53,USD,Tour/Adventure activity in Chinatown,2024-07-17,Chinatown,activities
+exp200,user_050,TRANSPORT,64.32,USD,Taxi/Bus/Train rides in Downtown,2024-07-18,Downtown,travel
+exp201,user_001,ACCOMMODATION,163.59,USD,Hotel/Hostel in Chinatown,2024-07-19,Chinatown,travel
+exp202,user_002,DINING,59.32,USD,Dining experience in Midtown,2024-07-20,Midtown,meal
+exp203,user_003,FOOD,46.32,USD,Dessert in Midtown,2024-07-21,Midtown,meal
+exp204,user_004,DINING,38.68,USD,Dining experience in Downtown,2024-07-22,Downtown,meal
+exp205,user_005,ACTIVITIES,165.41,USD,Tour/Adventure activity in Harbor,2024-07-23,Harbor,activities
+exp206,user_006,ACTIVITIES,90.38,USD,Tour/Adventure activity in Arts District,2024-07-24,Arts District,activities
+exp207,user_007,ACTIVITIES,150.73,USD,Tour/Adventure activity in Old Town,2024-07-25,Old Town,activities
+exp208,user_008,FOOD,76.99,USD,Lunch at restaurant in Midtown,2024-07-26,Midtown,meal
+exp209,user_009,FOOD,49.24,USD,Breakfast in Old Town,2024-07-27,Old Town,meal
+exp210,user_010,FOOD,72.4,USD,Café meal in Downtown,2024-07-28,Downtown,meal
+exp211,user_011,NIGHTLIFE,76.61,USD,Bar/Club in Uptown,2024-07-29,Uptown,nightlife
+exp212,user_012,TRANSPORT,73.85,USD,Taxi/Bus/Train rides in Suburban,2024-07-30,Suburban,travel
+exp213,user_013,NIGHTLIFE,37.76,USD,Bar/Club in Downtown,2024-07-31,Downtown,nightlife
+exp214,user_014,FOOD,12.5,USD,Breakfast in Chinatown,2024-08-01,Chinatown,meal
+exp215,user_015,ACTIVITIES,33.49,USD,Tour/Adventure activity in Chinatown,2024-08-02,Chinatown,activities
+exp216,user_016,ACCOMMODATION,149.49,USD,Hotel/Hostel in Harbor,2024-08-03,Harbor,travel
+exp217,user_017,NIGHTLIFE,68.84,USD,Bar/Club in Old Town,2024-08-04,Old Town,nightlife
+exp218,user_018,ENTERTAINMENT,52.88,USD,Concert/Movie/Show in Arts District,2024-08-05,Arts District,entertainment
+exp219,user_019,SHOPPING,50.27,USD,Shopping in Uptown,2024-08-06,Uptown,shopping
+exp220,user_020,ACTIVITIES,66.0,USD,Tour/Adventure activity in Beach Area,2024-08-07,Beach Area,activities
+exp221,user_021,TRANSPORT,50.36,USD,Taxi/Bus/Train rides in Downtown,2024-08-08,Downtown,travel
+exp222,user_022,TRANSPORT,50.92,USD,Taxi/Bus/Train rides in Plaza District,2024-08-09,Plaza District,travel
+exp223,user_023,FOOD,51.76,USD,Breakfast in Plaza District,2024-08-10,Plaza District,meal
+exp224,user_024,FOOD,66.38,USD,Café meal in Downtown,2024-08-11,Downtown,meal
+exp225,user_025,TRANSPORT,72.84,USD,Taxi/Bus/Train rides in Beach Area,2024-08-12,Beach Area,travel
+exp226,user_026,NIGHTLIFE,56.47,USD,Bar/Club in Beach Area,2024-08-13,Beach Area,nightlife
+exp227,user_027,TRANSPORT,5.41,USD,Taxi/Bus/Train rides in Uptown,2024-08-14,Uptown,travel
+exp228,user_028,ENTERTAINMENT,133.26,USD,Concert/Movie/Show in Suburban,2024-08-15,Suburban,entertainment
+exp229,user_029,DINING,46.31,USD,Dining experience in Suburban,2024-08-16,Suburban,meal
+exp230,user_030,DINING,21.06,USD,Dining experience in Arts District,2024-08-17,Arts District,meal
+exp231,user_031,SHOPPING,136.23,USD,Shopping in Beach Area,2024-08-18,Beach Area,shopping
+exp232,user_032,ACCOMMODATION,152.14,USD,Hotel/Hostel in Uptown,2024-08-19,Uptown,travel
+exp233,user_033,ENTERTAINMENT,102.33,USD,Concert/Movie/Show in Arts District,2024-08-20,Arts District,entertainment
+exp234,user_034,FOOD,68.32,USD,Dinner at restaurant in Plaza District,2024-08-21,Plaza District,meal
+exp235,user_035,FOOD,11.56,USD,Dessert in Arts District,2024-08-22,Arts District,meal
+exp236,user_036,ENTERTAINMENT,27.41,USD,Concert/Movie/Show in Chinatown,2024-08-23,Chinatown,entertainment
+exp237,user_037,ENTERTAINMENT,128.42,USD,Concert/Movie/Show in Arts District,2024-08-24,Arts District,entertainment
+exp238,user_038,ACTIVITIES,174.83,USD,Tour/Adventure activity in Beach Area,2024-08-25,Beach Area,activities
+exp239,user_039,FOOD,37.2,USD,Lunch at restaurant in Downtown,2024-08-26,Downtown,meal
+exp240,user_040,NIGHTLIFE,80.19,USD,Bar/Club in Downtown,2024-08-27,Downtown,nightlife
+exp241,user_041,ACTIVITIES,131.8,USD,Tour/Adventure activity in Harbor,2024-08-28,Harbor,activities
+exp242,user_042,DINING,36.37,USD,Dining experience in Harbor,2024-08-29,Harbor,meal
+exp243,user_043,ENTERTAINMENT,124.07,USD,Concert/Movie/Show in Suburban,2024-08-30,Suburban,entertainment
+exp244,user_044,DINING,30.42,USD,Dining experience in Harbor,2024-08-31,Harbor,meal
+exp245,user_045,SHOPPING,107.28,USD,Shopping in Arts District,2024-09-01,Arts District,shopping
+exp246,user_046,DINING,36.54,USD,Dining experience in Midtown,2024-09-02,Midtown,meal
+exp247,user_047,NIGHTLIFE,80.32,USD,Bar/Club in Plaza District,2024-09-03,Plaza District,nightlife
+exp248,user_048,TRANSPORT,21.38,USD,Taxi/Bus/Train rides in Beach Area,2024-09-04,Beach Area,travel
+exp249,user_049,FOOD,35.71,USD,Street food in Harbor,2024-09-05,Harbor,meal
+exp250,user_050,FOOD,40.52,USD,Dinner at restaurant in Arts District,2024-09-06,Arts District,meal
+exp251,user_001,SHOPPING,96.34,USD,Shopping in Suburban,2024-09-07,Suburban,shopping
+exp252,user_002,SHOPPING,98.26,USD,Shopping in Harbor,2024-09-08,Harbor,shopping
+exp253,user_003,ACCOMMODATION,272.43,USD,Hotel/Hostel in Harbor,2024-09-09,Harbor,travel
+exp254,user_004,ACCOMMODATION,199.84,USD,Hotel/Hostel in Plaza District,2024-09-10,Plaza District,travel
+exp255,user_005,ENTERTAINMENT,45.19,USD,Concert/Movie/Show in Midtown,2024-09-11,Midtown,entertainment
+exp256,user_006,SHOPPING,190.85,USD,Shopping in Old Town,2024-09-12,Old Town,shopping
+exp257,user_007,DINING,27.72,USD,Dining experience in Old Town,2024-09-13,Old Town,meal
+exp258,user_008,NIGHTLIFE,77.3,USD,Bar/Club in Harbor,2024-09-14,Harbor,nightlife
+exp259,user_009,ACCOMMODATION,84.28,USD,Hotel/Hostel in Plaza District,2024-09-15,Plaza District,travel
+exp260,user_010,DINING,52.04,USD,Dining experience in Downtown,2024-09-16,Downtown,meal
+exp261,user_011,ACCOMMODATION,243.98,USD,Hotel/Hostel in Downtown,2024-09-17,Downtown,travel
+exp262,user_012,ACCOMMODATION,209.84,USD,Hotel/Hostel in Old Town,2024-09-18,Old Town,travel
+exp263,user_013,NIGHTLIFE,89.88,USD,Bar/Club in Harbor,2024-09-19,Harbor,nightlife
+exp264,user_014,DINING,77.24,USD,Dining experience in Midtown,2024-09-20,Midtown,meal
+exp265,user_015,ACCOMMODATION,276.62,USD,Hotel/Hostel in Downtown,2024-09-21,Downtown,travel
+exp266,user_016,NIGHTLIFE,49.16,USD,Bar/Club in Suburban,2024-09-22,Suburban,nightlife
+exp267,user_017,FOOD,36.85,USD,Street food in Beach Area,2024-09-23,Beach Area,meal
+exp268,user_018,DINING,20.69,USD,Dining experience in Arts District,2024-09-24,Arts District,meal
+exp269,user_019,ENTERTAINMENT,82.75,USD,Concert/Movie/Show in Harbor,2024-09-25,Harbor,entertainment
+exp270,user_020,TRANSPORT,19.87,USD,Taxi/Bus/Train rides in Old Town,2024-09-26,Old Town,travel
+exp271,user_021,FOOD,15.56,USD,Dinner at restaurant in Chinatown,2024-09-27,Chinatown,meal
+exp272,user_022,ACTIVITIES,98.33,USD,Tour/Adventure activity in Midtown,2024-09-28,Midtown,activities
+exp273,user_023,ACTIVITIES,100.74,USD,Tour/Adventure activity in Beach Area,2024-09-29,Beach Area,activities
+exp274,user_024,ACTIVITIES,190.79,USD,Tour/Adventure activity in Beach Area,2024-09-30,Beach Area,activities
+exp275,user_025,NIGHTLIFE,63.68,USD,Bar/Club in Suburban,2024-10-01,Suburban,nightlife
+exp276,user_026,FOOD,33.45,USD,Café meal in Suburban,2024-10-02,Suburban,meal
+exp277,user_027,ACTIVITIES,41.04,USD,Tour/Adventure activity in Old Town,2024-10-03,Old Town,activities
+exp278,user_028,ACCOMMODATION,109.16,USD,Hotel/Hostel in Midtown,2024-10-04,Midtown,travel
+exp279,user_029,TRANSPORT,22.17,USD,Taxi/Bus/Train rides in Arts District,2024-10-05,Arts District,travel
+exp280,user_030,NIGHTLIFE,50.87,USD,Bar/Club in Beach Area,2024-10-06,Beach Area,nightlife
+exp281,user_031,SHOPPING,136.72,USD,Shopping in Downtown,2024-10-07,Downtown,shopping
+exp282,user_032,NIGHTLIFE,75.47,USD,Bar/Club in Harbor,2024-10-08,Harbor,nightlife
+exp283,user_033,TRANSPORT,10.05,USD,Taxi/Bus/Train rides in Suburban,2024-10-09,Suburban,travel
+exp284,user_034,NIGHTLIFE,71.04,USD,Bar/Club in Chinatown,2024-10-10,Chinatown,nightlife
+exp285,user_035,ENTERTAINMENT,127.01,USD,Concert/Movie/Show in Old Town,2024-10-11,Old Town,entertainment
+exp286,user_036,ENTERTAINMENT,67.74,USD,Concert/Movie/Show in Plaza District,2024-10-12,Plaza District,entertainment
+exp287,user_037,SHOPPING,156.48,USD,Shopping in Arts District,2024-10-13,Arts District,shopping
+exp288,user_038,DINING,74.78,USD,Dining experience in Chinatown,2024-10-14,Chinatown,meal
+exp289,user_039,DINING,20.46,USD,Dining experience in Plaza District,2024-10-15,Plaza District,meal
+exp290,user_040,ACTIVITIES,35.79,USD,Tour/Adventure activity in Beach Area,2024-10-16,Beach Area,activities
+exp291,user_041,ACTIVITIES,107.8,USD,Tour/Adventure activity in Chinatown,2024-10-17,Chinatown,activities
+exp292,user_042,ACTIVITIES,155.49,USD,Tour/Adventure activity in Downtown,2024-10-18,Downtown,activities
+exp293,user_043,DINING,66.24,USD,Dining experience in Uptown,2024-10-19,Uptown,meal
+exp294,user_044,TRANSPORT,83.23,USD,Taxi/Bus/Train rides in Harbor,2024-10-20,Harbor,travel
+exp295,user_045,DINING,84.6,USD,Dining experience in Beach Area,2024-10-21,Beach Area,meal
+exp296,user_046,NIGHTLIFE,81.45,USD,Bar/Club in Harbor,2024-10-22,Harbor,nightlife
+exp297,user_047,ACTIVITIES,144.38,USD,Tour/Adventure activity in Chinatown,2024-10-23,Chinatown,activities
+exp298,user_048,TRANSPORT,74.06,USD,Taxi/Bus/Train rides in Plaza District,2024-10-24,Plaza District,travel
+exp299,user_049,NIGHTLIFE,31.88,USD,Bar/Club in Harbor,2024-10-25,Harbor,nightlife
+exp300,user_050,ENTERTAINMENT,110.49,USD,Concert/Movie/Show in Old Town,2024-10-26,Old Town,entertainment
+exp301,user_001,ACCOMMODATION,75.02,USD,Hotel/Hostel in Chinatown,2024-10-27,Chinatown,travel
+exp302,user_002,NIGHTLIFE,53.49,USD,Bar/Club in Midtown,2024-10-28,Midtown,nightlife
+exp303,user_003,ACTIVITIES,151.31,USD,Tour/Adventure activity in Downtown,2024-10-29,Downtown,activities
+exp304,user_004,ENTERTAINMENT,126.32,USD,Concert/Movie/Show in Arts District,2024-10-30,Arts District,entertainment
+exp305,user_005,FOOD,62.16,USD,Lunch at restaurant in Plaza District,2024-10-31,Plaza District,meal
+exp306,user_006,SHOPPING,155.89,USD,Shopping in Uptown,2024-11-01,Uptown,shopping
+exp307,user_007,NIGHTLIFE,51.03,USD,Bar/Club in Chinatown,2024-11-02,Chinatown,nightlife
+exp308,user_008,DINING,23.42,USD,Dining experience in Downtown,2024-11-03,Downtown,meal
+exp309,user_009,ENTERTAINMENT,17.05,USD,Concert/Movie/Show in Plaza District,2024-11-04,Plaza District,entertainment
+exp310,user_010,NIGHTLIFE,87.58,USD,Bar/Club in Arts District,2024-11-05,Arts District,nightlife
+exp311,user_011,FOOD,51.97,USD,Street food in Chinatown,2024-11-06,Chinatown,meal
+exp312,user_012,SHOPPING,99.22,USD,Shopping in Beach Area,2024-11-07,Beach Area,shopping
+exp313,user_013,DINING,83.65,USD,Dining experience in Midtown,2024-11-08,Midtown,meal
+exp314,user_014,ACTIVITIES,143.93,USD,Tour/Adventure activity in Suburban,2024-11-09,Suburban,activities
+exp315,user_015,ACTIVITIES,83.51,USD,Tour/Adventure activity in Chinatown,2024-11-10,Chinatown,activities
+exp316,user_016,DINING,50.65,USD,Dining experience in Old Town,2024-11-11,Old Town,meal
+exp317,user_017,NIGHTLIFE,91.68,USD,Bar/Club in Midtown,2024-11-12,Midtown,nightlife
+exp318,user_018,SHOPPING,48.9,USD,Shopping in Suburban,2024-11-13,Suburban,shopping
+exp319,user_019,ACCOMMODATION,151.06,USD,Hotel/Hostel in Beach Area,2024-11-14,Beach Area,travel
+exp320,user_020,ACTIVITIES,112.87,USD,Tour/Adventure activity in Harbor,2024-11-15,Harbor,activities
+exp321,user_021,ENTERTAINMENT,127.41,USD,Concert/Movie/Show in Beach Area,2024-11-16,Beach Area,entertainment
+exp322,user_022,DINING,90.15,USD,Dining experience in Beach Area,2024-11-17,Beach Area,meal
+exp323,user_023,NIGHTLIFE,79.04,USD,Bar/Club in Arts District,2024-11-18,Arts District,nightlife
+exp324,user_024,ENTERTAINMENT,112.5,USD,Concert/Movie/Show in Beach Area,2024-11-19,Beach Area,entertainment
+exp325,user_025,SHOPPING,92.45,USD,Shopping in Beach Area,2024-11-20,Beach Area,shopping
+exp326,user_026,DINING,96.98,USD,Dining experience in Chinatown,2024-11-21,Chinatown,meal
+exp327,user_027,ACTIVITIES,165.27,USD,Tour/Adventure activity in Arts District,2024-11-22,Arts District,activities
+exp328,user_028,TRANSPORT,92.8,USD,Taxi/Bus/Train rides in Beach Area,2024-11-23,Beach Area,travel
+exp329,user_029,SHOPPING,173.84,USD,Shopping in Chinatown,2024-11-24,Chinatown,shopping
+exp330,user_030,DINING,85.94,USD,Dining experience in Harbor,2024-11-25,Harbor,meal
+exp331,user_031,DINING,51.38,USD,Dining experience in Plaza District,2024-11-26,Plaza District,meal
+exp332,user_032,NIGHTLIFE,80.87,USD,Bar/Club in Suburban,2024-11-27,Suburban,nightlife
+exp333,user_033,SHOPPING,101.47,USD,Shopping in Midtown,2024-11-28,Midtown,shopping
+exp334,user_034,ENTERTAINMENT,37.01,USD,Concert/Movie/Show in Plaza District,2024-11-29,Plaza District,entertainment
+exp335,user_035,SHOPPING,129.1,USD,Shopping in Midtown,2024-11-30,Midtown,shopping
+exp336,user_036,DINING,41.6,USD,Dining experience in Suburban,2024-12-01,Suburban,meal
+exp337,user_037,ENTERTAINMENT,26.35,USD,Concert/Movie/Show in Harbor,2024-12-02,Harbor,entertainment
+exp338,user_038,FOOD,13.93,USD,Dessert in Uptown,2024-12-03,Uptown,meal
+exp339,user_039,ACTIVITIES,76.81,USD,Tour/Adventure activity in Downtown,2024-12-04,Downtown,activities
+exp340,user_040,ACTIVITIES,116.82,USD,Tour/Adventure activity in Midtown,2024-12-05,Midtown,activities
+exp341,user_041,SHOPPING,194.03,USD,Shopping in Chinatown,2024-12-06,Chinatown,shopping
+exp342,user_042,SHOPPING,191.06,USD,Shopping in Arts District,2024-12-07,Arts District,shopping
+exp343,user_043,DINING,81.0,USD,Dining experience in Beach Area,2024-12-08,Beach Area,meal
+exp344,user_044,DINING,52.01,USD,Dining experience in Uptown,2024-12-09,Uptown,meal
+exp345,user_045,NIGHTLIFE,76.58,USD,Bar/Club in Chinatown,2024-12-10,Chinatown,nightlife
+exp346,user_046,FOOD,48.6,USD,Coffee break in Beach Area,2024-12-11,Beach Area,meal
+exp347,user_047,ACTIVITIES,35.41,USD,Tour/Adventure activity in Arts District,2024-12-12,Arts District,activities
+exp348,user_048,FOOD,66.59,USD,Snack in Downtown,2024-12-13,Downtown,meal
+exp349,user_049,ENTERTAINMENT,96.03,USD,Concert/Movie/Show in Suburban,2024-12-14,Suburban,entertainment
+exp350,user_050,NIGHTLIFE,93.65,USD,Bar/Club in Suburban,2024-12-15,Suburban,nightlife
+exp351,user_001,DINING,25.16,USD,Dining experience in Midtown,2024-12-16,Midtown,meal
+exp352,user_002,ACTIVITIES,61.14,USD,Tour/Adventure activity in Harbor,2024-12-17,Harbor,activities
+exp353,user_003,ACTIVITIES,59.51,USD,Tour/Adventure activity in Beach Area,2024-12-18,Beach Area,activities
+exp354,user_004,TRANSPORT,16.77,USD,Taxi/Bus/Train rides in Midtown,2024-12-19,Midtown,travel
+exp355,user_005,SHOPPING,132.3,USD,Shopping in Midtown,2024-12-20,Midtown,shopping
+exp356,user_006,FOOD,25.39,USD,Breakfast in Arts District,2024-12-21,Arts District,meal
+exp357,user_007,NIGHTLIFE,88.67,USD,Bar/Club in Old Town,2024-12-22,Old Town,nightlife
+exp358,user_008,ACTIVITIES,166.04,USD,Tour/Adventure activity in Midtown,2024-12-23,Midtown,activities
+exp359,user_009,TRANSPORT,12.49,USD,Taxi/Bus/Train rides in Harbor,2024-12-24,Harbor,travel
+exp360,user_010,DINING,68.9,USD,Dining experience in Plaza District,2024-12-25,Plaza District,meal
+exp361,user_011,SHOPPING,150.07,USD,Shopping in Uptown,2024-12-26,Uptown,shopping
+exp362,user_012,ENTERTAINMENT,96.09,USD,Concert/Movie/Show in Arts District,2024-12-27,Arts District,entertainment
+exp363,user_013,DINING,44.77,USD,Dining experience in Uptown,2024-12-28,Uptown,meal
+exp364,user_014,ACCOMMODATION,188.32,USD,Hotel/Hostel in Chinatown,2024-12-29,Chinatown,travel
+exp365,user_015,SHOPPING,54.18,USD,Shopping in Downtown,2024-12-30,Downtown,shopping
+exp366,user_016,ACCOMMODATION,115.31,USD,Hotel/Hostel in Midtown,2024-01-01,Midtown,travel
+exp367,user_017,TRANSPORT,97.26,USD,Taxi/Bus/Train rides in Beach Area,2024-01-02,Beach Area,travel
+exp368,user_018,ACTIVITIES,32.0,USD,Tour/Adventure activity in Chinatown,2024-01-03,Chinatown,activities
+exp369,user_019,TRANSPORT,17.07,USD,Taxi/Bus/Train rides in Arts District,2024-01-04,Arts District,travel
+exp370,user_020,DINING,65.35,USD,Dining experience in Plaza District,2024-01-05,Plaza District,meal
+exp371,user_021,TRANSPORT,89.95,USD,Taxi/Bus/Train rides in Old Town,2024-01-06,Old Town,travel
+exp372,user_022,TRANSPORT,17.78,USD,Taxi/Bus/Train rides in Chinatown,2024-01-07,Chinatown,travel
+exp373,user_023,SHOPPING,30.67,USD,Shopping in Arts District,2024-01-08,Arts District,shopping
+exp374,user_024,ACTIVITIES,161.57,USD,Tour/Adventure activity in Old Town,2024-01-09,Old Town,activities
+exp375,user_025,ACTIVITIES,106.65,USD,Tour/Adventure activity in Plaza District,2024-01-10,Plaza District,activities
+exp376,user_026,DINING,70.93,USD,Dining experience in Uptown,2024-01-11,Uptown,meal
+exp377,user_027,ENTERTAINMENT,44.3,USD,Concert/Movie/Show in Uptown,2024-01-12,Uptown,entertainment
+exp378,user_028,ACCOMMODATION,168.73,USD,Hotel/Hostel in Chinatown,2024-01-13,Chinatown,travel
+exp379,user_029,TRANSPORT,69.87,USD,Taxi/Bus/Train rides in Old Town,2024-01-14,Old Town,travel
+exp380,user_030,TRANSPORT,9.28,USD,Taxi/Bus/Train rides in Chinatown,2024-01-15,Chinatown,travel
+exp381,user_031,NIGHTLIFE,72.74,USD,Bar/Club in Beach Area,2024-01-16,Beach Area,nightlife
+exp382,user_032,ACCOMMODATION,93.84,USD,Hotel/Hostel in Old Town,2024-01-17,Old Town,travel
+exp383,user_033,ACCOMMODATION,267.4,USD,Hotel/Hostel in Suburban,2024-01-18,Suburban,travel
+exp384,user_034,ACCOMMODATION,216.65,USD,Hotel/Hostel in Uptown,2024-01-19,Uptown,travel
+exp385,user_035,TRANSPORT,6.63,USD,Taxi/Bus/Train rides in Beach Area,2024-01-20,Beach Area,travel
+exp386,user_036,DINING,80.12,USD,Dining experience in Midtown,2024-01-21,Midtown,meal
+exp387,user_037,ACTIVITIES,55.99,USD,Tour/Adventure activity in Uptown,2024-01-22,Uptown,activities
+exp388,user_038,ENTERTAINMENT,62.31,USD,Concert/Movie/Show in Uptown,2024-01-23,Uptown,entertainment
+exp389,user_039,TRANSPORT,73.68,USD,Taxi/Bus/Train rides in Plaza District,2024-01-24,Plaza District,travel
+exp390,user_040,ENTERTAINMENT,72.67,USD,Concert/Movie/Show in Beach Area,2024-01-25,Beach Area,entertainment
+exp391,user_041,TRANSPORT,57.08,USD,Taxi/Bus/Train rides in Chinatown,2024-01-26,Chinatown,travel
+exp392,user_042,DINING,69.18,USD,Dining experience in Harbor,2024-01-27,Harbor,meal
+exp393,user_043,ACCOMMODATION,175.87,USD,Hotel/Hostel in Harbor,2024-01-28,Harbor,travel
+exp394,user_044,FOOD,57.88,USD,Café meal in Plaza District,2024-01-29,Plaza District,meal
+exp395,user_045,ACTIVITIES,177.69,USD,Tour/Adventure activity in Suburban,2024-01-30,Suburban,activities
+exp396,user_046,SHOPPING,126.73,USD,Shopping in Beach Area,2024-01-31,Beach Area,shopping
+exp397,user_047,ENTERTAINMENT,116.56,USD,Concert/Movie/Show in Midtown,2024-02-01,Midtown,entertainment
+exp398,user_048,NIGHTLIFE,45.61,USD,Bar/Club in Old Town,2024-02-02,Old Town,nightlife
+exp399,user_049,NIGHTLIFE,57.74,USD,Bar/Club in Old Town,2024-02-03,Old Town,nightlife
+exp400,user_050,SHOPPING,89.6,USD,Shopping in Midtown,2024-02-04,Midtown,shopping
+exp401,user_001,FOOD,64.04,USD,Dinner at restaurant in Downtown,2024-02-05,Downtown,meal
+exp402,user_002,NIGHTLIFE,22.31,USD,Bar/Club in Plaza District,2024-02-06,Plaza District,nightlife
+exp403,user_003,ACCOMMODATION,94.07,USD,Hotel/Hostel in Old Town,2024-02-07,Old Town,travel
+exp404,user_004,ACTIVITIES,61.72,USD,Tour/Adventure activity in Downtown,2024-02-08,Downtown,activities
+exp405,user_005,FOOD,19.59,USD,Dessert in Chinatown,2024-02-09,Chinatown,meal
+exp406,user_006,TRANSPORT,47.51,USD,Taxi/Bus/Train rides in Downtown,2024-02-10,Downtown,travel
+exp407,user_007,FOOD,56.09,USD,Snack in Old Town,2024-02-11,Old Town,meal
+exp408,user_008,ACCOMMODATION,124.6,USD,Hotel/Hostel in Old Town,2024-02-12,Old Town,travel
+exp409,user_009,FOOD,29.7,USD,Breakfast in Suburban,2024-02-13,Suburban,meal
+exp410,user_010,SHOPPING,159.34,USD,Shopping in Uptown,2024-02-14,Uptown,shopping
+exp411,user_011,TRANSPORT,27.48,USD,Taxi/Bus/Train rides in Suburban,2024-02-15,Suburban,travel
+exp412,user_012,ACTIVITIES,25.6,USD,Tour/Adventure activity in Beach Area,2024-02-16,Beach Area,activities
+exp413,user_013,ACTIVITIES,83.27,USD,Tour/Adventure activity in Midtown,2024-02-17,Midtown,activities
+exp414,user_014,FOOD,79.17,USD,Dinner at restaurant in Chinatown,2024-02-18,Chinatown,meal
+exp415,user_015,ENTERTAINMENT,132.87,USD,Concert/Movie/Show in Arts District,2024-02-19,Arts District,entertainment
+exp416,user_016,ENTERTAINMENT,84.72,USD,Concert/Movie/Show in Plaza District,2024-02-20,Plaza District,entertainment
+exp417,user_017,ENTERTAINMENT,127.59,USD,Concert/Movie/Show in Uptown,2024-02-21,Uptown,entertainment
+exp418,user_018,SHOPPING,176.4,USD,Shopping in Suburban,2024-02-22,Suburban,shopping
+exp419,user_019,FOOD,68.95,USD,Dinner at restaurant in Arts District,2024-02-23,Arts District,meal
+exp420,user_020,ACTIVITIES,31.56,USD,Tour/Adventure activity in Old Town,2024-02-24,Old Town,activities
+exp421,user_021,ACTIVITIES,86.2,USD,Tour/Adventure activity in Chinatown,2024-02-25,Chinatown,activities
+exp422,user_022,FOOD,25.44,USD,Lunch at restaurant in Old Town,2024-02-26,Old Town,meal
+exp423,user_023,FOOD,39.26,USD,Dinner at restaurant in Old Town,2024-02-27,Old Town,meal
+exp424,user_024,ACCOMMODATION,193.31,USD,Hotel/Hostel in Downtown,2024-02-28,Downtown,travel
+exp425,user_025,ACCOMMODATION,221.62,USD,Hotel/Hostel in Suburban,2024-02-29,Suburban,travel
+exp426,user_026,ENTERTAINMENT,124.48,USD,Concert/Movie/Show in Midtown,2024-03-01,Midtown,entertainment
+exp427,user_027,FOOD,79.17,USD,Snack in Midtown,2024-03-02,Midtown,meal
+exp428,user_028,ACTIVITIES,196.72,USD,Tour/Adventure activity in Suburban,2024-03-03,Suburban,activities
+exp429,user_029,ENTERTAINMENT,80.54,USD,Concert/Movie/Show in Old Town,2024-03-04,Old Town,entertainment
+exp430,user_030,TRANSPORT,26.93,USD,Taxi/Bus/Train rides in Plaza District,2024-03-05,Plaza District,travel
+exp431,user_031,ACTIVITIES,69.71,USD,Tour/Adventure activity in Plaza District,2024-03-06,Plaza District,activities
+exp432,user_032,FOOD,62.54,USD,Café meal in Harbor,2024-03-07,Harbor,meal
+exp433,user_033,ACCOMMODATION,214.57,USD,Hotel/Hostel in Suburban,2024-03-08,Suburban,travel
+exp434,user_034,TRANSPORT,90.14,USD,Taxi/Bus/Train rides in Downtown,2024-03-09,Downtown,travel
+exp435,user_035,SHOPPING,108.03,USD,Shopping in Midtown,2024-03-10,Midtown,shopping
+exp436,user_036,DINING,82.97,USD,Dining experience in Midtown,2024-03-11,Midtown,meal
+exp437,user_037,TRANSPORT,46.57,USD,Taxi/Bus/Train rides in Uptown,2024-03-12,Uptown,travel
+exp438,user_038,SHOPPING,71.57,USD,Shopping in Old Town,2024-03-13,Old Town,shopping
+exp439,user_039,TRANSPORT,94.95,USD,Taxi/Bus/Train rides in Old Town,2024-03-14,Old Town,travel
+exp440,user_040,SHOPPING,198.46,USD,Shopping in Old Town,2024-03-15,Old Town,shopping
+exp441,user_041,SHOPPING,146.68,USD,Shopping in Plaza District,2024-03-16,Plaza District,shopping
+exp442,user_042,ACCOMMODATION,228.13,USD,Hotel/Hostel in Midtown,2024-03-17,Midtown,travel
+exp443,user_043,DINING,41.16,USD,Dining experience in Chinatown,2024-03-18,Chinatown,meal
+exp444,user_044,ACCOMMODATION,186.04,USD,Hotel/Hostel in Uptown,2024-03-19,Uptown,travel
+exp445,user_045,TRANSPORT,59.95,USD,Taxi/Bus/Train rides in Beach Area,2024-03-20,Beach Area,travel
+exp446,user_046,ACCOMMODATION,275.69,USD,Hotel/Hostel in Suburban,2024-03-21,Suburban,travel
+exp447,user_047,ACTIVITIES,121.48,USD,Tour/Adventure activity in Midtown,2024-03-22,Midtown,activities
+exp448,user_048,SHOPPING,190.21,USD,Shopping in Arts District,2024-03-23,Arts District,shopping
+exp449,user_049,TRANSPORT,26.3,USD,Taxi/Bus/Train rides in Uptown,2024-03-24,Uptown,travel
+exp450,user_050,DINING,89.42,USD,Dining experience in Harbor,2024-03-25,Harbor,meal
+exp451,user_001,DINING,69.51,USD,Dining experience in Harbor,2024-03-26,Harbor,meal
+exp452,user_002,NIGHTLIFE,66.81,USD,Bar/Club in Downtown,2024-03-27,Downtown,nightlife
+exp453,user_003,ACTIVITIES,163.21,USD,Tour/Adventure activity in Midtown,2024-03-28,Midtown,activities
+exp454,user_004,TRANSPORT,35.26,USD,Taxi/Bus/Train rides in Arts District,2024-03-29,Arts District,travel
+exp455,user_005,DINING,86.94,USD,Dining experience in Plaza District,2024-03-30,Plaza District,meal
+exp456,user_006,SHOPPING,56.71,USD,Shopping in Plaza District,2024-03-31,Plaza District,shopping
+exp457,user_007,DINING,94.21,USD,Dining experience in Harbor,2024-04-01,Harbor,meal
+exp458,user_008,ENTERTAINMENT,123.85,USD,Concert/Movie/Show in Suburban,2024-04-02,Suburban,entertainment
+exp459,user_009,NIGHTLIFE,73.38,USD,Bar/Club in Beach Area,2024-04-03,Beach Area,nightlife
+exp460,user_010,NIGHTLIFE,31.25,USD,Bar/Club in Plaza District,2024-04-04,Plaza District,nightlife
+exp461,user_011,ACCOMMODATION,234.24,USD,Hotel/Hostel in Beach Area,2024-04-05,Beach Area,travel
+exp462,user_012,ENTERTAINMENT,60.17,USD,Concert/Movie/Show in Harbor,2024-04-06,Harbor,entertainment
+exp463,user_013,FOOD,53.3,USD,Street food in Uptown,2024-04-07,Uptown,meal
+exp464,user_014,ENTERTAINMENT,91.56,USD,Concert/Movie/Show in Suburban,2024-04-08,Suburban,entertainment
+exp465,user_015,ACCOMMODATION,121.59,USD,Hotel/Hostel in Old Town,2024-04-09,Old Town,travel
+exp466,user_016,ENTERTAINMENT,97.9,USD,Concert/Movie/Show in Chinatown,2024-04-10,Chinatown,entertainment
+exp467,user_017,FOOD,61.15,USD,Coffee break in Uptown,2024-04-11,Uptown,meal
+exp468,user_018,TRANSPORT,6.11,USD,Taxi/Bus/Train rides in Uptown,2024-04-12,Uptown,travel
+exp469,user_019,ENTERTAINMENT,53.79,USD,Concert/Movie/Show in Harbor,2024-04-13,Harbor,entertainment
+exp470,user_020,FOOD,75.6,USD,Breakfast in Beach Area,2024-04-14,Beach Area,meal
+exp471,user_021,FOOD,55.13,USD,Lunch at restaurant in Suburban,2024-04-15,Suburban,meal
+exp472,user_022,NIGHTLIFE,41.39,USD,Bar/Club in Chinatown,2024-04-16,Chinatown,nightlife
+exp473,user_023,SHOPPING,64.69,USD,Shopping in Midtown,2024-04-17,Midtown,shopping
+exp474,user_024,NIGHTLIFE,34.47,USD,Bar/Club in Harbor,2024-04-18,Harbor,nightlife
+exp475,user_025,ENTERTAINMENT,76.88,USD,Concert/Movie/Show in Chinatown,2024-04-19,Chinatown,entertainment
+exp476,user_026,DINING,20.48,USD,Dining experience in Arts District,2024-04-20,Arts District,meal
+exp477,user_027,ACTIVITIES,59.1,USD,Tour/Adventure activity in Suburban,2024-04-21,Suburban,activities
+exp478,user_028,ACTIVITIES,182.95,USD,Tour/Adventure activity in Beach Area,2024-04-22,Beach Area,activities
+exp479,user_029,NIGHTLIFE,34.88,USD,Bar/Club in Arts District,2024-04-23,Arts District,nightlife
+exp480,user_030,TRANSPORT,56.18,USD,Taxi/Bus/Train rides in Beach Area,2024-04-24,Beach Area,travel
+exp481,user_031,ACTIVITIES,104.71,USD,Tour/Adventure activity in Beach Area,2024-04-25,Beach Area,activities
+exp482,user_032,ACTIVITIES,163.82,USD,Tour/Adventure activity in Harbor,2024-04-26,Harbor,activities
+exp483,user_033,ENTERTAINMENT,120.02,USD,Concert/Movie/Show in Beach Area,2024-04-27,Beach Area,entertainment
+exp484,user_034,NIGHTLIFE,29.98,USD,Bar/Club in Old Town,2024-04-28,Old Town,nightlife
+exp485,user_035,FOOD,33.21,USD,Dinner at restaurant in Chinatown,2024-04-29,Chinatown,meal
+exp486,user_036,ACTIVITIES,156.12,USD,Tour/Adventure activity in Chinatown,2024-04-30,Chinatown,activities
+exp487,user_037,SHOPPING,129.09,USD,Shopping in Old Town,2024-05-01,Old Town,shopping
+exp488,user_038,ACCOMMODATION,67.93,USD,Hotel/Hostel in Beach Area,2024-05-02,Beach Area,travel
+exp489,user_039,FOOD,30.73,USD,Café meal in Midtown,2024-05-03,Midtown,meal
+exp490,user_040,NIGHTLIFE,29.69,USD,Bar/Club in Plaza District,2024-05-04,Plaza District,nightlife
+exp491,user_041,ENTERTAINMENT,144.69,USD,Concert/Movie/Show in Downtown,2024-05-05,Downtown,entertainment
+exp492,user_042,FOOD,15.32,USD,Dinner at restaurant in Uptown,2024-05-06,Uptown,meal
+exp493,user_043,ENTERTAINMENT,77.9,USD,Concert/Movie/Show in Arts District,2024-05-07,Arts District,entertainment
+exp494,user_044,ACTIVITIES,112.26,USD,Tour/Adventure activity in Plaza District,2024-05-08,Plaza District,activities
+exp495,user_045,DINING,25.2,USD,Dining experience in Old Town,2024-05-09,Old Town,meal
+exp496,user_046,SHOPPING,192.45,USD,Shopping in Suburban,2024-05-10,Suburban,shopping
+exp497,user_047,SHOPPING,41.11,USD,Shopping in Uptown,2024-05-11,Uptown,shopping
+exp498,user_048,DINING,42.47,USD,Dining experience in Plaza District,2024-05-12,Plaza District,meal
+exp499,user_049,FOOD,34.08,USD,Breakfast in Beach Area,2024-05-13,Beach Area,meal
+exp500,user_050,ACCOMMODATION,60.83,USD,Hotel/Hostel in Suburban,2024-05-14,Suburban,travel
+exp501,user_001,SHOPPING,108.86,USD,Shopping in Suburban,2024-05-15,Suburban,shopping
+exp502,user_002,ACCOMMODATION,242.23,USD,Hotel/Hostel in Plaza District,2024-05-16,Plaza District,travel
+exp503,user_003,ACCOMMODATION,245.34,USD,Hotel/Hostel in Downtown,2024-05-17,Downtown,travel
+exp504,user_004,SHOPPING,170.21,USD,Shopping in Old Town,2024-05-18,Old Town,shopping
+exp505,user_005,DINING,58.08,USD,Dining experience in Uptown,2024-05-19,Uptown,meal
+exp506,user_006,ENTERTAINMENT,139.64,USD,Concert/Movie/Show in Plaza District,2024-05-20,Plaza District,entertainment
+exp507,user_007,ACCOMMODATION,89.41,USD,Hotel/Hostel in Downtown,2024-05-21,Downtown,travel
+exp508,user_008,ENTERTAINMENT,133.71,USD,Concert/Movie/Show in Arts District,2024-05-22,Arts District,entertainment
+exp509,user_009,SHOPPING,44.91,USD,Shopping in Plaza District,2024-05-23,Plaza District,shopping
+exp510,user_010,FOOD,50.18,USD,Snack in Suburban,2024-05-24,Suburban,meal
+exp511,user_011,ACTIVITIES,106.79,USD,Tour/Adventure activity in Downtown,2024-05-25,Downtown,activities
+exp512,user_012,ACTIVITIES,104.53,USD,Tour/Adventure activity in Midtown,2024-05-26,Midtown,activities
+exp513,user_013,SHOPPING,124.22,USD,Shopping in Chinatown,2024-05-27,Chinatown,shopping
+exp514,user_014,ENTERTAINMENT,69.18,USD,Concert/Movie/Show in Uptown,2024-05-28,Uptown,entertainment
+exp515,user_015,ACCOMMODATION,294.62,USD,Hotel/Hostel in Midtown,2024-05-29,Midtown,travel
+exp516,user_016,FOOD,54.39,USD,Breakfast in Arts District,2024-05-30,Arts District,meal
+exp517,user_017,ACCOMMODATION,86.66,USD,Hotel/Hostel in Plaza District,2024-05-31,Plaza District,travel
+exp518,user_018,ACTIVITIES,80.41,USD,Tour/Adventure activity in Old Town,2024-06-01,Old Town,activities
+exp519,user_019,ACTIVITIES,60.65,USD,Tour/Adventure activity in Plaza District,2024-06-02,Plaza District,activities
+exp520,user_020,ACCOMMODATION,153.5,USD,Hotel/Hostel in Harbor,2024-06-03,Harbor,travel
+exp521,user_021,ACTIVITIES,32.08,USD,Tour/Adventure activity in Midtown,2024-06-04,Midtown,activities
+exp522,user_022,ACCOMMODATION,118.8,USD,Hotel/Hostel in Midtown,2024-06-05,Midtown,travel
+exp523,user_023,NIGHTLIFE,21.54,USD,Bar/Club in Harbor,2024-06-06,Harbor,nightlife
+exp524,user_024,TRANSPORT,97.31,USD,Taxi/Bus/Train rides in Downtown,2024-06-07,Downtown,travel
+exp525,user_025,ACCOMMODATION,190.65,USD,Hotel/Hostel in Downtown,2024-06-08,Downtown,travel
+exp526,user_026,ENTERTAINMENT,80.95,USD,Concert/Movie/Show in Suburban,2024-06-09,Suburban,entertainment
+exp527,user_027,ACTIVITIES,191.79,USD,Tour/Adventure activity in Uptown,2024-06-10,Uptown,activities
+exp528,user_028,DINING,79.97,USD,Dining experience in Beach Area,2024-06-11,Beach Area,meal
+exp529,user_029,DINING,25.04,USD,Dining experience in Plaza District,2024-06-12,Plaza District,meal
+exp530,user_030,TRANSPORT,13.65,USD,Taxi/Bus/Train rides in Arts District,2024-06-13,Arts District,travel
+exp531,user_031,ACTIVITIES,55.57,USD,Tour/Adventure activity in Downtown,2024-06-14,Downtown,activities
+exp532,user_032,ACTIVITIES,136.48,USD,Tour/Adventure activity in Harbor,2024-06-15,Harbor,activities
+exp533,user_033,DINING,27.88,USD,Dining experience in Chinatown,2024-06-16,Chinatown,meal
+exp534,user_034,ENTERTAINMENT,33.93,USD,Concert/Movie/Show in Arts District,2024-06-17,Arts District,entertainment
+exp535,user_035,TRANSPORT,73.01,USD,Taxi/Bus/Train rides in Beach Area,2024-06-18,Beach Area,travel
+exp536,user_036,DINING,52.03,USD,Dining experience in Midtown,2024-06-19,Midtown,meal
+exp537,user_037,SHOPPING,94.82,USD,Shopping in Uptown,2024-06-20,Uptown,shopping
+exp538,user_038,NIGHTLIFE,34.13,USD,Bar/Club in Chinatown,2024-06-21,Chinatown,nightlife
+exp539,user_039,FOOD,32.17,USD,Dinner at restaurant in Beach Area,2024-06-22,Beach Area,meal
+exp540,user_040,DINING,87.22,USD,Dining experience in Midtown,2024-06-23,Midtown,meal
+exp541,user_041,SHOPPING,80.33,USD,Shopping in Suburban,2024-06-24,Suburban,shopping
+exp542,user_042,TRANSPORT,45.5,USD,Taxi/Bus/Train rides in Chinatown,2024-06-25,Chinatown,travel
+exp543,user_043,FOOD,37.72,USD,Dessert in Harbor,2024-06-26,Harbor,meal
+exp544,user_044,DINING,78.3,USD,Dining experience in Chinatown,2024-06-27,Chinatown,meal
+exp545,user_045,TRANSPORT,5.74,USD,Taxi/Bus/Train rides in Uptown,2024-06-28,Uptown,travel
+exp546,user_046,TRANSPORT,47.78,USD,Taxi/Bus/Train rides in Harbor,2024-06-29,Harbor,travel
+exp547,user_047,TRANSPORT,43.2,USD,Taxi/Bus/Train rides in Uptown,2024-06-30,Uptown,travel
+exp548,user_048,ACCOMMODATION,258.04,USD,Hotel/Hostel in Plaza District,2024-07-01,Plaza District,travel
+exp549,user_049,DINING,43.56,USD,Dining experience in Downtown,2024-07-02,Downtown,meal
+exp550,user_050,ACTIVITIES,43.79,USD,Tour/Adventure activity in Suburban,2024-07-03,Suburban,activities
+exp551,user_001,SHOPPING,169.42,USD,Shopping in Beach Area,2024-07-04,Beach Area,shopping
+exp552,user_002,ACCOMMODATION,101.94,USD,Hotel/Hostel in Uptown,2024-07-05,Uptown,travel
+exp553,user_003,ACCOMMODATION,241.85,USD,Hotel/Hostel in Chinatown,2024-07-06,Chinatown,travel
+exp554,user_004,TRANSPORT,64.67,USD,Taxi/Bus/Train rides in Old Town,2024-07-07,Old Town,travel
+exp555,user_005,NIGHTLIFE,17.31,USD,Bar/Club in Harbor,2024-07-08,Harbor,nightlife
+exp556,user_006,ACCOMMODATION,160.71,USD,Hotel/Hostel in Chinatown,2024-07-09,Chinatown,travel
+exp557,user_007,DINING,93.6,USD,Dining experience in Beach Area,2024-07-10,Beach Area,meal
+exp558,user_008,TRANSPORT,24.4,USD,Taxi/Bus/Train rides in Downtown,2024-07-11,Downtown,travel
+exp559,user_009,ACCOMMODATION,93.87,USD,Hotel/Hostel in Downtown,2024-07-12,Downtown,travel
+exp560,user_010,ACTIVITIES,143.81,USD,Tour/Adventure activity in Arts District,2024-07-13,Arts District,activities
+exp561,user_011,FOOD,52.93,USD,Café meal in Beach Area,2024-07-14,Beach Area,meal
+exp562,user_012,ENTERTAINMENT,43.96,USD,Concert/Movie/Show in Chinatown,2024-07-15,Chinatown,entertainment
+exp563,user_013,ACTIVITIES,161.36,USD,Tour/Adventure activity in Beach Area,2024-07-16,Beach Area,activities
+exp564,user_014,FOOD,60.78,USD,Dinner at restaurant in Plaza District,2024-07-17,Plaza District,meal
+exp565,user_015,TRANSPORT,87.53,USD,Taxi/Bus/Train rides in Plaza District,2024-07-18,Plaza District,travel
+exp566,user_016,FOOD,52.92,USD,Dessert in Plaza District,2024-07-19,Plaza District,meal
+exp567,user_017,ACTIVITIES,76.79,USD,Tour/Adventure activity in Downtown,2024-07-20,Downtown,activities
+exp568,user_018,ENTERTAINMENT,64.19,USD,Concert/Movie/Show in Uptown,2024-07-21,Uptown,entertainment
+exp569,user_019,ACTIVITIES,104.86,USD,Tour/Adventure activity in Arts District,2024-07-22,Arts District,activities
+exp570,user_020,TRANSPORT,61.23,USD,Taxi/Bus/Train rides in Downtown,2024-07-23,Downtown,travel
+exp571,user_021,ENTERTAINMENT,20.25,USD,Concert/Movie/Show in Uptown,2024-07-24,Uptown,entertainment
+exp572,user_022,ACTIVITIES,151.65,USD,Tour/Adventure activity in Beach Area,2024-07-25,Beach Area,activities
+exp573,user_023,DINING,36.65,USD,Dining experience in Chinatown,2024-07-26,Chinatown,meal
+exp574,user_024,DINING,90.72,USD,Dining experience in Harbor,2024-07-27,Harbor,meal
+exp575,user_025,SHOPPING,127.04,USD,Shopping in Old Town,2024-07-28,Old Town,shopping
+exp576,user_026,SHOPPING,145.14,USD,Shopping in Plaza District,2024-07-29,Plaza District,shopping
+exp577,user_027,SHOPPING,79.0,USD,Shopping in Old Town,2024-07-30,Old Town,shopping
+exp578,user_028,ACTIVITIES,34.15,USD,Tour/Adventure activity in Plaza District,2024-07-31,Plaza District,activities
+exp579,user_029,ACCOMMODATION,240.42,USD,Hotel/Hostel in Chinatown,2024-08-01,Chinatown,travel
+exp580,user_030,FOOD,35.95,USD,Dessert in Suburban,2024-08-02,Suburban,meal
+exp581,user_031,NIGHTLIFE,22.58,USD,Bar/Club in Harbor,2024-08-03,Harbor,nightlife
+exp582,user_032,NIGHTLIFE,36.43,USD,Bar/Club in Plaza District,2024-08-04,Plaza District,nightlife
+exp583,user_033,DINING,51.43,USD,Dining experience in Downtown,2024-08-05,Downtown,meal
+exp584,user_034,NIGHTLIFE,48.18,USD,Bar/Club in Uptown,2024-08-06,Uptown,nightlife
+exp585,user_035,FOOD,13.1,USD,Dinner at restaurant in Chinatown,2024-08-07,Chinatown,meal
+exp586,user_036,ENTERTAINMENT,85.43,USD,Concert/Movie/Show in Beach Area,2024-08-08,Beach Area,entertainment
+exp587,user_037,ENTERTAINMENT,72.98,USD,Concert/Movie/Show in Uptown,2024-08-09,Uptown,entertainment
+exp588,user_038,TRANSPORT,52.59,USD,Taxi/Bus/Train rides in Uptown,2024-08-10,Uptown,travel
+exp589,user_039,ENTERTAINMENT,100.98,USD,Concert/Movie/Show in Suburban,2024-08-11,Suburban,entertainment
+exp590,user_040,NIGHTLIFE,39.99,USD,Bar/Club in Midtown,2024-08-12,Midtown,nightlife
+exp591,user_041,ACCOMMODATION,66.99,USD,Hotel/Hostel in Harbor,2024-08-13,Harbor,travel
+exp592,user_042,FOOD,76.29,USD,Dessert in Arts District,2024-08-14,Arts District,meal
+exp593,user_043,DINING,32.01,USD,Dining experience in Downtown,2024-08-15,Downtown,meal
+exp594,user_044,SHOPPING,163.73,USD,Shopping in Chinatown,2024-08-16,Chinatown,shopping
+exp595,user_045,SHOPPING,47.24,USD,Shopping in Downtown,2024-08-17,Downtown,shopping
+exp596,user_046,NIGHTLIFE,80.97,USD,Bar/Club in Uptown,2024-08-18,Uptown,nightlife
+exp597,user_047,ACTIVITIES,130.75,USD,Tour/Adventure activity in Old Town,2024-08-19,Old Town,activities
+exp598,user_048,DINING,49.74,USD,Dining experience in Harbor,2024-08-20,Harbor,meal
+exp599,user_049,SHOPPING,34.71,USD,Shopping in Old Town,2024-08-21,Old Town,shopping
+exp600,user_050,SHOPPING,131.75,USD,Shopping in Arts District,2024-08-22,Arts District,shopping
+exp601,user_001,ACTIVITIES,143.47,USD,Tour/Adventure activity in Downtown,2024-08-23,Downtown,activities
+exp602,user_002,ACTIVITIES,105.09,USD,Tour/Adventure activity in Beach Area,2024-08-24,Beach Area,activities
+exp603,user_003,ACCOMMODATION,170.18,USD,Hotel/Hostel in Midtown,2024-08-25,Midtown,travel
+exp604,user_004,ACCOMMODATION,276.3,USD,Hotel/Hostel in Uptown,2024-08-26,Uptown,travel
+exp605,user_005,TRANSPORT,90.04,USD,Taxi/Bus/Train rides in Uptown,2024-08-27,Uptown,travel
+exp606,user_006,ENTERTAINMENT,143.08,USD,Concert/Movie/Show in Old Town,2024-08-28,Old Town,entertainment
+exp607,user_007,DINING,79.6,USD,Dining experience in Arts District,2024-08-29,Arts District,meal
+exp608,user_008,ACTIVITIES,178.68,USD,Tour/Adventure activity in Uptown,2024-08-30,Uptown,activities
+exp609,user_009,FOOD,45.21,USD,Dessert in Downtown,2024-08-31,Downtown,meal
+exp610,user_010,FOOD,21.98,USD,Café meal in Beach Area,2024-09-01,Beach Area,meal
+exp611,user_011,SHOPPING,127.4,USD,Shopping in Midtown,2024-09-02,Midtown,shopping
+exp612,user_012,TRANSPORT,88.58,USD,Taxi/Bus/Train rides in Chinatown,2024-09-03,Chinatown,travel
+exp613,user_013,ACCOMMODATION,159.46,USD,Hotel/Hostel in Plaza District,2024-09-04,Plaza District,travel
+exp614,user_014,NIGHTLIFE,27.13,USD,Bar/Club in Harbor,2024-09-05,Harbor,nightlife
+exp615,user_015,FOOD,57.95,USD,Dessert in Harbor,2024-09-06,Harbor,meal
+exp616,user_016,ENTERTAINMENT,18.99,USD,Concert/Movie/Show in Midtown,2024-09-07,Midtown,entertainment
+exp617,user_017,SHOPPING,86.63,USD,Shopping in Plaza District,2024-09-08,Plaza District,shopping
+exp618,user_018,SHOPPING,140.46,USD,Shopping in Midtown,2024-09-09,Midtown,shopping
+exp619,user_019,NIGHTLIFE,33.21,USD,Bar/Club in Chinatown,2024-09-10,Chinatown,nightlife
+exp620,user_020,ACCOMMODATION,242.28,USD,Hotel/Hostel in Plaza District,2024-09-11,Plaza District,travel
+exp621,user_021,ENTERTAINMENT,71.99,USD,Concert/Movie/Show in Beach Area,2024-09-12,Beach Area,entertainment
+exp622,user_022,TRANSPORT,45.95,USD,Taxi/Bus/Train rides in Uptown,2024-09-13,Uptown,travel
+exp623,user_023,SHOPPING,27.6,USD,Shopping in Arts District,2024-09-14,Arts District,shopping
+exp624,user_024,ACCOMMODATION,108.4,USD,Hotel/Hostel in Old Town,2024-09-15,Old Town,travel
+exp625,user_025,ENTERTAINMENT,131.93,USD,Concert/Movie/Show in Harbor,2024-09-16,Harbor,entertainment
+exp626,user_026,ACCOMMODATION,99.98,USD,Hotel/Hostel in Suburban,2024-09-17,Suburban,travel
+exp627,user_027,DINING,31.58,USD,Dining experience in Midtown,2024-09-18,Midtown,meal
+exp628,user_028,ACCOMMODATION,146.69,USD,Hotel/Hostel in Plaza District,2024-09-19,Plaza District,travel
+exp629,user_029,NIGHTLIFE,43.7,USD,Bar/Club in Chinatown,2024-09-20,Chinatown,nightlife
+exp630,user_030,ACTIVITIES,55.18,USD,Tour/Adventure activity in Harbor,2024-09-21,Harbor,activities
+exp631,user_031,TRANSPORT,60.04,USD,Taxi/Bus/Train rides in Harbor,2024-09-22,Harbor,travel
+exp632,user_032,ACTIVITIES,192.85,USD,Tour/Adventure activity in Midtown,2024-09-23,Midtown,activities
+exp633,user_033,FOOD,49.76,USD,Café meal in Uptown,2024-09-24,Uptown,meal
+exp634,user_034,FOOD,25.98,USD,Street food in Harbor,2024-09-25,Harbor,meal
+exp635,user_035,SHOPPING,131.68,USD,Shopping in Suburban,2024-09-26,Suburban,shopping
+exp636,user_036,ENTERTAINMENT,123.86,USD,Concert/Movie/Show in Midtown,2024-09-27,Midtown,entertainment
+exp637,user_037,TRANSPORT,46.3,USD,Taxi/Bus/Train rides in Midtown,2024-09-28,Midtown,travel
+exp638,user_038,TRANSPORT,10.75,USD,Taxi/Bus/Train rides in Beach Area,2024-09-29,Beach Area,travel
+exp639,user_039,SHOPPING,84.56,USD,Shopping in Plaza District,2024-09-30,Plaza District,shopping
+exp640,user_040,ACTIVITIES,174.81,USD,Tour/Adventure activity in Beach Area,2024-10-01,Beach Area,activities
+exp641,user_041,TRANSPORT,65.59,USD,Taxi/Bus/Train rides in Suburban,2024-10-02,Suburban,travel
+exp642,user_042,NIGHTLIFE,59.21,USD,Bar/Club in Arts District,2024-10-03,Arts District,nightlife
+exp643,user_043,ACTIVITIES,46.97,USD,Tour/Adventure activity in Beach Area,2024-10-04,Beach Area,activities
+exp644,user_044,DINING,73.99,USD,Dining experience in Beach Area,2024-10-05,Beach Area,meal
+exp645,user_045,ENTERTAINMENT,31.19,USD,Concert/Movie/Show in Harbor,2024-10-06,Harbor,entertainment
+exp646,user_046,ACTIVITIES,112.06,USD,Tour/Adventure activity in Old Town,2024-10-07,Old Town,activities
+exp647,user_047,FOOD,37.8,USD,Café meal in Midtown,2024-10-08,Midtown,meal
+exp648,user_048,DINING,43.77,USD,Dining experience in Plaza District,2024-10-09,Plaza District,meal
+exp649,user_049,SHOPPING,37.9,USD,Shopping in Midtown,2024-10-10,Midtown,shopping
+exp650,user_050,ENTERTAINMENT,45.88,USD,Concert/Movie/Show in Chinatown,2024-10-11,Chinatown,entertainment
+exp651,user_001,ACTIVITIES,87.92,USD,Tour/Adventure activity in Chinatown,2024-10-12,Chinatown,activities
+exp652,user_002,ACTIVITIES,102.3,USD,Tour/Adventure activity in Uptown,2024-10-13,Uptown,activities
+exp653,user_003,SHOPPING,171.28,USD,Shopping in Suburban,2024-10-14,Suburban,shopping
+exp654,user_004,NIGHTLIFE,44.56,USD,Bar/Club in Arts District,2024-10-15,Arts District,nightlife
+exp655,user_005,SHOPPING,192.58,USD,Shopping in Harbor,2024-10-16,Harbor,shopping
+exp656,user_006,ACTIVITIES,42.83,USD,Tour/Adventure activity in Beach Area,2024-10-17,Beach Area,activities
+exp657,user_007,SHOPPING,177.15,USD,Shopping in Old Town,2024-10-18,Old Town,shopping
+exp658,user_008,SHOPPING,58.35,USD,Shopping in Harbor,2024-10-19,Harbor,shopping
+exp659,user_009,ENTERTAINMENT,77.07,USD,Concert/Movie/Show in Old Town,2024-10-20,Old Town,entertainment
+exp660,user_010,DINING,56.06,USD,Dining experience in Beach Area,2024-10-21,Beach Area,meal
+exp661,user_011,ACCOMMODATION,245.61,USD,Hotel/Hostel in Plaza District,2024-10-22,Plaza District,travel
+exp662,user_012,TRANSPORT,30.95,USD,Taxi/Bus/Train rides in Old Town,2024-10-23,Old Town,travel
+exp663,user_013,ACTIVITIES,52.55,USD,Tour/Adventure activity in Old Town,2024-10-24,Old Town,activities
+exp664,user_014,ENTERTAINMENT,48.07,USD,Concert/Movie/Show in Old Town,2024-10-25,Old Town,entertainment
+exp665,user_015,DINING,35.85,USD,Dining experience in Chinatown,2024-10-26,Chinatown,meal
+exp666,user_016,NIGHTLIFE,72.69,USD,Bar/Club in Midtown,2024-10-27,Midtown,nightlife
+exp667,user_017,NIGHTLIFE,85.47,USD,Bar/Club in Plaza District,2024-10-28,Plaza District,nightlife
+exp668,user_018,ACTIVITIES,31.75,USD,Tour/Adventure activity in Midtown,2024-10-29,Midtown,activities
+exp669,user_019,DINING,39.25,USD,Dining experience in Harbor,2024-10-30,Harbor,meal
+exp670,user_020,TRANSPORT,48.06,USD,Taxi/Bus/Train rides in Chinatown,2024-10-31,Chinatown,travel
+exp671,user_021,ACCOMMODATION,71.28,USD,Hotel/Hostel in Harbor,2024-11-01,Harbor,travel
+exp672,user_022,ENTERTAINMENT,31.25,USD,Concert/Movie/Show in Chinatown,2024-11-02,Chinatown,entertainment
+exp673,user_023,NIGHTLIFE,17.09,USD,Bar/Club in Arts District,2024-11-03,Arts District,nightlife
+exp674,user_024,ACTIVITIES,103.66,USD,Tour/Adventure activity in Beach Area,2024-11-04,Beach Area,activities
+exp675,user_025,DINING,40.27,USD,Dining experience in Uptown,2024-11-05,Uptown,meal
+exp676,user_026,ACCOMMODATION,96.66,USD,Hotel/Hostel in Uptown,2024-11-06,Uptown,travel
+exp677,user_027,ACCOMMODATION,136.41,USD,Hotel/Hostel in Midtown,2024-11-07,Midtown,travel
+exp678,user_028,DINING,55.95,USD,Dining experience in Plaza District,2024-11-08,Plaza District,meal
+exp679,user_029,ENTERTAINMENT,144.8,USD,Concert/Movie/Show in Downtown,2024-11-09,Downtown,entertainment
+exp680,user_030,FOOD,36.27,USD,Café meal in Downtown,2024-11-10,Downtown,meal
+exp681,user_031,TRANSPORT,34.86,USD,Taxi/Bus/Train rides in Suburban,2024-11-11,Suburban,travel
+exp682,user_032,FOOD,23.93,USD,Dessert in Midtown,2024-11-12,Midtown,meal
+exp683,user_033,DINING,31.31,USD,Dining experience in Downtown,2024-11-13,Downtown,meal
+exp684,user_034,ENTERTAINMENT,91.75,USD,Concert/Movie/Show in Beach Area,2024-11-14,Beach Area,entertainment
+exp685,user_035,DINING,41.07,USD,Dining experience in Beach Area,2024-11-15,Beach Area,meal
+exp686,user_036,ACCOMMODATION,174.12,USD,Hotel/Hostel in Suburban,2024-11-16,Suburban,travel
+exp687,user_037,ENTERTAINMENT,134.47,USD,Concert/Movie/Show in Downtown,2024-11-17,Downtown,entertainment
+exp688,user_038,TRANSPORT,32.98,USD,Taxi/Bus/Train rides in Midtown,2024-11-18,Midtown,travel
+exp689,user_039,ACTIVITIES,78.58,USD,Tour/Adventure activity in Harbor,2024-11-19,Harbor,activities
+exp690,user_040,TRANSPORT,99.12,USD,Taxi/Bus/Train rides in Chinatown,2024-11-20,Chinatown,travel
+exp691,user_041,ACCOMMODATION,100.46,USD,Hotel/Hostel in Midtown,2024-11-21,Midtown,travel
+exp692,user_042,DINING,49.98,USD,Dining experience in Midtown,2024-11-22,Midtown,meal
+exp693,user_043,SHOPPING,81.76,USD,Shopping in Uptown,2024-11-23,Uptown,shopping
+exp694,user_044,ACCOMMODATION,276.27,USD,Hotel/Hostel in Suburban,2024-11-24,Suburban,travel
+exp695,user_045,SHOPPING,159.93,USD,Shopping in Suburban,2024-11-25,Suburban,shopping
+exp696,user_046,ENTERTAINMENT,42.83,USD,Concert/Movie/Show in Uptown,2024-11-26,Uptown,entertainment
+exp697,user_047,FOOD,8.06,USD,Dinner at restaurant in Arts District,2024-11-27,Arts District,meal
+exp698,user_048,ACCOMMODATION,115.5,USD,Hotel/Hostel in Harbor,2024-11-28,Harbor,travel
+exp699,user_049,SHOPPING,23.65,USD,Shopping in Downtown,2024-11-29,Downtown,shopping
+exp700,user_050,FOOD,25.68,USD,Coffee break in Uptown,2024-11-30,Uptown,meal
+exp701,user_001,ENTERTAINMENT,32.46,USD,Concert/Movie/Show in Uptown,2024-12-01,Uptown,entertainment
+exp702,user_002,FOOD,55.23,USD,Dinner at restaurant in Old Town,2024-12-02,Old Town,meal
+exp703,user_003,NIGHTLIFE,76.36,USD,Bar/Club in Downtown,2024-12-03,Downtown,nightlife
+exp704,user_004,SHOPPING,84.94,USD,Shopping in Suburban,2024-12-04,Suburban,shopping
+exp705,user_005,DINING,89.47,USD,Dining experience in Old Town,2024-12-05,Old Town,meal
+exp706,user_006,SHOPPING,39.39,USD,Shopping in Chinatown,2024-12-06,Chinatown,shopping
+exp707,user_007,SHOPPING,189.3,USD,Shopping in Old Town,2024-12-07,Old Town,shopping
+exp708,user_008,SHOPPING,96.6,USD,Shopping in Downtown,2024-12-08,Downtown,shopping
+exp709,user_009,NIGHTLIFE,82.53,USD,Bar/Club in Suburban,2024-12-09,Suburban,nightlife
+exp710,user_010,NIGHTLIFE,78.52,USD,Bar/Club in Suburban,2024-12-10,Suburban,nightlife
+exp711,user_011,NIGHTLIFE,25.51,USD,Bar/Club in Midtown,2024-12-11,Midtown,nightlife
+exp712,user_012,NIGHTLIFE,76.35,USD,Bar/Club in Downtown,2024-12-12,Downtown,nightlife
+exp713,user_013,TRANSPORT,94.64,USD,Taxi/Bus/Train rides in Midtown,2024-12-13,Midtown,travel
+exp714,user_014,ACCOMMODATION,103.49,USD,Hotel/Hostel in Downtown,2024-12-14,Downtown,travel
+exp715,user_015,FOOD,70.94,USD,Snack in Midtown,2024-12-15,Midtown,meal
+exp716,user_016,ENTERTAINMENT,65.34,USD,Concert/Movie/Show in Plaza District,2024-12-16,Plaza District,entertainment
+exp717,user_017,ACCOMMODATION,138.26,USD,Hotel/Hostel in Old Town,2024-12-17,Old Town,travel
+exp718,user_018,FOOD,31.66,USD,Snack in Harbor,2024-12-18,Harbor,meal
+exp719,user_019,ACTIVITIES,108.7,USD,Tour/Adventure activity in Old Town,2024-12-19,Old Town,activities
+exp720,user_020,NIGHTLIFE,91.82,USD,Bar/Club in Uptown,2024-12-20,Uptown,nightlife
+exp721,user_021,ACCOMMODATION,145.29,USD,Hotel/Hostel in Chinatown,2024-12-21,Chinatown,travel
+exp722,user_022,ENTERTAINMENT,91.12,USD,Concert/Movie/Show in Chinatown,2024-12-22,Chinatown,entertainment
+exp723,user_023,ACTIVITIES,39.69,USD,Tour/Adventure activity in Beach Area,2024-12-23,Beach Area,activities
+exp724,user_024,DINING,26.11,USD,Dining experience in Midtown,2024-12-24,Midtown,meal
+exp725,user_025,TRANSPORT,90.04,USD,Taxi/Bus/Train rides in Beach Area,2024-12-25,Beach Area,travel
+exp726,user_026,DINING,44.29,USD,Dining experience in Uptown,2024-12-26,Uptown,meal
+exp727,user_027,TRANSPORT,95.41,USD,Taxi/Bus/Train rides in Uptown,2024-12-27,Uptown,travel
+exp728,user_028,SHOPPING,101.59,USD,Shopping in Plaza District,2024-12-28,Plaza District,shopping
+exp729,user_029,NIGHTLIFE,28.08,USD,Bar/Club in Midtown,2024-12-29,Midtown,nightlife
+exp730,user_030,NIGHTLIFE,60.0,USD,Bar/Club in Plaza District,2024-12-30,Plaza District,nightlife
+exp731,user_031,NIGHTLIFE,65.73,USD,Bar/Club in Old Town,2024-01-01,Old Town,nightlife
+exp732,user_032,FOOD,19.12,USD,Café meal in Harbor,2024-01-02,Harbor,meal
+exp733,user_033,FOOD,74.8,USD,Lunch at restaurant in Midtown,2024-01-03,Midtown,meal
+exp734,user_034,ENTERTAINMENT,126.7,USD,Concert/Movie/Show in Arts District,2024-01-04,Arts District,entertainment
+exp735,user_035,ACCOMMODATION,86.0,USD,Hotel/Hostel in Old Town,2024-01-05,Old Town,travel
+exp736,user_036,DINING,88.7,USD,Dining experience in Harbor,2024-01-06,Harbor,meal
+exp737,user_037,TRANSPORT,84.51,USD,Taxi/Bus/Train rides in Chinatown,2024-01-07,Chinatown,travel
+exp738,user_038,ACCOMMODATION,96.02,USD,Hotel/Hostel in Old Town,2024-01-08,Old Town,travel
+exp739,user_039,ACTIVITIES,155.09,USD,Tour/Adventure activity in Old Town,2024-01-09,Old Town,activities
+exp740,user_040,ENTERTAINMENT,110.81,USD,Concert/Movie/Show in Plaza District,2024-01-10,Plaza District,entertainment
+exp741,user_041,NIGHTLIFE,43.33,USD,Bar/Club in Old Town,2024-01-11,Old Town,nightlife
+exp742,user_042,FOOD,52.29,USD,Street food in Plaza District,2024-01-12,Plaza District,meal
+exp743,user_043,FOOD,69.71,USD,Coffee break in Arts District,2024-01-13,Arts District,meal
+exp744,user_044,TRANSPORT,67.84,USD,Taxi/Bus/Train rides in Midtown,2024-01-14,Midtown,travel
+exp745,user_045,NIGHTLIFE,98.93,USD,Bar/Club in Downtown,2024-01-15,Downtown,nightlife
+exp746,user_046,FOOD,26.06,USD,Breakfast in Uptown,2024-01-16,Uptown,meal
+exp747,user_047,ENTERTAINMENT,69.25,USD,Concert/Movie/Show in Uptown,2024-01-17,Uptown,entertainment
+exp748,user_048,ACCOMMODATION,236.11,USD,Hotel/Hostel in Arts District,2024-01-18,Arts District,travel
+exp749,user_049,DINING,66.62,USD,Dining experience in Arts District,2024-01-19,Arts District,meal
+exp750,user_050,TRANSPORT,89.8,USD,Taxi/Bus/Train rides in Suburban,2024-01-20,Suburban,travel
+exp751,user_001,ENTERTAINMENT,94.13,USD,Concert/Movie/Show in Downtown,2024-01-21,Downtown,entertainment
+exp752,user_002,ENTERTAINMENT,69.04,USD,Concert/Movie/Show in Plaza District,2024-01-22,Plaza District,entertainment
+exp753,user_003,SHOPPING,98.92,USD,Shopping in Uptown,2024-01-23,Uptown,shopping
+exp754,user_004,ACCOMMODATION,150.97,USD,Hotel/Hostel in Harbor,2024-01-24,Harbor,travel
+exp755,user_005,DINING,93.42,USD,Dining experience in Plaza District,2024-01-25,Plaza District,meal
+exp756,user_006,ACTIVITIES,132.53,USD,Tour/Adventure activity in Harbor,2024-01-26,Harbor,activities
+exp757,user_007,ENTERTAINMENT,148.42,USD,Concert/Movie/Show in Suburban,2024-01-27,Suburban,entertainment
+exp758,user_008,ACTIVITIES,94.81,USD,Tour/Adventure activity in Chinatown,2024-01-28,Chinatown,activities
+exp759,user_009,SHOPPING,77.46,USD,Shopping in Beach Area,2024-01-29,Beach Area,shopping
+exp760,user_010,FOOD,14.7,USD,Snack in Arts District,2024-01-30,Arts District,meal
+exp761,user_011,SHOPPING,99.58,USD,Shopping in Harbor,2024-01-31,Harbor,shopping
+exp762,user_012,DINING,56.19,USD,Dining experience in Beach Area,2024-02-01,Beach Area,meal
+exp763,user_013,ACTIVITIES,48.94,USD,Tour/Adventure activity in Harbor,2024-02-02,Harbor,activities
+exp764,user_014,SHOPPING,123.56,USD,Shopping in Old Town,2024-02-03,Old Town,shopping
+exp765,user_015,FOOD,16.45,USD,Café meal in Chinatown,2024-02-04,Chinatown,meal
+exp766,user_016,ACCOMMODATION,269.35,USD,Hotel/Hostel in Midtown,2024-02-05,Midtown,travel
+exp767,user_017,DINING,97.53,USD,Dining experience in Harbor,2024-02-06,Harbor,meal
+exp768,user_018,DINING,98.0,USD,Dining experience in Uptown,2024-02-07,Uptown,meal
+exp769,user_019,TRANSPORT,29.17,USD,Taxi/Bus/Train rides in Suburban,2024-02-08,Suburban,travel
+exp770,user_020,ACCOMMODATION,183.87,USD,Hotel/Hostel in Plaza District,2024-02-09,Plaza District,travel
+exp771,user_021,ACCOMMODATION,293.03,USD,Hotel/Hostel in Harbor,2024-02-10,Harbor,travel
+exp772,user_022,FOOD,67.11,USD,Café meal in Arts District,2024-02-11,Arts District,meal
+exp773,user_023,TRANSPORT,90.41,USD,Taxi/Bus/Train rides in Suburban,2024-02-12,Suburban,travel
+exp774,user_024,FOOD,79.86,USD,Breakfast in Uptown,2024-02-13,Uptown,meal
+exp775,user_025,ACTIVITIES,190.8,USD,Tour/Adventure activity in Midtown,2024-02-14,Midtown,activities
+exp776,user_026,NIGHTLIFE,64.34,USD,Bar/Club in Arts District,2024-02-15,Arts District,nightlife
+exp777,user_027,ACCOMMODATION,220.52,USD,Hotel/Hostel in Chinatown,2024-02-16,Chinatown,travel
+exp778,user_028,ACCOMMODATION,234.37,USD,Hotel/Hostel in Harbor,2024-02-17,Harbor,travel
+exp779,user_029,DINING,79.05,USD,Dining experience in Plaza District,2024-02-18,Plaza District,meal
+exp780,user_030,TRANSPORT,88.44,USD,Taxi/Bus/Train rides in Arts District,2024-02-19,Arts District,travel
+exp781,user_031,ACTIVITIES,56.18,USD,Tour/Adventure activity in Uptown,2024-02-20,Uptown,activities
+exp782,user_032,TRANSPORT,39.11,USD,Taxi/Bus/Train rides in Harbor,2024-02-21,Harbor,travel
+exp783,user_033,NIGHTLIFE,68.05,USD,Bar/Club in Midtown,2024-02-22,Midtown,nightlife
+exp784,user_034,NIGHTLIFE,36.6,USD,Bar/Club in Harbor,2024-02-23,Harbor,nightlife
+exp785,user_035,ACCOMMODATION,189.96,USD,Hotel/Hostel in Old Town,2024-02-24,Old Town,travel
+exp786,user_036,SHOPPING,52.29,USD,Shopping in Plaza District,2024-02-25,Plaza District,shopping
+exp787,user_037,SHOPPING,138.32,USD,Shopping in Suburban,2024-02-26,Suburban,shopping
+exp788,user_038,ENTERTAINMENT,118.6,USD,Concert/Movie/Show in Old Town,2024-02-27,Old Town,entertainment
+exp789,user_039,ACTIVITIES,65.46,USD,Tour/Adventure activity in Chinatown,2024-02-28,Chinatown,activities
+exp790,user_040,TRANSPORT,24.8,USD,Taxi/Bus/Train rides in Arts District,2024-02-29,Arts District,travel
+exp791,user_041,NIGHTLIFE,29.17,USD,Bar/Club in Harbor,2024-03-01,Harbor,nightlife
+exp792,user_042,ACCOMMODATION,195.15,USD,Hotel/Hostel in Chinatown,2024-03-02,Chinatown,travel
+exp793,user_043,NIGHTLIFE,26.49,USD,Bar/Club in Suburban,2024-03-03,Suburban,nightlife
+exp794,user_044,TRANSPORT,92.17,USD,Taxi/Bus/Train rides in Old Town,2024-03-04,Old Town,travel
+exp795,user_045,ACCOMMODATION,141.39,USD,Hotel/Hostel in Downtown,2024-03-05,Downtown,travel
+exp796,user_046,FOOD,50.38,USD,Dessert in Harbor,2024-03-06,Harbor,meal
+exp797,user_047,TRANSPORT,87.52,USD,Taxi/Bus/Train rides in Beach Area,2024-03-07,Beach Area,travel
+exp798,user_048,TRANSPORT,83.79,USD,Taxi/Bus/Train rides in Beach Area,2024-03-08,Beach Area,travel
+exp799,user_049,FOOD,50.17,USD,Dessert in Downtown,2024-03-09,Downtown,meal
+exp800,user_050,SHOPPING,142.03,USD,Shopping in Plaza District,2024-03-10,Plaza District,shopping
+exp801,user_001,SHOPPING,42.93,USD,Shopping in Arts District,2024-03-11,Arts District,shopping
+exp802,user_002,SHOPPING,182.56,USD,Shopping in Beach Area,2024-03-12,Beach Area,shopping
+exp803,user_003,DINING,70.84,USD,Dining experience in Arts District,2024-03-13,Arts District,meal
+exp804,user_004,FOOD,61.91,USD,Dinner at restaurant in Beach Area,2024-03-14,Beach Area,meal
+exp805,user_005,ACTIVITIES,80.23,USD,Tour/Adventure activity in Uptown,2024-03-15,Uptown,activities
+exp806,user_006,NIGHTLIFE,90.01,USD,Bar/Club in Arts District,2024-03-16,Arts District,nightlife
+exp807,user_007,SHOPPING,177.76,USD,Shopping in Harbor,2024-03-17,Harbor,shopping
+exp808,user_008,ENTERTAINMENT,54.48,USD,Concert/Movie/Show in Harbor,2024-03-18,Harbor,entertainment
+exp809,user_009,TRANSPORT,72.38,USD,Taxi/Bus/Train rides in Suburban,2024-03-19,Suburban,travel
+exp810,user_010,NIGHTLIFE,92.46,USD,Bar/Club in Midtown,2024-03-20,Midtown,nightlife
+exp811,user_011,ACCOMMODATION,214.63,USD,Hotel/Hostel in Downtown,2024-03-21,Downtown,travel
+exp812,user_012,FOOD,8.74,USD,Dessert in Uptown,2024-03-22,Uptown,meal
+exp813,user_013,ENTERTAINMENT,95.99,USD,Concert/Movie/Show in Old Town,2024-03-23,Old Town,entertainment
+exp814,user_014,SHOPPING,188.78,USD,Shopping in Harbor,2024-03-24,Harbor,shopping
+exp815,user_015,NIGHTLIFE,87.37,USD,Bar/Club in Midtown,2024-03-25,Midtown,nightlife
+exp816,user_016,ACTIVITIES,46.61,USD,Tour/Adventure activity in Midtown,2024-03-26,Midtown,activities
+exp817,user_017,ACCOMMODATION,291.11,USD,Hotel/Hostel in Chinatown,2024-03-27,Chinatown,travel
+exp818,user_018,ENTERTAINMENT,41.56,USD,Concert/Movie/Show in Plaza District,2024-03-28,Plaza District,entertainment
+exp819,user_019,TRANSPORT,76.25,USD,Taxi/Bus/Train rides in Plaza District,2024-03-29,Plaza District,travel
+exp820,user_020,ENTERTAINMENT,133.93,USD,Concert/Movie/Show in Harbor,2024-03-30,Harbor,entertainment
+exp821,user_021,ACCOMMODATION,278.61,USD,Hotel/Hostel in Beach Area,2024-03-31,Beach Area,travel
+exp822,user_022,DINING,57.44,USD,Dining experience in Harbor,2024-04-01,Harbor,meal
+exp823,user_023,TRANSPORT,72.08,USD,Taxi/Bus/Train rides in Suburban,2024-04-02,Suburban,travel
+exp824,user_024,DINING,96.8,USD,Dining experience in Arts District,2024-04-03,Arts District,meal
+exp825,user_025,TRANSPORT,41.94,USD,Taxi/Bus/Train rides in Harbor,2024-04-04,Harbor,travel
+exp826,user_026,ACCOMMODATION,289.29,USD,Hotel/Hostel in Downtown,2024-04-05,Downtown,travel
+exp827,user_027,NIGHTLIFE,43.39,USD,Bar/Club in Beach Area,2024-04-06,Beach Area,nightlife
+exp828,user_028,ACTIVITIES,100.48,USD,Tour/Adventure activity in Plaza District,2024-04-07,Plaza District,activities
+exp829,user_029,NIGHTLIFE,32.26,USD,Bar/Club in Harbor,2024-04-08,Harbor,nightlife
+exp830,user_030,DINING,89.79,USD,Dining experience in Chinatown,2024-04-09,Chinatown,meal
+exp831,user_031,ACTIVITIES,127.83,USD,Tour/Adventure activity in Beach Area,2024-04-10,Beach Area,activities
+exp832,user_032,SHOPPING,82.36,USD,Shopping in Old Town,2024-04-11,Old Town,shopping
+exp833,user_033,DINING,96.48,USD,Dining experience in Arts District,2024-04-12,Arts District,meal
+exp834,user_034,SHOPPING,114.75,USD,Shopping in Downtown,2024-04-13,Downtown,shopping
+exp835,user_035,SHOPPING,181.19,USD,Shopping in Downtown,2024-04-14,Downtown,shopping
+exp836,user_036,TRANSPORT,70.25,USD,Taxi/Bus/Train rides in Old Town,2024-04-15,Old Town,travel
+exp837,user_037,SHOPPING,47.88,USD,Shopping in Uptown,2024-04-16,Uptown,shopping
+exp838,user_038,DINING,92.03,USD,Dining experience in Downtown,2024-04-17,Downtown,meal
+exp839,user_039,NIGHTLIFE,95.21,USD,Bar/Club in Suburban,2024-04-18,Suburban,nightlife
+exp840,user_040,ACTIVITIES,91.46,USD,Tour/Adventure activity in Beach Area,2024-04-19,Beach Area,activities
+exp841,user_041,SHOPPING,64.35,USD,Shopping in Uptown,2024-04-20,Uptown,shopping
+exp842,user_042,SHOPPING,23.25,USD,Shopping in Chinatown,2024-04-21,Chinatown,shopping
+exp843,user_043,ENTERTAINMENT,105.84,USD,Concert/Movie/Show in Plaza District,2024-04-22,Plaza District,entertainment
+exp844,user_044,NIGHTLIFE,92.68,USD,Bar/Club in Midtown,2024-04-23,Midtown,nightlife
+exp845,user_045,ACTIVITIES,174.65,USD,Tour/Adventure activity in Beach Area,2024-04-24,Beach Area,activities
+exp846,user_046,TRANSPORT,25.23,USD,Taxi/Bus/Train rides in Midtown,2024-04-25,Midtown,travel
+exp847,user_047,SHOPPING,137.27,USD,Shopping in Downtown,2024-04-26,Downtown,shopping
+exp848,user_048,FOOD,72.61,USD,Street food in Plaza District,2024-04-27,Plaza District,meal
+exp849,user_049,SHOPPING,90.23,USD,Shopping in Midtown,2024-04-28,Midtown,shopping
+exp850,user_050,ENTERTAINMENT,68.03,USD,Concert/Movie/Show in Old Town,2024-04-29,Old Town,entertainment
+exp851,user_001,SHOPPING,187.96,USD,Shopping in Midtown,2024-04-30,Midtown,shopping
+exp852,user_002,NIGHTLIFE,36.86,USD,Bar/Club in Beach Area,2024-05-01,Beach Area,nightlife
+exp853,user_003,SHOPPING,23.19,USD,Shopping in Old Town,2024-05-02,Old Town,shopping
+exp854,user_004,ENTERTAINMENT,24.22,USD,Concert/Movie/Show in Arts District,2024-05-03,Arts District,entertainment
+exp855,user_005,DINING,54.0,USD,Dining experience in Arts District,2024-05-04,Arts District,meal
+exp856,user_006,FOOD,21.92,USD,Dinner at restaurant in Arts District,2024-05-05,Arts District,meal
+exp857,user_007,DINING,23.97,USD,Dining experience in Chinatown,2024-05-06,Chinatown,meal
+exp858,user_008,TRANSPORT,94.66,USD,Taxi/Bus/Train rides in Plaza District,2024-05-07,Plaza District,travel
+exp859,user_009,ACTIVITIES,149.29,USD,Tour/Adventure activity in Chinatown,2024-05-08,Chinatown,activities
+exp860,user_010,NIGHTLIFE,34.9,USD,Bar/Club in Beach Area,2024-05-09,Beach Area,nightlife
+exp861,user_011,ACTIVITIES,168.8,USD,Tour/Adventure activity in Beach Area,2024-05-10,Beach Area,activities
+exp862,user_012,ACCOMMODATION,78.86,USD,Hotel/Hostel in Beach Area,2024-05-11,Beach Area,travel
+exp863,user_013,TRANSPORT,79.76,USD,Taxi/Bus/Train rides in Midtown,2024-05-12,Midtown,travel
+exp864,user_014,FOOD,38.76,USD,Street food in Downtown,2024-05-13,Downtown,meal
+exp865,user_015,ACTIVITIES,140.27,USD,Tour/Adventure activity in Downtown,2024-05-14,Downtown,activities
+exp866,user_016,ACCOMMODATION,146.59,USD,Hotel/Hostel in Midtown,2024-05-15,Midtown,travel
+exp867,user_017,ACTIVITIES,153.45,USD,Tour/Adventure activity in Suburban,2024-05-16,Suburban,activities
+exp868,user_018,TRANSPORT,33.04,USD,Taxi/Bus/Train rides in Midtown,2024-05-17,Midtown,travel
+exp869,user_019,FOOD,52.45,USD,Coffee break in Arts District,2024-05-18,Arts District,meal
+exp870,user_020,NIGHTLIFE,15.81,USD,Bar/Club in Beach Area,2024-05-19,Beach Area,nightlife
+exp871,user_021,DINING,35.33,USD,Dining experience in Downtown,2024-05-20,Downtown,meal
+exp872,user_022,FOOD,58.44,USD,Breakfast in Arts District,2024-05-21,Arts District,meal
+exp873,user_023,FOOD,68.13,USD,Café meal in Midtown,2024-05-22,Midtown,meal
+exp874,user_024,ACCOMMODATION,91.01,USD,Hotel/Hostel in Chinatown,2024-05-23,Chinatown,travel
+exp875,user_025,ACCOMMODATION,249.1,USD,Hotel/Hostel in Suburban,2024-05-24,Suburban,travel
+exp876,user_026,FOOD,21.76,USD,Lunch at restaurant in Chinatown,2024-05-25,Chinatown,meal
+exp877,user_027,FOOD,49.01,USD,Lunch at restaurant in Midtown,2024-05-26,Midtown,meal
+exp878,user_028,SHOPPING,123.46,USD,Shopping in Arts District,2024-05-27,Arts District,shopping
+exp879,user_029,DINING,36.37,USD,Dining experience in Downtown,2024-05-28,Downtown,meal
+exp880,user_030,ENTERTAINMENT,148.13,USD,Concert/Movie/Show in Suburban,2024-05-29,Suburban,entertainment
+exp881,user_031,FOOD,21.66,USD,Coffee break in Suburban,2024-05-30,Suburban,meal
+exp882,user_032,ACCOMMODATION,166.15,USD,Hotel/Hostel in Arts District,2024-05-31,Arts District,travel
+exp883,user_033,NIGHTLIFE,93.04,USD,Bar/Club in Suburban,2024-06-01,Suburban,nightlife
+exp884,user_034,NIGHTLIFE,25.99,USD,Bar/Club in Harbor,2024-06-02,Harbor,nightlife
+exp885,user_035,ACTIVITIES,124.68,USD,Tour/Adventure activity in Old Town,2024-06-03,Old Town,activities
+exp886,user_036,ACTIVITIES,120.8,USD,Tour/Adventure activity in Harbor,2024-06-04,Harbor,activities
+exp887,user_037,SHOPPING,178.93,USD,Shopping in Downtown,2024-06-05,Downtown,shopping
+exp888,user_038,DINING,36.82,USD,Dining experience in Beach Area,2024-06-06,Beach Area,meal
+exp889,user_039,NIGHTLIFE,76.23,USD,Bar/Club in Beach Area,2024-06-07,Beach Area,nightlife
+exp890,user_040,TRANSPORT,61.3,USD,Taxi/Bus/Train rides in Beach Area,2024-06-08,Beach Area,travel
+exp891,user_041,FOOD,76.72,USD,Snack in Midtown,2024-06-09,Midtown,meal
+exp892,user_042,ENTERTAINMENT,28.94,USD,Concert/Movie/Show in Uptown,2024-06-10,Uptown,entertainment
+exp893,user_043,ACCOMMODATION,252.86,USD,Hotel/Hostel in Midtown,2024-06-11,Midtown,travel
+exp894,user_044,TRANSPORT,50.35,USD,Taxi/Bus/Train rides in Old Town,2024-06-12,Old Town,travel
+exp895,user_045,FOOD,46.96,USD,Dessert in Arts District,2024-06-13,Arts District,meal
+exp896,user_046,ACTIVITIES,71.97,USD,Tour/Adventure activity in Old Town,2024-06-14,Old Town,activities
+exp897,user_047,NIGHTLIFE,47.42,USD,Bar/Club in Plaza District,2024-06-15,Plaza District,nightlife
+exp898,user_048,DINING,49.54,USD,Dining experience in Suburban,2024-06-16,Suburban,meal
+exp899,user_049,ENTERTAINMENT,32.16,USD,Concert/Movie/Show in Suburban,2024-06-17,Suburban,entertainment
+exp900,user_050,ENTERTAINMENT,62.46,USD,Concert/Movie/Show in Uptown,2024-06-18,Uptown,entertainment
+exp901,user_001,ACTIVITIES,34.43,USD,Tour/Adventure activity in Old Town,2024-06-19,Old Town,activities
+exp902,user_002,ACTIVITIES,183.16,USD,Tour/Adventure activity in Harbor,2024-06-20,Harbor,activities
+exp903,user_003,DINING,82.8,USD,Dining experience in Suburban,2024-06-21,Suburban,meal
+exp904,user_004,TRANSPORT,14.1,USD,Taxi/Bus/Train rides in Plaza District,2024-06-22,Plaza District,travel
+exp905,user_005,ENTERTAINMENT,128.01,USD,Concert/Movie/Show in Downtown,2024-06-23,Downtown,entertainment
+exp906,user_006,FOOD,77.91,USD,Café meal in Arts District,2024-06-24,Arts District,meal
+exp907,user_007,TRANSPORT,95.51,USD,Taxi/Bus/Train rides in Old Town,2024-06-25,Old Town,travel
+exp908,user_008,SHOPPING,23.97,USD,Shopping in Old Town,2024-06-26,Old Town,shopping
+exp909,user_009,ACTIVITIES,187.42,USD,Tour/Adventure activity in Beach Area,2024-06-27,Beach Area,activities
+exp910,user_010,NIGHTLIFE,90.17,USD,Bar/Club in Uptown,2024-06-28,Uptown,nightlife
+exp911,user_011,FOOD,38.9,USD,Snack in Arts District,2024-06-29,Arts District,meal
+exp912,user_012,ACCOMMODATION,212.29,USD,Hotel/Hostel in Suburban,2024-06-30,Suburban,travel
+exp913,user_013,ENTERTAINMENT,131.59,USD,Concert/Movie/Show in Harbor,2024-07-01,Harbor,entertainment
+exp914,user_014,TRANSPORT,71.8,USD,Taxi/Bus/Train rides in Plaza District,2024-07-02,Plaza District,travel
+exp915,user_015,ENTERTAINMENT,134.55,USD,Concert/Movie/Show in Old Town,2024-07-03,Old Town,entertainment
+exp916,user_016,ENTERTAINMENT,142.45,USD,Concert/Movie/Show in Arts District,2024-07-04,Arts District,entertainment
+exp917,user_017,ENTERTAINMENT,31.78,USD,Concert/Movie/Show in Arts District,2024-07-05,Arts District,entertainment
+exp918,user_018,FOOD,29.4,USD,Dessert in Old Town,2024-07-06,Old Town,meal
+exp919,user_019,ACCOMMODATION,275.82,USD,Hotel/Hostel in Uptown,2024-07-07,Uptown,travel
+exp920,user_020,TRANSPORT,76.99,USD,Taxi/Bus/Train rides in Chinatown,2024-07-08,Chinatown,travel
+exp921,user_021,ENTERTAINMENT,34.75,USD,Concert/Movie/Show in Midtown,2024-07-09,Midtown,entertainment
+exp922,user_022,NIGHTLIFE,96.46,USD,Bar/Club in Midtown,2024-07-10,Midtown,nightlife
+exp923,user_023,ENTERTAINMENT,87.62,USD,Concert/Movie/Show in Downtown,2024-07-11,Downtown,entertainment
+exp924,user_024,ACCOMMODATION,174.35,USD,Hotel/Hostel in Midtown,2024-07-12,Midtown,travel
+exp925,user_025,DINING,55.74,USD,Dining experience in Suburban,2024-07-13,Suburban,meal
+exp926,user_026,DINING,56.77,USD,Dining experience in Chinatown,2024-07-14,Chinatown,meal
+exp927,user_027,NIGHTLIFE,77.81,USD,Bar/Club in Uptown,2024-07-15,Uptown,nightlife
+exp928,user_028,FOOD,31.86,USD,Breakfast in Suburban,2024-07-16,Suburban,meal
+exp929,user_029,ENTERTAINMENT,60.15,USD,Concert/Movie/Show in Arts District,2024-07-17,Arts District,entertainment
+exp930,user_030,ACCOMMODATION,280.3,USD,Hotel/Hostel in Suburban,2024-07-18,Suburban,travel
+exp931,user_031,TRANSPORT,43.79,USD,Taxi/Bus/Train rides in Uptown,2024-07-19,Uptown,travel
+exp932,user_032,TRANSPORT,99.57,USD,Taxi/Bus/Train rides in Uptown,2024-07-20,Uptown,travel
+exp933,user_033,TRANSPORT,45.06,USD,Taxi/Bus/Train rides in Arts District,2024-07-21,Arts District,travel
+exp934,user_034,NIGHTLIFE,62.39,USD,Bar/Club in Uptown,2024-07-22,Uptown,nightlife
+exp935,user_035,TRANSPORT,17.91,USD,Taxi/Bus/Train rides in Midtown,2024-07-23,Midtown,travel
+exp936,user_036,TRANSPORT,36.58,USD,Taxi/Bus/Train rides in Chinatown,2024-07-24,Chinatown,travel
+exp937,user_037,SHOPPING,198.4,USD,Shopping in Chinatown,2024-07-25,Chinatown,shopping
+exp938,user_038,ACTIVITIES,60.92,USD,Tour/Adventure activity in Harbor,2024-07-26,Harbor,activities
+exp939,user_039,ENTERTAINMENT,87.53,USD,Concert/Movie/Show in Old Town,2024-07-27,Old Town,entertainment
+exp940,user_040,FOOD,68.73,USD,Breakfast in Suburban,2024-07-28,Suburban,meal
+exp941,user_041,ACCOMMODATION,163.7,USD,Hotel/Hostel in Harbor,2024-07-29,Harbor,travel
+exp942,user_042,ENTERTAINMENT,34.64,USD,Concert/Movie/Show in Harbor,2024-07-30,Harbor,entertainment
+exp943,user_043,FOOD,55.16,USD,Snack in Plaza District,2024-07-31,Plaza District,meal
+exp944,user_044,FOOD,73.45,USD,Breakfast in Beach Area,2024-08-01,Beach Area,meal
+exp945,user_045,ACTIVITIES,164.86,USD,Tour/Adventure activity in Beach Area,2024-08-02,Beach Area,activities
+exp946,user_046,ENTERTAINMENT,144.14,USD,Concert/Movie/Show in Downtown,2024-08-03,Downtown,entertainment
+exp947,user_047,TRANSPORT,78.36,USD,Taxi/Bus/Train rides in Arts District,2024-08-04,Arts District,travel
+exp948,user_048,TRANSPORT,13.62,USD,Taxi/Bus/Train rides in Harbor,2024-08-05,Harbor,travel
+exp949,user_049,ENTERTAINMENT,67.19,USD,Concert/Movie/Show in Chinatown,2024-08-06,Chinatown,entertainment
+exp950,user_050,DINING,88.96,USD,Dining experience in Uptown,2024-08-07,Uptown,meal
+exp951,user_001,ENTERTAINMENT,20.51,USD,Concert/Movie/Show in Plaza District,2024-08-08,Plaza District,entertainment
+exp952,user_002,FOOD,36.39,USD,Lunch at restaurant in Suburban,2024-08-09,Suburban,meal
+exp953,user_003,TRANSPORT,51.25,USD,Taxi/Bus/Train rides in Harbor,2024-08-10,Harbor,travel
+exp954,user_004,SHOPPING,32.94,USD,Shopping in Harbor,2024-08-11,Harbor,shopping
+exp955,user_005,SHOPPING,71.46,USD,Shopping in Chinatown,2024-08-12,Chinatown,shopping
+exp956,user_006,ENTERTAINMENT,141.94,USD,Concert/Movie/Show in Old Town,2024-08-13,Old Town,entertainment
+exp957,user_007,NIGHTLIFE,43.21,USD,Bar/Club in Arts District,2024-08-14,Arts District,nightlife
+exp958,user_008,TRANSPORT,69.05,USD,Taxi/Bus/Train rides in Uptown,2024-08-15,Uptown,travel
+exp959,user_009,TRANSPORT,60.63,USD,Taxi/Bus/Train rides in Harbor,2024-08-16,Harbor,travel
+exp960,user_010,DINING,67.37,USD,Dining experience in Harbor,2024-08-17,Harbor,meal
+exp961,user_011,ACCOMMODATION,148.13,USD,Hotel/Hostel in Harbor,2024-08-18,Harbor,travel
+exp962,user_012,DINING,51.39,USD,Dining experience in Midtown,2024-08-19,Midtown,meal
+exp963,user_013,DINING,96.56,USD,Dining experience in Arts District,2024-08-20,Arts District,meal
+exp964,user_014,ACCOMMODATION,179.03,USD,Hotel/Hostel in Uptown,2024-08-21,Uptown,travel
+exp965,user_015,ENTERTAINMENT,37.62,USD,Concert/Movie/Show in Plaza District,2024-08-22,Plaza District,entertainment
+exp966,user_016,ENTERTAINMENT,66.41,USD,Concert/Movie/Show in Downtown,2024-08-23,Downtown,entertainment
+exp967,user_017,ACTIVITIES,25.55,USD,Tour/Adventure activity in Plaza District,2024-08-24,Plaza District,activities
+exp968,user_018,TRANSPORT,42.31,USD,Taxi/Bus/Train rides in Chinatown,2024-08-25,Chinatown,travel
+exp969,user_019,NIGHTLIFE,22.24,USD,Bar/Club in Beach Area,2024-08-26,Beach Area,nightlife
+exp970,user_020,DINING,86.35,USD,Dining experience in Plaza District,2024-08-27,Plaza District,meal
+exp971,user_021,ACCOMMODATION,255.87,USD,Hotel/Hostel in Midtown,2024-08-28,Midtown,travel
+exp972,user_022,FOOD,34.61,USD,Café meal in Beach Area,2024-08-29,Beach Area,meal
+exp973,user_023,ENTERTAINMENT,62.08,USD,Concert/Movie/Show in Harbor,2024-08-30,Harbor,entertainment
+exp974,user_024,TRANSPORT,10.1,USD,Taxi/Bus/Train rides in Uptown,2024-08-31,Uptown,travel
+exp975,user_025,ACCOMMODATION,129.92,USD,Hotel/Hostel in Chinatown,2024-09-01,Chinatown,travel
+exp976,user_026,TRANSPORT,79.93,USD,Taxi/Bus/Train rides in Beach Area,2024-09-02,Beach Area,travel
+exp977,user_027,TRANSPORT,6.37,USD,Taxi/Bus/Train rides in Old Town,2024-09-03,Old Town,travel
+exp978,user_028,SHOPPING,48.52,USD,Shopping in Suburban,2024-09-04,Suburban,shopping
+exp979,user_029,ACTIVITIES,46.06,USD,Tour/Adventure activity in Beach Area,2024-09-05,Beach Area,activities
+exp980,user_030,ENTERTAINMENT,141.84,USD,Concert/Movie/Show in Harbor,2024-09-06,Harbor,entertainment
+exp981,user_031,ACTIVITIES,41.04,USD,Tour/Adventure activity in Downtown,2024-09-07,Downtown,activities
+exp982,user_032,TRANSPORT,98.39,USD,Taxi/Bus/Train rides in Plaza District,2024-09-08,Plaza District,travel
+exp983,user_033,SHOPPING,189.17,USD,Shopping in Uptown,2024-09-09,Uptown,shopping
+exp984,user_034,SHOPPING,62.92,USD,Shopping in Arts District,2024-09-10,Arts District,shopping
+exp985,user_035,ENTERTAINMENT,105.08,USD,Concert/Movie/Show in Old Town,2024-09-11,Old Town,entertainment
+exp986,user_036,ACTIVITIES,45.0,USD,Tour/Adventure activity in Beach Area,2024-09-12,Beach Area,activities
+exp987,user_037,TRANSPORT,65.47,USD,Taxi/Bus/Train rides in Midtown,2024-09-13,Midtown,travel
+exp988,user_038,TRANSPORT,70.18,USD,Taxi/Bus/Train rides in Suburban,2024-09-14,Suburban,travel
+exp989,user_039,TRANSPORT,17.58,USD,Taxi/Bus/Train rides in Midtown,2024-09-15,Midtown,travel
+exp990,user_040,SHOPPING,177.69,USD,Shopping in Downtown,2024-09-16,Downtown,shopping
+exp991,user_041,ACTIVITIES,148.05,USD,Tour/Adventure activity in Midtown,2024-09-17,Midtown,activities
+exp992,user_042,ACTIVITIES,114.03,USD,Tour/Adventure activity in Plaza District,2024-09-18,Plaza District,activities
+exp993,user_043,ACCOMMODATION,258.1,USD,Hotel/Hostel in Downtown,2024-09-19,Downtown,travel
+exp994,user_044,DINING,20.47,USD,Dining experience in Uptown,2024-09-20,Uptown,meal
+exp995,user_045,TRANSPORT,44.34,USD,Taxi/Bus/Train rides in Old Town,2024-09-21,Old Town,travel
+exp996,user_046,ENTERTAINMENT,66.85,USD,Concert/Movie/Show in Beach Area,2024-09-22,Beach Area,entertainment
+exp997,user_047,NIGHTLIFE,69.77,USD,Bar/Club in Uptown,2024-09-23,Uptown,nightlife
+exp998,user_048,ENTERTAINMENT,95.03,USD,Concert/Movie/Show in Downtown,2024-09-24,Downtown,entertainment
+exp999,user_049,ENTERTAINMENT,71.23,USD,Concert/Movie/Show in Uptown,2024-09-25,Uptown,entertainment
+exp1000,user_050,FOOD,42.62,USD,Coffee break in Harbor,2024-09-26,Harbor,meal
+exp1001,user_001,ACTIVITIES,115.8,USD,Tour/Adventure activity in Harbor,2024-09-27,Harbor,activities
+exp1002,user_002,NIGHTLIFE,83.29,USD,Bar/Club in Downtown,2024-09-28,Downtown,nightlife
+exp1003,user_003,NIGHTLIFE,97.7,USD,Bar/Club in Old Town,2024-09-29,Old Town,nightlife
+exp1004,user_004,TRANSPORT,72.29,USD,Taxi/Bus/Train rides in Suburban,2024-09-30,Suburban,travel
+exp1005,user_005,ENTERTAINMENT,104.61,USD,Concert/Movie/Show in Uptown,2024-10-01,Uptown,entertainment
+exp1006,user_006,ACTIVITIES,58.9,USD,Tour/Adventure activity in Chinatown,2024-10-02,Chinatown,activities
+exp1007,user_007,SHOPPING,83.21,USD,Shopping in Uptown,2024-10-03,Uptown,shopping
+exp1008,user_008,TRANSPORT,10.69,USD,Taxi/Bus/Train rides in Downtown,2024-10-04,Downtown,travel
+exp1009,user_009,SHOPPING,147.29,USD,Shopping in Plaza District,2024-10-05,Plaza District,shopping
+exp1010,user_010,ACTIVITIES,85.55,USD,Tour/Adventure activity in Midtown,2024-10-06,Midtown,activities
+exp1011,user_011,ACCOMMODATION,256.98,USD,Hotel/Hostel in Chinatown,2024-10-07,Chinatown,travel
+exp1012,user_012,NIGHTLIFE,96.29,USD,Bar/Club in Arts District,2024-10-08,Arts District,nightlife
+exp1013,user_013,NIGHTLIFE,67.25,USD,Bar/Club in Downtown,2024-10-09,Downtown,nightlife
+exp1014,user_014,TRANSPORT,93.69,USD,Taxi/Bus/Train rides in Uptown,2024-10-10,Uptown,travel
+exp1015,user_015,TRANSPORT,68.03,USD,Taxi/Bus/Train rides in Midtown,2024-10-11,Midtown,travel
+exp1016,user_016,ACTIVITIES,170.04,USD,Tour/Adventure activity in Uptown,2024-10-12,Uptown,activities
+exp1017,user_017,SHOPPING,108.65,USD,Shopping in Chinatown,2024-10-13,Chinatown,shopping
+exp1018,user_018,TRANSPORT,28.12,USD,Taxi/Bus/Train rides in Plaza District,2024-10-14,Plaza District,travel
+exp1019,user_019,TRANSPORT,70.6,USD,Taxi/Bus/Train rides in Suburban,2024-10-15,Suburban,travel
+exp1020,user_020,DINING,47.41,USD,Dining experience in Plaza District,2024-10-16,Plaza District,meal
+exp1021,user_021,TRANSPORT,90.51,USD,Taxi/Bus/Train rides in Chinatown,2024-10-17,Chinatown,travel
+exp1022,user_022,DINING,49.98,USD,Dining experience in Beach Area,2024-10-18,Beach Area,meal
+exp1023,user_023,ENTERTAINMENT,38.33,USD,Concert/Movie/Show in Midtown,2024-10-19,Midtown,entertainment
+exp1024,user_024,TRANSPORT,28.78,USD,Taxi/Bus/Train rides in Old Town,2024-10-20,Old Town,travel
+exp1025,user_025,ACCOMMODATION,86.44,USD,Hotel/Hostel in Uptown,2024-10-21,Uptown,travel
+exp1026,user_026,FOOD,50.51,USD,Snack in Uptown,2024-10-22,Uptown,meal
+exp1027,user_027,ACCOMMODATION,126.55,USD,Hotel/Hostel in Chinatown,2024-10-23,Chinatown,travel
+exp1028,user_028,TRANSPORT,14.56,USD,Taxi/Bus/Train rides in Plaza District,2024-10-24,Plaza District,travel
+exp1029,user_029,SHOPPING,178.72,USD,Shopping in Uptown,2024-10-25,Uptown,shopping
+exp1030,user_030,ACCOMMODATION,203.64,USD,Hotel/Hostel in Harbor,2024-10-26,Harbor,travel
+exp1031,user_031,ENTERTAINMENT,110.34,USD,Concert/Movie/Show in Beach Area,2024-10-27,Beach Area,entertainment
+exp1032,user_032,ACTIVITIES,146.42,USD,Tour/Adventure activity in Arts District,2024-10-28,Arts District,activities
+exp1033,user_033,ENTERTAINMENT,136.62,USD,Concert/Movie/Show in Beach Area,2024-10-29,Beach Area,entertainment
+exp1034,user_034,FOOD,57.89,USD,Breakfast in Suburban,2024-10-30,Suburban,meal
+exp1035,user_035,ENTERTAINMENT,123.52,USD,Concert/Movie/Show in Old Town,2024-10-31,Old Town,entertainment
+exp1036,user_036,DINING,76.28,USD,Dining experience in Arts District,2024-11-01,Arts District,meal
+exp1037,user_037,DINING,75.03,USD,Dining experience in Chinatown,2024-11-02,Chinatown,meal
+exp1038,user_038,DINING,57.55,USD,Dining experience in Uptown,2024-11-03,Uptown,meal
+exp1039,user_039,ACTIVITIES,147.93,USD,Tour/Adventure activity in Arts District,2024-11-04,Arts District,activities
+exp1040,user_040,ACTIVITIES,93.17,USD,Tour/Adventure activity in Downtown,2024-11-05,Downtown,activities
+exp1041,user_041,DINING,89.33,USD,Dining experience in Harbor,2024-11-06,Harbor,meal
+exp1042,user_042,DINING,44.0,USD,Dining experience in Beach Area,2024-11-07,Beach Area,meal
+exp1043,user_043,DINING,75.42,USD,Dining experience in Suburban,2024-11-08,Suburban,meal
+exp1044,user_044,NIGHTLIFE,45.59,USD,Bar/Club in Harbor,2024-11-09,Harbor,nightlife
+exp1045,user_045,ENTERTAINMENT,77.11,USD,Concert/Movie/Show in Harbor,2024-11-10,Harbor,entertainment
+exp1046,user_046,ACCOMMODATION,240.58,USD,Hotel/Hostel in Old Town,2024-11-11,Old Town,travel
+exp1047,user_047,NIGHTLIFE,73.41,USD,Bar/Club in Old Town,2024-11-12,Old Town,nightlife
+exp1048,user_048,ENTERTAINMENT,51.47,USD,Concert/Movie/Show in Old Town,2024-11-13,Old Town,entertainment
+exp1049,user_049,FOOD,61.85,USD,Snack in Arts District,2024-11-14,Arts District,meal
+exp1050,user_050,TRANSPORT,28.6,USD,Taxi/Bus/Train rides in Old Town,2024-11-15,Old Town,travel
+exp1051,user_001,ACTIVITIES,182.78,USD,Tour/Adventure activity in Beach Area,2024-11-16,Beach Area,activities
+exp1052,user_002,ACTIVITIES,180.99,USD,Tour/Adventure activity in Beach Area,2024-11-17,Beach Area,activities
+exp1053,user_003,DINING,59.4,USD,Dining experience in Downtown,2024-11-18,Downtown,meal
+exp1054,user_004,TRANSPORT,62.91,USD,Taxi/Bus/Train rides in Harbor,2024-11-19,Harbor,travel
+exp1055,user_005,ENTERTAINMENT,38.72,USD,Concert/Movie/Show in Old Town,2024-11-20,Old Town,entertainment
+exp1056,user_006,FOOD,63.25,USD,Dinner at restaurant in Beach Area,2024-11-21,Beach Area,meal
+exp1057,user_007,TRANSPORT,97.38,USD,Taxi/Bus/Train rides in Plaza District,2024-11-22,Plaza District,travel
+exp1058,user_008,TRANSPORT,96.49,USD,Taxi/Bus/Train rides in Midtown,2024-11-23,Midtown,travel
+exp1059,user_009,ACCOMMODATION,230.42,USD,Hotel/Hostel in Downtown,2024-11-24,Downtown,travel
+exp1060,user_010,NIGHTLIFE,64.86,USD,Bar/Club in Midtown,2024-11-25,Midtown,nightlife
+exp1061,user_011,TRANSPORT,80.9,USD,Taxi/Bus/Train rides in Plaza District,2024-11-26,Plaza District,travel
+exp1062,user_012,FOOD,17.24,USD,Dinner at restaurant in Midtown,2024-11-27,Midtown,meal
+exp1063,user_013,DINING,89.02,USD,Dining experience in Suburban,2024-11-28,Suburban,meal
+exp1064,user_014,TRANSPORT,67.16,USD,Taxi/Bus/Train rides in Suburban,2024-11-29,Suburban,travel
+exp1065,user_015,TRANSPORT,71.24,USD,Taxi/Bus/Train rides in Chinatown,2024-11-30,Chinatown,travel
+exp1066,user_016,DINING,61.71,USD,Dining experience in Arts District,2024-12-01,Arts District,meal
+exp1067,user_017,ACTIVITIES,145.0,USD,Tour/Adventure activity in Plaza District,2024-12-02,Plaza District,activities
+exp1068,user_018,ACCOMMODATION,235.84,USD,Hotel/Hostel in Midtown,2024-12-03,Midtown,travel
+exp1069,user_019,TRANSPORT,41.23,USD,Taxi/Bus/Train rides in Suburban,2024-12-04,Suburban,travel
+exp1070,user_020,DINING,24.44,USD,Dining experience in Harbor,2024-12-05,Harbor,meal
+exp1071,user_021,ACCOMMODATION,82.09,USD,Hotel/Hostel in Harbor,2024-12-06,Harbor,travel
+exp1072,user_022,FOOD,47.05,USD,Dessert in Midtown,2024-12-07,Midtown,meal
+exp1073,user_023,SHOPPING,150.19,USD,Shopping in Old Town,2024-12-08,Old Town,shopping
+exp1074,user_024,SHOPPING,169.13,USD,Shopping in Suburban,2024-12-09,Suburban,shopping
+exp1075,user_025,ENTERTAINMENT,124.61,USD,Concert/Movie/Show in Uptown,2024-12-10,Uptown,entertainment
+exp1076,user_026,DINING,53.34,USD,Dining experience in Suburban,2024-12-11,Suburban,meal
+exp1077,user_027,NIGHTLIFE,57.3,USD,Bar/Club in Midtown,2024-12-12,Midtown,nightlife
+exp1078,user_028,DINING,89.49,USD,Dining experience in Harbor,2024-12-13,Harbor,meal
+exp1079,user_029,ENTERTAINMENT,51.23,USD,Concert/Movie/Show in Suburban,2024-12-14,Suburban,entertainment
+exp1080,user_030,FOOD,56.88,USD,Dessert in Arts District,2024-12-15,Arts District,meal
+exp1081,user_031,SHOPPING,192.75,USD,Shopping in Suburban,2024-12-16,Suburban,shopping
+exp1082,user_032,ENTERTAINMENT,77.37,USD,Concert/Movie/Show in Uptown,2024-12-17,Uptown,entertainment
+exp1083,user_033,FOOD,78.23,USD,Dinner at restaurant in Beach Area,2024-12-18,Beach Area,meal
+exp1084,user_034,DINING,68.4,USD,Dining experience in Old Town,2024-12-19,Old Town,meal
+exp1085,user_035,SHOPPING,70.37,USD,Shopping in Uptown,2024-12-20,Uptown,shopping
+exp1086,user_036,FOOD,44.63,USD,Lunch at restaurant in Suburban,2024-12-21,Suburban,meal
+exp1087,user_037,TRANSPORT,80.99,USD,Taxi/Bus/Train rides in Midtown,2024-12-22,Midtown,travel
+exp1088,user_038,DINING,81.81,USD,Dining experience in Harbor,2024-12-23,Harbor,meal
+exp1089,user_039,ACTIVITIES,75.07,USD,Tour/Adventure activity in Chinatown,2024-12-24,Chinatown,activities
+exp1090,user_040,ENTERTAINMENT,59.78,USD,Concert/Movie/Show in Chinatown,2024-12-25,Chinatown,entertainment
+exp1091,user_041,SHOPPING,149.78,USD,Shopping in Plaza District,2024-12-26,Plaza District,shopping
+exp1092,user_042,TRANSPORT,70.55,USD,Taxi/Bus/Train rides in Midtown,2024-12-27,Midtown,travel
+exp1093,user_043,DINING,66.87,USD,Dining experience in Harbor,2024-12-28,Harbor,meal
+exp1094,user_044,DINING,69.11,USD,Dining experience in Uptown,2024-12-29,Uptown,meal
+exp1095,user_045,NIGHTLIFE,38.18,USD,Bar/Club in Beach Area,2024-12-30,Beach Area,nightlife
+exp1096,user_046,SHOPPING,67.32,USD,Shopping in Chinatown,2024-01-01,Chinatown,shopping
+exp1097,user_047,DINING,21.17,USD,Dining experience in Downtown,2024-01-02,Downtown,meal
+exp1098,user_048,ACCOMMODATION,211.07,USD,Hotel/Hostel in Chinatown,2024-01-03,Chinatown,travel
+exp1099,user_049,DINING,29.73,USD,Dining experience in Harbor,2024-01-04,Harbor,meal
+exp1100,user_050,ACTIVITIES,118.76,USD,Tour/Adventure activity in Downtown,2024-01-05,Downtown,activities
+exp1101,user_001,SHOPPING,138.97,USD,Shopping in Chinatown,2024-01-06,Chinatown,shopping
+exp1102,user_002,FOOD,61.6,USD,Lunch at restaurant in Arts District,2024-01-07,Arts District,meal
+exp1103,user_003,ACCOMMODATION,167.02,USD,Hotel/Hostel in Old Town,2024-01-08,Old Town,travel
+exp1104,user_004,NIGHTLIFE,86.51,USD,Bar/Club in Midtown,2024-01-09,Midtown,nightlife
+exp1105,user_005,NIGHTLIFE,20.9,USD,Bar/Club in Downtown,2024-01-10,Downtown,nightlife
+exp1106,user_006,ENTERTAINMENT,86.19,USD,Concert/Movie/Show in Chinatown,2024-01-11,Chinatown,entertainment
+exp1107,user_007,DINING,60.28,USD,Dining experience in Uptown,2024-01-12,Uptown,meal
+exp1108,user_008,NIGHTLIFE,76.46,USD,Bar/Club in Chinatown,2024-01-13,Chinatown,nightlife
+exp1109,user_009,NIGHTLIFE,78.31,USD,Bar/Club in Plaza District,2024-01-14,Plaza District,nightlife
+exp1110,user_010,DINING,29.3,USD,Dining experience in Arts District,2024-01-15,Arts District,meal
+exp1111,user_011,ACCOMMODATION,230.73,USD,Hotel/Hostel in Downtown,2024-01-16,Downtown,travel
+exp1112,user_012,ACCOMMODATION,126.51,USD,Hotel/Hostel in Suburban,2024-01-17,Suburban,travel
+exp1113,user_013,NIGHTLIFE,94.37,USD,Bar/Club in Beach Area,2024-01-18,Beach Area,nightlife
+exp1114,user_014,ENTERTAINMENT,117.46,USD,Concert/Movie/Show in Harbor,2024-01-19,Harbor,entertainment
+exp1115,user_015,FOOD,22.25,USD,Snack in Beach Area,2024-01-20,Beach Area,meal
+exp1116,user_016,ACCOMMODATION,281.81,USD,Hotel/Hostel in Suburban,2024-01-21,Suburban,travel
+exp1117,user_017,DINING,63.54,USD,Dining experience in Beach Area,2024-01-22,Beach Area,meal
+exp1118,user_018,ACCOMMODATION,162.56,USD,Hotel/Hostel in Uptown,2024-01-23,Uptown,travel
+exp1119,user_019,SHOPPING,194.13,USD,Shopping in Chinatown,2024-01-24,Chinatown,shopping
+exp1120,user_020,TRANSPORT,51.86,USD,Taxi/Bus/Train rides in Uptown,2024-01-25,Uptown,travel
+exp1121,user_021,SHOPPING,125.76,USD,Shopping in Beach Area,2024-01-26,Beach Area,shopping
+exp1122,user_022,DINING,35.65,USD,Dining experience in Chinatown,2024-01-27,Chinatown,meal
+exp1123,user_023,TRANSPORT,61.1,USD,Taxi/Bus/Train rides in Suburban,2024-01-28,Suburban,travel
+exp1124,user_024,ACCOMMODATION,247.14,USD,Hotel/Hostel in Beach Area,2024-01-29,Beach Area,travel
+exp1125,user_025,ENTERTAINMENT,100.41,USD,Concert/Movie/Show in Plaza District,2024-01-30,Plaza District,entertainment
+exp1126,user_026,DINING,86.86,USD,Dining experience in Uptown,2024-01-31,Uptown,meal
+exp1127,user_027,TRANSPORT,75.92,USD,Taxi/Bus/Train rides in Chinatown,2024-02-01,Chinatown,travel
+exp1128,user_028,ACCOMMODATION,206.75,USD,Hotel/Hostel in Chinatown,2024-02-02,Chinatown,travel
+exp1129,user_029,ACTIVITIES,132.77,USD,Tour/Adventure activity in Suburban,2024-02-03,Suburban,activities
+exp1130,user_030,FOOD,38.49,USD,Café meal in Midtown,2024-02-04,Midtown,meal
+exp1131,user_031,TRANSPORT,83.3,USD,Taxi/Bus/Train rides in Beach Area,2024-02-05,Beach Area,travel
+exp1132,user_032,ENTERTAINMENT,104.42,USD,Concert/Movie/Show in Suburban,2024-02-06,Suburban,entertainment
+exp1133,user_033,ENTERTAINMENT,126.62,USD,Concert/Movie/Show in Uptown,2024-02-07,Uptown,entertainment
+exp1134,user_034,DINING,28.18,USD,Dining experience in Downtown,2024-02-08,Downtown,meal
+exp1135,user_035,ENTERTAINMENT,18.53,USD,Concert/Movie/Show in Arts District,2024-02-09,Arts District,entertainment
+exp1136,user_036,ACTIVITIES,27.17,USD,Tour/Adventure activity in Harbor,2024-02-10,Harbor,activities
+exp1137,user_037,FOOD,73.39,USD,Snack in Plaza District,2024-02-11,Plaza District,meal
+exp1138,user_038,NIGHTLIFE,30.81,USD,Bar/Club in Harbor,2024-02-12,Harbor,nightlife
+exp1139,user_039,ACTIVITIES,111.05,USD,Tour/Adventure activity in Beach Area,2024-02-13,Beach Area,activities
+exp1140,user_040,ACCOMMODATION,102.27,USD,Hotel/Hostel in Downtown,2024-02-14,Downtown,travel
+exp1141,user_041,ACTIVITIES,49.02,USD,Tour/Adventure activity in Uptown,2024-02-15,Uptown,activities
+exp1142,user_042,DINING,89.65,USD,Dining experience in Beach Area,2024-02-16,Beach Area,meal
+exp1143,user_043,ACCOMMODATION,247.07,USD,Hotel/Hostel in Plaza District,2024-02-17,Plaza District,travel
+exp1144,user_044,TRANSPORT,87.06,USD,Taxi/Bus/Train rides in Midtown,2024-02-18,Midtown,travel
+exp1145,user_045,DINING,62.17,USD,Dining experience in Arts District,2024-02-19,Arts District,meal
+exp1146,user_046,FOOD,33.72,USD,Breakfast in Harbor,2024-02-20,Harbor,meal
+exp1147,user_047,NIGHTLIFE,17.88,USD,Bar/Club in Old Town,2024-02-21,Old Town,nightlife
+exp1148,user_048,DINING,21.02,USD,Dining experience in Suburban,2024-02-22,Suburban,meal
+exp1149,user_049,SHOPPING,40.77,USD,Shopping in Uptown,2024-02-23,Uptown,shopping
+exp1150,user_050,TRANSPORT,93.99,USD,Taxi/Bus/Train rides in Arts District,2024-02-24,Arts District,travel
+exp1151,user_001,NIGHTLIFE,37.76,USD,Bar/Club in Downtown,2024-02-25,Downtown,nightlife
+exp1152,user_002,SHOPPING,131.98,USD,Shopping in Plaza District,2024-02-26,Plaza District,shopping
+exp1153,user_003,DINING,65.12,USD,Dining experience in Midtown,2024-02-27,Midtown,meal
+exp1154,user_004,ACCOMMODATION,188.01,USD,Hotel/Hostel in Beach Area,2024-02-28,Beach Area,travel
+exp1155,user_005,DINING,20.46,USD,Dining experience in Midtown,2024-02-29,Midtown,meal
+exp1156,user_006,ENTERTAINMENT,81.08,USD,Concert/Movie/Show in Beach Area,2024-03-01,Beach Area,entertainment
+exp1157,user_007,NIGHTLIFE,54.23,USD,Bar/Club in Old Town,2024-03-02,Old Town,nightlife
+exp1158,user_008,NIGHTLIFE,48.77,USD,Bar/Club in Chinatown,2024-03-03,Chinatown,nightlife
+exp1159,user_009,TRANSPORT,16.8,USD,Taxi/Bus/Train rides in Plaza District,2024-03-04,Plaza District,travel
+exp1160,user_010,TRANSPORT,40.93,USD,Taxi/Bus/Train rides in Plaza District,2024-03-05,Plaza District,travel
+exp1161,user_011,SHOPPING,193.99,USD,Shopping in Downtown,2024-03-06,Downtown,shopping
+exp1162,user_012,NIGHTLIFE,46.69,USD,Bar/Club in Old Town,2024-03-07,Old Town,nightlife
+exp1163,user_013,ACTIVITIES,192.13,USD,Tour/Adventure activity in Downtown,2024-03-08,Downtown,activities
+exp1164,user_014,ENTERTAINMENT,30.01,USD,Concert/Movie/Show in Plaza District,2024-03-09,Plaza District,entertainment
+exp1165,user_015,FOOD,9.86,USD,Lunch at restaurant in Harbor,2024-03-10,Harbor,meal
+exp1166,user_016,TRANSPORT,43.56,USD,Taxi/Bus/Train rides in Midtown,2024-03-11,Midtown,travel
+exp1167,user_017,DINING,90.44,USD,Dining experience in Uptown,2024-03-12,Uptown,meal
+exp1168,user_018,DINING,47.45,USD,Dining experience in Harbor,2024-03-13,Harbor,meal
+exp1169,user_019,FOOD,12.13,USD,Street food in Suburban,2024-03-14,Suburban,meal
+exp1170,user_020,NIGHTLIFE,60.68,USD,Bar/Club in Harbor,2024-03-15,Harbor,nightlife
+exp1171,user_021,NIGHTLIFE,39.77,USD,Bar/Club in Harbor,2024-03-16,Harbor,nightlife
+exp1172,user_022,ACTIVITIES,31.56,USD,Tour/Adventure activity in Arts District,2024-03-17,Arts District,activities
+exp1173,user_023,FOOD,33.18,USD,Dessert in Harbor,2024-03-18,Harbor,meal
+exp1174,user_024,ACCOMMODATION,287.42,USD,Hotel/Hostel in Harbor,2024-03-19,Harbor,travel
+exp1175,user_025,FOOD,70.89,USD,Dessert in Suburban,2024-03-20,Suburban,meal
+exp1176,user_026,TRANSPORT,98.28,USD,Taxi/Bus/Train rides in Beach Area,2024-03-21,Beach Area,travel
+exp1177,user_027,DINING,34.99,USD,Dining experience in Beach Area,2024-03-22,Beach Area,meal
+exp1178,user_028,ENTERTAINMENT,28.57,USD,Concert/Movie/Show in Arts District,2024-03-23,Arts District,entertainment
+exp1179,user_029,ENTERTAINMENT,24.03,USD,Concert/Movie/Show in Plaza District,2024-03-24,Plaza District,entertainment
+exp1180,user_030,ACCOMMODATION,137.47,USD,Hotel/Hostel in Arts District,2024-03-25,Arts District,travel
+exp1181,user_031,FOOD,55.48,USD,Café meal in Plaza District,2024-03-26,Plaza District,meal
+exp1182,user_032,FOOD,32.8,USD,Street food in Suburban,2024-03-27,Suburban,meal
+exp1183,user_033,SHOPPING,112.79,USD,Shopping in Suburban,2024-03-28,Suburban,shopping
+exp1184,user_034,NIGHTLIFE,68.97,USD,Bar/Club in Plaza District,2024-03-29,Plaza District,nightlife
+exp1185,user_035,ACTIVITIES,143.6,USD,Tour/Adventure activity in Old Town,2024-03-30,Old Town,activities
+exp1186,user_036,ACTIVITIES,163.86,USD,Tour/Adventure activity in Downtown,2024-03-31,Downtown,activities
+exp1187,user_037,DINING,88.78,USD,Dining experience in Downtown,2024-04-01,Downtown,meal
+exp1188,user_038,ACTIVITIES,183.02,USD,Tour/Adventure activity in Chinatown,2024-04-02,Chinatown,activities
+exp1189,user_039,ENTERTAINMENT,117.83,USD,Concert/Movie/Show in Harbor,2024-04-03,Harbor,entertainment
+exp1190,user_040,SHOPPING,42.52,USD,Shopping in Suburban,2024-04-04,Suburban,shopping
+exp1191,user_041,ENTERTAINMENT,46.04,USD,Concert/Movie/Show in Uptown,2024-04-05,Uptown,entertainment
+exp1192,user_042,NIGHTLIFE,69.63,USD,Bar/Club in Midtown,2024-04-06,Midtown,nightlife
+exp1193,user_043,DINING,92.0,USD,Dining experience in Plaza District,2024-04-07,Plaza District,meal
+exp1194,user_044,NIGHTLIFE,42.31,USD,Bar/Club in Harbor,2024-04-08,Harbor,nightlife
+exp1195,user_045,NIGHTLIFE,24.56,USD,Bar/Club in Midtown,2024-04-09,Midtown,nightlife
+exp1196,user_046,ACTIVITIES,171.15,USD,Tour/Adventure activity in Midtown,2024-04-10,Midtown,activities
+exp1197,user_047,NIGHTLIFE,42.48,USD,Bar/Club in Suburban,2024-04-11,Suburban,nightlife
+exp1198,user_048,NIGHTLIFE,40.93,USD,Bar/Club in Plaza District,2024-04-12,Plaza District,nightlife
+exp1199,user_049,FOOD,55.04,USD,Dinner at restaurant in Beach Area,2024-04-13,Beach Area,meal
+exp1200,user_050,NIGHTLIFE,47.1,USD,Bar/Club in Beach Area,2024-04-14,Beach Area,nightlife
+exp1201,user_001,ACCOMMODATION,83.1,USD,Hotel/Hostel in Beach Area,2024-04-15,Beach Area,travel
+exp1202,user_002,ACTIVITIES,158.02,USD,Tour/Adventure activity in Uptown,2024-04-16,Uptown,activities
+exp1203,user_003,ENTERTAINMENT,98.36,USD,Concert/Movie/Show in Uptown,2024-04-17,Uptown,entertainment
+exp1204,user_004,ACCOMMODATION,107.65,USD,Hotel/Hostel in Old Town,2024-04-18,Old Town,travel
+exp1205,user_005,SHOPPING,64.69,USD,Shopping in Arts District,2024-04-19,Arts District,shopping
+exp1206,user_006,NIGHTLIFE,17.55,USD,Bar/Club in Beach Area,2024-04-20,Beach Area,nightlife
+exp1207,user_007,SHOPPING,54.25,USD,Shopping in Suburban,2024-04-21,Suburban,shopping
+exp1208,user_008,ENTERTAINMENT,114.99,USD,Concert/Movie/Show in Arts District,2024-04-22,Arts District,entertainment
+exp1209,user_009,DINING,54.44,USD,Dining experience in Uptown,2024-04-23,Uptown,meal
+exp1210,user_010,DINING,97.77,USD,Dining experience in Beach Area,2024-04-24,Beach Area,meal
+exp1211,user_011,ENTERTAINMENT,38.99,USD,Concert/Movie/Show in Plaza District,2024-04-25,Plaza District,entertainment
+exp1212,user_012,NIGHTLIFE,84.36,USD,Bar/Club in Old Town,2024-04-26,Old Town,nightlife
+exp1213,user_013,SHOPPING,149.42,USD,Shopping in Beach Area,2024-04-27,Beach Area,shopping
+exp1214,user_014,ACTIVITIES,107.86,USD,Tour/Adventure activity in Midtown,2024-04-28,Midtown,activities
+exp1215,user_015,ENTERTAINMENT,39.52,USD,Concert/Movie/Show in Harbor,2024-04-29,Harbor,entertainment
+exp1216,user_016,SHOPPING,100.85,USD,Shopping in Suburban,2024-04-30,Suburban,shopping
+exp1217,user_017,NIGHTLIFE,99.95,USD,Bar/Club in Arts District,2024-05-01,Arts District,nightlife
+exp1218,user_018,ENTERTAINMENT,111.2,USD,Concert/Movie/Show in Arts District,2024-05-02,Arts District,entertainment
+exp1219,user_019,TRANSPORT,92.98,USD,Taxi/Bus/Train rides in Arts District,2024-05-03,Arts District,travel
+exp1220,user_020,ACTIVITIES,49.14,USD,Tour/Adventure activity in Arts District,2024-05-04,Arts District,activities
+exp1221,user_021,SHOPPING,91.64,USD,Shopping in Midtown,2024-05-05,Midtown,shopping
+exp1222,user_022,ACTIVITIES,56.84,USD,Tour/Adventure activity in Downtown,2024-05-06,Downtown,activities
+exp1223,user_023,SHOPPING,60.75,USD,Shopping in Plaza District,2024-05-07,Plaza District,shopping
+exp1224,user_024,TRANSPORT,75.26,USD,Taxi/Bus/Train rides in Arts District,2024-05-08,Arts District,travel
+exp1225,user_025,FOOD,53.34,USD,Dessert in Uptown,2024-05-09,Uptown,meal
+exp1226,user_026,DINING,97.24,USD,Dining experience in Uptown,2024-05-10,Uptown,meal
+exp1227,user_027,ACCOMMODATION,79.06,USD,Hotel/Hostel in Beach Area,2024-05-11,Beach Area,travel
+exp1228,user_028,ENTERTAINMENT,135.85,USD,Concert/Movie/Show in Harbor,2024-05-12,Harbor,entertainment
+exp1229,user_029,TRANSPORT,92.02,USD,Taxi/Bus/Train rides in Chinatown,2024-05-13,Chinatown,travel
+exp1230,user_030,ACCOMMODATION,163.51,USD,Hotel/Hostel in Harbor,2024-05-14,Harbor,travel
+exp1231,user_031,DINING,96.01,USD,Dining experience in Midtown,2024-05-15,Midtown,meal
+exp1232,user_032,ACCOMMODATION,172.05,USD,Hotel/Hostel in Downtown,2024-05-16,Downtown,travel
+exp1233,user_033,ACTIVITIES,72.16,USD,Tour/Adventure activity in Uptown,2024-05-17,Uptown,activities
+exp1234,user_034,ACCOMMODATION,241.7,USD,Hotel/Hostel in Suburban,2024-05-18,Suburban,travel
+exp1235,user_035,TRANSPORT,30.55,USD,Taxi/Bus/Train rides in Arts District,2024-05-19,Arts District,travel
+exp1236,user_036,NIGHTLIFE,23.13,USD,Bar/Club in Plaza District,2024-05-20,Plaza District,nightlife
+exp1237,user_037,NIGHTLIFE,53.77,USD,Bar/Club in Harbor,2024-05-21,Harbor,nightlife
+exp1238,user_038,ACCOMMODATION,219.03,USD,Hotel/Hostel in Suburban,2024-05-22,Suburban,travel
+exp1239,user_039,SHOPPING,61.63,USD,Shopping in Midtown,2024-05-23,Midtown,shopping
+exp1240,user_040,ACCOMMODATION,260.91,USD,Hotel/Hostel in Uptown,2024-05-24,Uptown,travel
+exp1241,user_041,ENTERTAINMENT,74.77,USD,Concert/Movie/Show in Arts District,2024-05-25,Arts District,entertainment
+exp1242,user_042,ACTIVITIES,96.4,USD,Tour/Adventure activity in Midtown,2024-05-26,Midtown,activities
+exp1243,user_043,ACCOMMODATION,179.37,USD,Hotel/Hostel in Plaza District,2024-05-27,Plaza District,travel
+exp1244,user_044,DINING,43.91,USD,Dining experience in Uptown,2024-05-28,Uptown,meal
+exp1245,user_045,DINING,79.57,USD,Dining experience in Downtown,2024-05-29,Downtown,meal
+exp1246,user_046,ACCOMMODATION,90.93,USD,Hotel/Hostel in Arts District,2024-05-30,Arts District,travel
+exp1247,user_047,SHOPPING,181.45,USD,Shopping in Suburban,2024-05-31,Suburban,shopping
+exp1248,user_048,NIGHTLIFE,26.83,USD,Bar/Club in Suburban,2024-06-01,Suburban,nightlife
+exp1249,user_049,SHOPPING,41.05,USD,Shopping in Chinatown,2024-06-02,Chinatown,shopping
+exp1250,user_050,ACCOMMODATION,290.96,USD,Hotel/Hostel in Arts District,2024-06-03,Arts District,travel
+exp1251,user_001,ACTIVITIES,86.84,USD,Tour/Adventure activity in Midtown,2024-06-04,Midtown,activities
+exp1252,user_002,TRANSPORT,43.68,USD,Taxi/Bus/Train rides in Old Town,2024-06-05,Old Town,travel
+exp1253,user_003,FOOD,37.9,USD,Lunch at restaurant in Arts District,2024-06-06,Arts District,meal
+exp1254,user_004,TRANSPORT,34.95,USD,Taxi/Bus/Train rides in Downtown,2024-06-07,Downtown,travel
+exp1255,user_005,ACTIVITIES,69.83,USD,Tour/Adventure activity in Old Town,2024-06-08,Old Town,activities
+exp1256,user_006,ACTIVITIES,45.87,USD,Tour/Adventure activity in Uptown,2024-06-09,Uptown,activities
+exp1257,user_007,DINING,51.52,USD,Dining experience in Beach Area,2024-06-10,Beach Area,meal
+exp1258,user_008,SHOPPING,41.67,USD,Shopping in Arts District,2024-06-11,Arts District,shopping
+exp1259,user_009,NIGHTLIFE,26.04,USD,Bar/Club in Midtown,2024-06-12,Midtown,nightlife
+exp1260,user_010,FOOD,60.95,USD,Street food in Midtown,2024-06-13,Midtown,meal
+exp1261,user_011,FOOD,64.61,USD,Street food in Beach Area,2024-06-14,Beach Area,meal
+exp1262,user_012,SHOPPING,30.43,USD,Shopping in Old Town,2024-06-15,Old Town,shopping
+exp1263,user_013,ENTERTAINMENT,49.11,USD,Concert/Movie/Show in Midtown,2024-06-16,Midtown,entertainment
+exp1264,user_014,FOOD,69.74,USD,Lunch at restaurant in Uptown,2024-06-17,Uptown,meal
+exp1265,user_015,NIGHTLIFE,36.34,USD,Bar/Club in Old Town,2024-06-18,Old Town,nightlife
+exp1266,user_016,TRANSPORT,8.54,USD,Taxi/Bus/Train rides in Harbor,2024-06-19,Harbor,travel
+exp1267,user_017,NIGHTLIFE,87.76,USD,Bar/Club in Downtown,2024-06-20,Downtown,nightlife
+exp1268,user_018,TRANSPORT,68.9,USD,Taxi/Bus/Train rides in Downtown,2024-06-21,Downtown,travel
+exp1269,user_019,DINING,73.01,USD,Dining experience in Chinatown,2024-06-22,Chinatown,meal
+exp1270,user_020,TRANSPORT,66.97,USD,Taxi/Bus/Train rides in Beach Area,2024-06-23,Beach Area,travel
+exp1271,user_021,ENTERTAINMENT,138.99,USD,Concert/Movie/Show in Downtown,2024-06-24,Downtown,entertainment
+exp1272,user_022,FOOD,9.78,USD,Coffee break in Uptown,2024-06-25,Uptown,meal
+exp1273,user_023,TRANSPORT,76.6,USD,Taxi/Bus/Train rides in Old Town,2024-06-26,Old Town,travel
+exp1274,user_024,DINING,50.56,USD,Dining experience in Beach Area,2024-06-27,Beach Area,meal
+exp1275,user_025,ENTERTAINMENT,66.28,USD,Concert/Movie/Show in Harbor,2024-06-28,Harbor,entertainment
+exp1276,user_026,DINING,43.96,USD,Dining experience in Uptown,2024-06-29,Uptown,meal
+exp1277,user_027,ACCOMMODATION,153.01,USD,Hotel/Hostel in Midtown,2024-06-30,Midtown,travel
+exp1278,user_028,FOOD,31.64,USD,Snack in Harbor,2024-07-01,Harbor,meal
+exp1279,user_029,SHOPPING,42.25,USD,Shopping in Harbor,2024-07-02,Harbor,shopping
+exp1280,user_030,FOOD,34.38,USD,Dinner at restaurant in Plaza District,2024-07-03,Plaza District,meal
+exp1281,user_031,NIGHTLIFE,98.34,USD,Bar/Club in Harbor,2024-07-04,Harbor,nightlife
+exp1282,user_032,ACTIVITIES,135.79,USD,Tour/Adventure activity in Beach Area,2024-07-05,Beach Area,activities
+exp1283,user_033,ACTIVITIES,153.4,USD,Tour/Adventure activity in Old Town,2024-07-06,Old Town,activities
+exp1284,user_034,SHOPPING,72.83,USD,Shopping in Suburban,2024-07-07,Suburban,shopping
+exp1285,user_035,ENTERTAINMENT,21.16,USD,Concert/Movie/Show in Harbor,2024-07-08,Harbor,entertainment
+exp1286,user_036,ACCOMMODATION,98.93,USD,Hotel/Hostel in Downtown,2024-07-09,Downtown,travel
+exp1287,user_037,FOOD,15.77,USD,Dessert in Suburban,2024-07-10,Suburban,meal
+exp1288,user_038,NIGHTLIFE,71.04,USD,Bar/Club in Uptown,2024-07-11,Uptown,nightlife
+exp1289,user_039,FOOD,65.91,USD,Dinner at restaurant in Old Town,2024-07-12,Old Town,meal
+exp1290,user_040,SHOPPING,195.16,USD,Shopping in Beach Area,2024-07-13,Beach Area,shopping
+exp1291,user_041,ACCOMMODATION,139.48,USD,Hotel/Hostel in Downtown,2024-07-14,Downtown,travel
+exp1292,user_042,DINING,76.17,USD,Dining experience in Harbor,2024-07-15,Harbor,meal
+exp1293,user_043,SHOPPING,43.14,USD,Shopping in Beach Area,2024-07-16,Beach Area,shopping
+exp1294,user_044,TRANSPORT,11.62,USD,Taxi/Bus/Train rides in Arts District,2024-07-17,Arts District,travel
+exp1295,user_045,ENTERTAINMENT,137.97,USD,Concert/Movie/Show in Arts District,2024-07-18,Arts District,entertainment
+exp1296,user_046,SHOPPING,108.37,USD,Shopping in Beach Area,2024-07-19,Beach Area,shopping
+exp1297,user_047,TRANSPORT,38.18,USD,Taxi/Bus/Train rides in Plaza District,2024-07-20,Plaza District,travel
+exp1298,user_048,SHOPPING,108.34,USD,Shopping in Suburban,2024-07-21,Suburban,shopping
+exp1299,user_049,ENTERTAINMENT,78.17,USD,Concert/Movie/Show in Chinatown,2024-07-22,Chinatown,entertainment
+exp1300,user_050,SHOPPING,149.45,USD,Shopping in Chinatown,2024-07-23,Chinatown,shopping
+exp1301,user_001,ENTERTAINMENT,82.44,USD,Concert/Movie/Show in Plaza District,2024-07-24,Plaza District,entertainment
+exp1302,user_002,DINING,74.61,USD,Dining experience in Arts District,2024-07-25,Arts District,meal
+exp1303,user_003,ENTERTAINMENT,23.83,USD,Concert/Movie/Show in Downtown,2024-07-26,Downtown,entertainment
+exp1304,user_004,ENTERTAINMENT,87.94,USD,Concert/Movie/Show in Midtown,2024-07-27,Midtown,entertainment
+exp1305,user_005,TRANSPORT,51.83,USD,Taxi/Bus/Train rides in Beach Area,2024-07-28,Beach Area,travel
+exp1306,user_006,SHOPPING,95.88,USD,Shopping in Harbor,2024-07-29,Harbor,shopping
+exp1307,user_007,DINING,74.17,USD,Dining experience in Uptown,2024-07-30,Uptown,meal
+exp1308,user_008,ACTIVITIES,142.32,USD,Tour/Adventure activity in Beach Area,2024-07-31,Beach Area,activities
+exp1309,user_009,ACCOMMODATION,156.82,USD,Hotel/Hostel in Arts District,2024-08-01,Arts District,travel
+exp1310,user_010,NIGHTLIFE,22.5,USD,Bar/Club in Arts District,2024-08-02,Arts District,nightlife
+exp1311,user_011,ENTERTAINMENT,43.49,USD,Concert/Movie/Show in Old Town,2024-08-03,Old Town,entertainment
+exp1312,user_012,ENTERTAINMENT,21.49,USD,Concert/Movie/Show in Harbor,2024-08-04,Harbor,entertainment
+exp1313,user_013,ACCOMMODATION,225.12,USD,Hotel/Hostel in Beach Area,2024-08-05,Beach Area,travel
+exp1314,user_014,ACCOMMODATION,132.34,USD,Hotel/Hostel in Beach Area,2024-08-06,Beach Area,travel
+exp1315,user_015,DINING,47.54,USD,Dining experience in Plaza District,2024-08-07,Plaza District,meal
+exp1316,user_016,ENTERTAINMENT,18.08,USD,Concert/Movie/Show in Downtown,2024-08-08,Downtown,entertainment
+exp1317,user_017,ENTERTAINMENT,54.59,USD,Concert/Movie/Show in Uptown,2024-08-09,Uptown,entertainment
+exp1318,user_018,ENTERTAINMENT,93.32,USD,Concert/Movie/Show in Uptown,2024-08-10,Uptown,entertainment
+exp1319,user_019,ENTERTAINMENT,125.32,USD,Concert/Movie/Show in Old Town,2024-08-11,Old Town,entertainment
+exp1320,user_020,ENTERTAINMENT,59.59,USD,Concert/Movie/Show in Midtown,2024-08-12,Midtown,entertainment
+exp1321,user_021,ACCOMMODATION,87.19,USD,Hotel/Hostel in Downtown,2024-08-13,Downtown,travel
+exp1322,user_022,NIGHTLIFE,27.14,USD,Bar/Club in Beach Area,2024-08-14,Beach Area,nightlife
+exp1323,user_023,DINING,27.1,USD,Dining experience in Plaza District,2024-08-15,Plaza District,meal
+exp1324,user_024,ENTERTAINMENT,21.69,USD,Concert/Movie/Show in Downtown,2024-08-16,Downtown,entertainment
+exp1325,user_025,SHOPPING,166.34,USD,Shopping in Chinatown,2024-08-17,Chinatown,shopping
+exp1326,user_026,ACCOMMODATION,173.41,USD,Hotel/Hostel in Downtown,2024-08-18,Downtown,travel
+exp1327,user_027,ENTERTAINMENT,125.9,USD,Concert/Movie/Show in Chinatown,2024-08-19,Chinatown,entertainment
+exp1328,user_028,ENTERTAINMENT,136.51,USD,Concert/Movie/Show in Downtown,2024-08-20,Downtown,entertainment
+exp1329,user_029,ENTERTAINMENT,54.79,USD,Concert/Movie/Show in Plaza District,2024-08-21,Plaza District,entertainment
+exp1330,user_030,NIGHTLIFE,40.95,USD,Bar/Club in Harbor,2024-08-22,Harbor,nightlife
+exp1331,user_031,SHOPPING,69.22,USD,Shopping in Beach Area,2024-08-23,Beach Area,shopping
+exp1332,user_032,FOOD,45.02,USD,Coffee break in Downtown,2024-08-24,Downtown,meal
+exp1333,user_033,DINING,95.64,USD,Dining experience in Old Town,2024-08-25,Old Town,meal
+exp1334,user_034,ACTIVITIES,56.62,USD,Tour/Adventure activity in Old Town,2024-08-26,Old Town,activities
+exp1335,user_035,NIGHTLIFE,42.68,USD,Bar/Club in Chinatown,2024-08-27,Chinatown,nightlife
+exp1336,user_036,TRANSPORT,39.31,USD,Taxi/Bus/Train rides in Uptown,2024-08-28,Uptown,travel
+exp1337,user_037,ACTIVITIES,180.83,USD,Tour/Adventure activity in Plaza District,2024-08-29,Plaza District,activities
+exp1338,user_038,DINING,56.92,USD,Dining experience in Plaza District,2024-08-30,Plaza District,meal
+exp1339,user_039,DINING,59.11,USD,Dining experience in Suburban,2024-08-31,Suburban,meal
+exp1340,user_040,DINING,56.45,USD,Dining experience in Downtown,2024-09-01,Downtown,meal
+exp1341,user_041,ACCOMMODATION,89.56,USD,Hotel/Hostel in Downtown,2024-09-02,Downtown,travel
+exp1342,user_042,ENTERTAINMENT,68.24,USD,Concert/Movie/Show in Chinatown,2024-09-03,Chinatown,entertainment
+exp1343,user_043,FOOD,8.79,USD,Snack in Midtown,2024-09-04,Midtown,meal
+exp1344,user_044,ACCOMMODATION,168.06,USD,Hotel/Hostel in Harbor,2024-09-05,Harbor,travel
+exp1345,user_045,ENTERTAINMENT,71.73,USD,Concert/Movie/Show in Harbor,2024-09-06,Harbor,entertainment
+exp1346,user_046,SHOPPING,134.95,USD,Shopping in Harbor,2024-09-07,Harbor,shopping
+exp1347,user_047,FOOD,12.72,USD,Dessert in Beach Area,2024-09-08,Beach Area,meal
+exp1348,user_048,DINING,31.07,USD,Dining experience in Downtown,2024-09-09,Downtown,meal
+exp1349,user_049,SHOPPING,89.87,USD,Shopping in Chinatown,2024-09-10,Chinatown,shopping
+exp1350,user_050,ACTIVITIES,179.87,USD,Tour/Adventure activity in Harbor,2024-09-11,Harbor,activities
+exp1351,user_001,NIGHTLIFE,69.68,USD,Bar/Club in Harbor,2024-09-12,Harbor,nightlife
+exp1352,user_002,ACCOMMODATION,296.5,USD,Hotel/Hostel in Arts District,2024-09-13,Arts District,travel
+exp1353,user_003,FOOD,32.69,USD,Dinner at restaurant in Midtown,2024-09-14,Midtown,meal
+exp1354,user_004,TRANSPORT,29.51,USD,Taxi/Bus/Train rides in Harbor,2024-09-15,Harbor,travel
+exp1355,user_005,SHOPPING,50.97,USD,Shopping in Old Town,2024-09-16,Old Town,shopping
+exp1356,user_006,FOOD,20.39,USD,Breakfast in Arts District,2024-09-17,Arts District,meal
+exp1357,user_007,FOOD,69.27,USD,Dinner at restaurant in Harbor,2024-09-18,Harbor,meal
+exp1358,user_008,NIGHTLIFE,68.06,USD,Bar/Club in Harbor,2024-09-19,Harbor,nightlife
+exp1359,user_009,ENTERTAINMENT,90.26,USD,Concert/Movie/Show in Old Town,2024-09-20,Old Town,entertainment
+exp1360,user_010,SHOPPING,183.5,USD,Shopping in Uptown,2024-09-21,Uptown,shopping
+exp1361,user_011,SHOPPING,67.59,USD,Shopping in Harbor,2024-09-22,Harbor,shopping
+exp1362,user_012,TRANSPORT,9.96,USD,Taxi/Bus/Train rides in Midtown,2024-09-23,Midtown,travel
+exp1363,user_013,FOOD,39.5,USD,Dessert in Uptown,2024-09-24,Uptown,meal
+exp1364,user_014,ACTIVITIES,135.43,USD,Tour/Adventure activity in Old Town,2024-09-25,Old Town,activities
+exp1365,user_015,TRANSPORT,76.78,USD,Taxi/Bus/Train rides in Old Town,2024-09-26,Old Town,travel
+exp1366,user_016,SHOPPING,103.11,USD,Shopping in Plaza District,2024-09-27,Plaza District,shopping
+exp1367,user_017,SHOPPING,27.84,USD,Shopping in Midtown,2024-09-28,Midtown,shopping
+exp1368,user_018,FOOD,76.5,USD,Snack in Chinatown,2024-09-29,Chinatown,meal
+exp1369,user_019,SHOPPING,132.13,USD,Shopping in Beach Area,2024-09-30,Beach Area,shopping
+exp1370,user_020,NIGHTLIFE,82.42,USD,Bar/Club in Downtown,2024-10-01,Downtown,nightlife
+exp1371,user_021,ENTERTAINMENT,113.08,USD,Concert/Movie/Show in Midtown,2024-10-02,Midtown,entertainment
+exp1372,user_022,FOOD,53.01,USD,Breakfast in Chinatown,2024-10-03,Chinatown,meal
+exp1373,user_023,DINING,69.31,USD,Dining experience in Old Town,2024-10-04,Old Town,meal
+exp1374,user_024,FOOD,72.11,USD,Café meal in Midtown,2024-10-05,Midtown,meal
+exp1375,user_025,FOOD,31.27,USD,Snack in Harbor,2024-10-06,Harbor,meal
+exp1376,user_026,ACTIVITIES,160.89,USD,Tour/Adventure activity in Arts District,2024-10-07,Arts District,activities
+exp1377,user_027,SHOPPING,42.52,USD,Shopping in Plaza District,2024-10-08,Plaza District,shopping
+exp1378,user_028,TRANSPORT,78.68,USD,Taxi/Bus/Train rides in Beach Area,2024-10-09,Beach Area,travel
+exp1379,user_029,ACTIVITIES,91.57,USD,Tour/Adventure activity in Harbor,2024-10-10,Harbor,activities
+exp1380,user_030,NIGHTLIFE,98.45,USD,Bar/Club in Beach Area,2024-10-11,Beach Area,nightlife
+exp1381,user_031,DINING,71.25,USD,Dining experience in Uptown,2024-10-12,Uptown,meal
+exp1382,user_032,DINING,47.35,USD,Dining experience in Midtown,2024-10-13,Midtown,meal
+exp1383,user_033,ENTERTAINMENT,46.18,USD,Concert/Movie/Show in Beach Area,2024-10-14,Beach Area,entertainment
+exp1384,user_034,NIGHTLIFE,95.97,USD,Bar/Club in Plaza District,2024-10-15,Plaza District,nightlife
+exp1385,user_035,DINING,65.78,USD,Dining experience in Downtown,2024-10-16,Downtown,meal
+exp1386,user_036,NIGHTLIFE,43.72,USD,Bar/Club in Arts District,2024-10-17,Arts District,nightlife
+exp1387,user_037,NIGHTLIFE,97.18,USD,Bar/Club in Suburban,2024-10-18,Suburban,nightlife
+exp1388,user_038,ENTERTAINMENT,88.99,USD,Concert/Movie/Show in Uptown,2024-10-19,Uptown,entertainment
+exp1389,user_039,ACCOMMODATION,71.94,USD,Hotel/Hostel in Uptown,2024-10-20,Uptown,travel
+exp1390,user_040,ACCOMMODATION,292.98,USD,Hotel/Hostel in Plaza District,2024-10-21,Plaza District,travel
+exp1391,user_041,ENTERTAINMENT,22.65,USD,Concert/Movie/Show in Harbor,2024-10-22,Harbor,entertainment
+exp1392,user_042,ENTERTAINMENT,101.26,USD,Concert/Movie/Show in Old Town,2024-10-23,Old Town,entertainment
+exp1393,user_043,DINING,37.95,USD,Dining experience in Downtown,2024-10-24,Downtown,meal
+exp1394,user_044,ACCOMMODATION,100.53,USD,Hotel/Hostel in Old Town,2024-10-25,Old Town,travel
+exp1395,user_045,TRANSPORT,6.1,USD,Taxi/Bus/Train rides in Downtown,2024-10-26,Downtown,travel
+exp1396,user_046,ACCOMMODATION,139.53,USD,Hotel/Hostel in Chinatown,2024-10-27,Chinatown,travel
+exp1397,user_047,ACTIVITIES,183.08,USD,Tour/Adventure activity in Old Town,2024-10-28,Old Town,activities
+exp1398,user_048,NIGHTLIFE,70.44,USD,Bar/Club in Suburban,2024-10-29,Suburban,nightlife
+exp1399,user_049,DINING,33.35,USD,Dining experience in Harbor,2024-10-30,Harbor,meal
+exp1400,user_050,NIGHTLIFE,25.43,USD,Bar/Club in Midtown,2024-10-31,Midtown,nightlife
+exp1401,user_001,SHOPPING,129.06,USD,Shopping in Harbor,2024-11-01,Harbor,shopping
+exp1402,user_002,FOOD,21.95,USD,Café meal in Downtown,2024-11-02,Downtown,meal
+exp1403,user_003,NIGHTLIFE,44.86,USD,Bar/Club in Harbor,2024-11-03,Harbor,nightlife
+exp1404,user_004,TRANSPORT,95.61,USD,Taxi/Bus/Train rides in Plaza District,2024-11-04,Plaza District,travel
+exp1405,user_005,ACCOMMODATION,279.09,USD,Hotel/Hostel in Suburban,2024-11-05,Suburban,travel
+exp1406,user_006,FOOD,19.68,USD,Snack in Downtown,2024-11-06,Downtown,meal
+exp1407,user_007,ACCOMMODATION,136.51,USD,Hotel/Hostel in Chinatown,2024-11-07,Chinatown,travel
+exp1408,user_008,ENTERTAINMENT,128.29,USD,Concert/Movie/Show in Suburban,2024-11-08,Suburban,entertainment
+exp1409,user_009,TRANSPORT,57.03,USD,Taxi/Bus/Train rides in Downtown,2024-11-09,Downtown,travel
+exp1410,user_010,ENTERTAINMENT,33.21,USD,Concert/Movie/Show in Chinatown,2024-11-10,Chinatown,entertainment
+exp1411,user_011,TRANSPORT,74.7,USD,Taxi/Bus/Train rides in Midtown,2024-11-11,Midtown,travel
+exp1412,user_012,FOOD,12.23,USD,Lunch at restaurant in Beach Area,2024-11-12,Beach Area,meal
+exp1413,user_013,SHOPPING,65.6,USD,Shopping in Suburban,2024-11-13,Suburban,shopping
+exp1414,user_014,TRANSPORT,23.59,USD,Taxi/Bus/Train rides in Harbor,2024-11-14,Harbor,travel
+exp1415,user_015,FOOD,74.34,USD,Street food in Chinatown,2024-11-15,Chinatown,meal
+exp1416,user_016,SHOPPING,55.72,USD,Shopping in Uptown,2024-11-16,Uptown,shopping
+exp1417,user_017,DINING,27.91,USD,Dining experience in Downtown,2024-11-17,Downtown,meal
+exp1418,user_018,TRANSPORT,22.67,USD,Taxi/Bus/Train rides in Plaza District,2024-11-18,Plaza District,travel
+exp1419,user_019,TRANSPORT,23.38,USD,Taxi/Bus/Train rides in Suburban,2024-11-19,Suburban,travel
+exp1420,user_020,TRANSPORT,20.77,USD,Taxi/Bus/Train rides in Old Town,2024-11-20,Old Town,travel
+exp1421,user_021,ACTIVITIES,180.12,USD,Tour/Adventure activity in Uptown,2024-11-21,Uptown,activities
+exp1422,user_022,FOOD,9.46,USD,Lunch at restaurant in Suburban,2024-11-22,Suburban,meal
+exp1423,user_023,NIGHTLIFE,53.63,USD,Bar/Club in Midtown,2024-11-23,Midtown,nightlife
+exp1424,user_024,TRANSPORT,42.98,USD,Taxi/Bus/Train rides in Uptown,2024-11-24,Uptown,travel
+exp1425,user_025,DINING,69.54,USD,Dining experience in Chinatown,2024-11-25,Chinatown,meal
+exp1426,user_026,TRANSPORT,19.65,USD,Taxi/Bus/Train rides in Beach Area,2024-11-26,Beach Area,travel
+exp1427,user_027,NIGHTLIFE,62.88,USD,Bar/Club in Arts District,2024-11-27,Arts District,nightlife
+exp1428,user_028,DINING,32.74,USD,Dining experience in Suburban,2024-11-28,Suburban,meal
+exp1429,user_029,TRANSPORT,43.27,USD,Taxi/Bus/Train rides in Old Town,2024-11-29,Old Town,travel
+exp1430,user_030,NIGHTLIFE,67.87,USD,Bar/Club in Harbor,2024-11-30,Harbor,nightlife
+exp1431,user_031,FOOD,37.49,USD,Breakfast in Downtown,2024-12-01,Downtown,meal
+exp1432,user_032,FOOD,9.11,USD,Street food in Beach Area,2024-12-02,Beach Area,meal
+exp1433,user_033,FOOD,60.21,USD,Snack in Beach Area,2024-12-03,Beach Area,meal
+exp1434,user_034,ACCOMMODATION,223.43,USD,Hotel/Hostel in Downtown,2024-12-04,Downtown,travel
+exp1435,user_035,FOOD,13.75,USD,Snack in Downtown,2024-12-05,Downtown,meal
+exp1436,user_036,NIGHTLIFE,96.38,USD,Bar/Club in Suburban,2024-12-06,Suburban,nightlife
+exp1437,user_037,DINING,41.87,USD,Dining experience in Plaza District,2024-12-07,Plaza District,meal
+exp1438,user_038,NIGHTLIFE,99.18,USD,Bar/Club in Midtown,2024-12-08,Midtown,nightlife
+exp1439,user_039,TRANSPORT,49.22,USD,Taxi/Bus/Train rides in Suburban,2024-12-09,Suburban,travel
+exp1440,user_040,FOOD,32.82,USD,Dinner at restaurant in Uptown,2024-12-10,Uptown,meal
+exp1441,user_041,NIGHTLIFE,92.56,USD,Bar/Club in Plaza District,2024-12-11,Plaza District,nightlife
+exp1442,user_042,NIGHTLIFE,59.16,USD,Bar/Club in Plaza District,2024-12-12,Plaza District,nightlife
+exp1443,user_043,ACTIVITIES,108.95,USD,Tour/Adventure activity in Midtown,2024-12-13,Midtown,activities
+exp1444,user_044,NIGHTLIFE,26.06,USD,Bar/Club in Old Town,2024-12-14,Old Town,nightlife
+exp1445,user_045,ACTIVITIES,59.93,USD,Tour/Adventure activity in Midtown,2024-12-15,Midtown,activities
+exp1446,user_046,NIGHTLIFE,61.72,USD,Bar/Club in Old Town,2024-12-16,Old Town,nightlife
+exp1447,user_047,NIGHTLIFE,60.08,USD,Bar/Club in Old Town,2024-12-17,Old Town,nightlife
+exp1448,user_048,ENTERTAINMENT,105.92,USD,Concert/Movie/Show in Beach Area,2024-12-18,Beach Area,entertainment
+exp1449,user_049,ACTIVITIES,149.28,USD,Tour/Adventure activity in Downtown,2024-12-19,Downtown,activities
+exp1450,user_050,DINING,94.47,USD,Dining experience in Old Town,2024-12-20,Old Town,meal
+exp1451,user_001,ACTIVITIES,42.97,USD,Tour/Adventure activity in Plaza District,2024-12-21,Plaza District,activities
+exp1452,user_002,ENTERTAINMENT,114.27,USD,Concert/Movie/Show in Plaza District,2024-12-22,Plaza District,entertainment
+exp1453,user_003,SHOPPING,153.07,USD,Shopping in Downtown,2024-12-23,Downtown,shopping
+exp1454,user_004,TRANSPORT,40.23,USD,Taxi/Bus/Train rides in Beach Area,2024-12-24,Beach Area,travel
+exp1455,user_005,TRANSPORT,30.92,USD,Taxi/Bus/Train rides in Old Town,2024-12-25,Old Town,travel
+exp1456,user_006,DINING,40.58,USD,Dining experience in Downtown,2024-12-26,Downtown,meal
+exp1457,user_007,ACTIVITIES,44.66,USD,Tour/Adventure activity in Arts District,2024-12-27,Arts District,activities
+exp1458,user_008,TRANSPORT,8.25,USD,Taxi/Bus/Train rides in Beach Area,2024-12-28,Beach Area,travel
+exp1459,user_009,ACCOMMODATION,170.81,USD,Hotel/Hostel in Beach Area,2024-12-29,Beach Area,travel
+exp1460,user_010,NIGHTLIFE,93.3,USD,Bar/Club in Downtown,2024-12-30,Downtown,nightlife
+exp1461,user_011,DINING,21.9,USD,Dining experience in Chinatown,2024-01-01,Chinatown,meal
+exp1462,user_012,FOOD,53.24,USD,Street food in Arts District,2024-01-02,Arts District,meal
+exp1463,user_013,FOOD,52.21,USD,Coffee break in Harbor,2024-01-03,Harbor,meal
+exp1464,user_014,FOOD,63.45,USD,Coffee break in Old Town,2024-01-04,Old Town,meal
+exp1465,user_015,FOOD,35.5,USD,Snack in Downtown,2024-01-05,Downtown,meal
+exp1466,user_016,ACCOMMODATION,258.17,USD,Hotel/Hostel in Old Town,2024-01-06,Old Town,travel
+exp1467,user_017,ACTIVITIES,93.56,USD,Tour/Adventure activity in Plaza District,2024-01-07,Plaza District,activities
+exp1468,user_018,NIGHTLIFE,29.61,USD,Bar/Club in Plaza District,2024-01-08,Plaza District,nightlife
+exp1469,user_019,DINING,20.16,USD,Dining experience in Chinatown,2024-01-09,Chinatown,meal
+exp1470,user_020,NIGHTLIFE,76.47,USD,Bar/Club in Arts District,2024-01-10,Arts District,nightlife
+exp1471,user_021,SHOPPING,98.2,USD,Shopping in Beach Area,2024-01-11,Beach Area,shopping
+exp1472,user_022,SHOPPING,131.45,USD,Shopping in Plaza District,2024-01-12,Plaza District,shopping
+exp1473,user_023,FOOD,64.42,USD,Dinner at restaurant in Arts District,2024-01-13,Arts District,meal
+exp1474,user_024,DINING,30.83,USD,Dining experience in Midtown,2024-01-14,Midtown,meal
+exp1475,user_025,SHOPPING,151.52,USD,Shopping in Midtown,2024-01-15,Midtown,shopping
+exp1476,user_026,DINING,61.97,USD,Dining experience in Suburban,2024-01-16,Suburban,meal
+exp1477,user_027,SHOPPING,154.71,USD,Shopping in Plaza District,2024-01-17,Plaza District,shopping
+exp1478,user_028,NIGHTLIFE,88.63,USD,Bar/Club in Beach Area,2024-01-18,Beach Area,nightlife
+exp1479,user_029,SHOPPING,161.14,USD,Shopping in Arts District,2024-01-19,Arts District,shopping
+exp1480,user_030,FOOD,15.02,USD,Lunch at restaurant in Suburban,2024-01-20,Suburban,meal
+exp1481,user_031,SHOPPING,70.39,USD,Shopping in Old Town,2024-01-21,Old Town,shopping
+exp1482,user_032,SHOPPING,118.51,USD,Shopping in Uptown,2024-01-22,Uptown,shopping
+exp1483,user_033,DINING,85.79,USD,Dining experience in Uptown,2024-01-23,Uptown,meal
+exp1484,user_034,ENTERTAINMENT,44.95,USD,Concert/Movie/Show in Suburban,2024-01-24,Suburban,entertainment
+exp1485,user_035,ENTERTAINMENT,63.83,USD,Concert/Movie/Show in Uptown,2024-01-25,Uptown,entertainment
+exp1486,user_036,ACTIVITIES,59.34,USD,Tour/Adventure activity in Arts District,2024-01-26,Arts District,activities
+exp1487,user_037,DINING,76.83,USD,Dining experience in Suburban,2024-01-27,Suburban,meal
+exp1488,user_038,TRANSPORT,75.14,USD,Taxi/Bus/Train rides in Arts District,2024-01-28,Arts District,travel
+exp1489,user_039,ACCOMMODATION,274.54,USD,Hotel/Hostel in Uptown,2024-01-29,Uptown,travel
+exp1490,user_040,NIGHTLIFE,52.0,USD,Bar/Club in Uptown,2024-01-30,Uptown,nightlife
+exp1491,user_041,ACTIVITIES,111.35,USD,Tour/Adventure activity in Old Town,2024-01-31,Old Town,activities
+exp1492,user_042,FOOD,68.37,USD,Lunch at restaurant in Suburban,2024-02-01,Suburban,meal
+exp1493,user_043,DINING,98.99,USD,Dining experience in Suburban,2024-02-02,Suburban,meal
+exp1494,user_044,ACTIVITIES,186.19,USD,Tour/Adventure activity in Midtown,2024-02-03,Midtown,activities
+exp1495,user_045,ACCOMMODATION,239.98,USD,Hotel/Hostel in Uptown,2024-02-04,Uptown,travel
+exp1496,user_046,ACTIVITIES,100.07,USD,Tour/Adventure activity in Arts District,2024-02-05,Arts District,activities
+exp1497,user_047,ENTERTAINMENT,69.28,USD,Concert/Movie/Show in Downtown,2024-02-06,Downtown,entertainment
+exp1498,user_048,NIGHTLIFE,24.06,USD,Bar/Club in Arts District,2024-02-07,Arts District,nightlife
+exp1499,user_049,ACTIVITIES,35.9,USD,Tour/Adventure activity in Harbor,2024-02-08,Harbor,activities
+exp1500,user_050,ENTERTAINMENT,87.41,USD,Concert/Movie/Show in Harbor,2024-02-09,Harbor,entertainment
+exp1501,user_001,DINING,42.32,USD,Dining experience in Midtown,2024-02-10,Midtown,meal
+exp1502,user_002,NIGHTLIFE,67.16,USD,Bar/Club in Downtown,2024-02-11,Downtown,nightlife
+exp1503,user_003,NIGHTLIFE,66.15,USD,Bar/Club in Downtown,2024-02-12,Downtown,nightlife
+exp1504,user_004,DINING,29.73,USD,Dining experience in Midtown,2024-02-13,Midtown,meal
+exp1505,user_005,DINING,24.65,USD,Dining experience in Midtown,2024-02-14,Midtown,meal
+exp1506,user_006,NIGHTLIFE,46.19,USD,Bar/Club in Arts District,2024-02-15,Arts District,nightlife
+exp1507,user_007,NIGHTLIFE,51.42,USD,Bar/Club in Old Town,2024-02-16,Old Town,nightlife
+exp1508,user_008,FOOD,16.08,USD,Dessert in Arts District,2024-02-17,Arts District,meal
+exp1509,user_009,ACCOMMODATION,169.37,USD,Hotel/Hostel in Midtown,2024-02-18,Midtown,travel
+exp1510,user_010,FOOD,14.53,USD,Snack in Midtown,2024-02-19,Midtown,meal
+exp1511,user_011,FOOD,70.58,USD,Lunch at restaurant in Suburban,2024-02-20,Suburban,meal
+exp1512,user_012,SHOPPING,60.61,USD,Shopping in Chinatown,2024-02-21,Chinatown,shopping
+exp1513,user_013,TRANSPORT,21.85,USD,Taxi/Bus/Train rides in Downtown,2024-02-22,Downtown,travel
+exp1514,user_014,ACTIVITIES,183.62,USD,Tour/Adventure activity in Harbor,2024-02-23,Harbor,activities
+exp1515,user_015,NIGHTLIFE,16.96,USD,Bar/Club in Plaza District,2024-02-24,Plaza District,nightlife
+exp1516,user_016,ACCOMMODATION,232.82,USD,Hotel/Hostel in Suburban,2024-02-25,Suburban,travel
+exp1517,user_017,TRANSPORT,19.4,USD,Taxi/Bus/Train rides in Old Town,2024-02-26,Old Town,travel
+exp1518,user_018,NIGHTLIFE,70.54,USD,Bar/Club in Uptown,2024-02-27,Uptown,nightlife
+exp1519,user_019,TRANSPORT,51.38,USD,Taxi/Bus/Train rides in Chinatown,2024-02-28,Chinatown,travel
+exp1520,user_020,ENTERTAINMENT,24.7,USD,Concert/Movie/Show in Arts District,2024-02-29,Arts District,entertainment
+exp1521,user_021,ACTIVITIES,81.97,USD,Tour/Adventure activity in Chinatown,2024-03-01,Chinatown,activities
+exp1522,user_022,DINING,63.08,USD,Dining experience in Suburban,2024-03-02,Suburban,meal
+exp1523,user_023,FOOD,75.14,USD,Dessert in Plaza District,2024-03-03,Plaza District,meal
+exp1524,user_024,ACTIVITIES,111.63,USD,Tour/Adventure activity in Old Town,2024-03-04,Old Town,activities
+exp1525,user_025,NIGHTLIFE,87.07,USD,Bar/Club in Old Town,2024-03-05,Old Town,nightlife
+exp1526,user_026,FOOD,37.89,USD,Dessert in Midtown,2024-03-06,Midtown,meal
+exp1527,user_027,ACTIVITIES,151.94,USD,Tour/Adventure activity in Arts District,2024-03-07,Arts District,activities
+exp1528,user_028,ACCOMMODATION,189.49,USD,Hotel/Hostel in Harbor,2024-03-08,Harbor,travel
+exp1529,user_029,ACTIVITIES,115.73,USD,Tour/Adventure activity in Chinatown,2024-03-09,Chinatown,activities
+exp1530,user_030,SHOPPING,38.48,USD,Shopping in Beach Area,2024-03-10,Beach Area,shopping
+exp1531,user_031,SHOPPING,39.06,USD,Shopping in Harbor,2024-03-11,Harbor,shopping
+exp1532,user_032,ACTIVITIES,187.54,USD,Tour/Adventure activity in Beach Area,2024-03-12,Beach Area,activities
+exp1533,user_033,FOOD,18.9,USD,Lunch at restaurant in Harbor,2024-03-13,Harbor,meal
+exp1534,user_034,SHOPPING,146.38,USD,Shopping in Harbor,2024-03-14,Harbor,shopping
+exp1535,user_035,DINING,32.92,USD,Dining experience in Harbor,2024-03-15,Harbor,meal
+exp1536,user_036,ACCOMMODATION,78.47,USD,Hotel/Hostel in Chinatown,2024-03-16,Chinatown,travel
+exp1537,user_037,ACTIVITIES,100.27,USD,Tour/Adventure activity in Midtown,2024-03-17,Midtown,activities
+exp1538,user_038,ENTERTAINMENT,16.53,USD,Concert/Movie/Show in Plaza District,2024-03-18,Plaza District,entertainment
+exp1539,user_039,TRANSPORT,27.58,USD,Taxi/Bus/Train rides in Old Town,2024-03-19,Old Town,travel
+exp1540,user_040,DINING,32.01,USD,Dining experience in Beach Area,2024-03-20,Beach Area,meal
+exp1541,user_041,ACCOMMODATION,81.28,USD,Hotel/Hostel in Harbor,2024-03-21,Harbor,travel
+exp1542,user_042,FOOD,45.99,USD,Street food in Plaza District,2024-03-22,Plaza District,meal
+exp1543,user_043,NIGHTLIFE,73.17,USD,Bar/Club in Uptown,2024-03-23,Uptown,nightlife
+exp1544,user_044,SHOPPING,36.47,USD,Shopping in Midtown,2024-03-24,Midtown,shopping
+exp1545,user_045,ACCOMMODATION,150.97,USD,Hotel/Hostel in Harbor,2024-03-25,Harbor,travel
+exp1546,user_046,FOOD,47.37,USD,Coffee break in Uptown,2024-03-26,Uptown,meal
+exp1547,user_047,ACTIVITIES,82.13,USD,Tour/Adventure activity in Old Town,2024-03-27,Old Town,activities
+exp1548,user_048,NIGHTLIFE,98.24,USD,Bar/Club in Suburban,2024-03-28,Suburban,nightlife
+exp1549,user_049,DINING,65.13,USD,Dining experience in Harbor,2024-03-29,Harbor,meal
+exp1550,user_050,ACCOMMODATION,154.25,USD,Hotel/Hostel in Plaza District,2024-03-30,Plaza District,travel
+exp1551,user_001,ENTERTAINMENT,31.69,USD,Concert/Movie/Show in Downtown,2024-03-31,Downtown,entertainment
+exp1552,user_002,ACCOMMODATION,91.56,USD,Hotel/Hostel in Chinatown,2024-04-01,Chinatown,travel
+exp1553,user_003,TRANSPORT,86.94,USD,Taxi/Bus/Train rides in Uptown,2024-04-02,Uptown,travel
+exp1554,user_004,NIGHTLIFE,88.18,USD,Bar/Club in Plaza District,2024-04-03,Plaza District,nightlife
+exp1555,user_005,SHOPPING,156.81,USD,Shopping in Downtown,2024-04-04,Downtown,shopping
+exp1556,user_006,NIGHTLIFE,50.48,USD,Bar/Club in Old Town,2024-04-05,Old Town,nightlife
+exp1557,user_007,ACCOMMODATION,218.7,USD,Hotel/Hostel in Beach Area,2024-04-06,Beach Area,travel
+exp1558,user_008,ACTIVITIES,139.25,USD,Tour/Adventure activity in Plaza District,2024-04-07,Plaza District,activities
+exp1559,user_009,TRANSPORT,12.56,USD,Taxi/Bus/Train rides in Suburban,2024-04-08,Suburban,travel
+exp1560,user_010,FOOD,69.26,USD,Dessert in Uptown,2024-04-09,Uptown,meal
+exp1561,user_011,SHOPPING,106.5,USD,Shopping in Old Town,2024-04-10,Old Town,shopping
+exp1562,user_012,FOOD,13.69,USD,Lunch at restaurant in Chinatown,2024-04-11,Chinatown,meal
+exp1563,user_013,SHOPPING,170.65,USD,Shopping in Arts District,2024-04-12,Arts District,shopping
+exp1564,user_014,SHOPPING,70.29,USD,Shopping in Old Town,2024-04-13,Old Town,shopping
+exp1565,user_015,DINING,44.88,USD,Dining experience in Plaza District,2024-04-14,Plaza District,meal
+exp1566,user_016,FOOD,72.97,USD,Lunch at restaurant in Plaza District,2024-04-15,Plaza District,meal
+exp1567,user_017,FOOD,38.85,USD,Breakfast in Midtown,2024-04-16,Midtown,meal
+exp1568,user_018,FOOD,14.19,USD,Snack in Uptown,2024-04-17,Uptown,meal
+exp1569,user_019,ACCOMMODATION,135.25,USD,Hotel/Hostel in Beach Area,2024-04-18,Beach Area,travel
+exp1570,user_020,ACTIVITIES,31.21,USD,Tour/Adventure activity in Midtown,2024-04-19,Midtown,activities
+exp1571,user_021,ACCOMMODATION,170.44,USD,Hotel/Hostel in Old Town,2024-04-20,Old Town,travel
+exp1572,user_022,ENTERTAINMENT,53.5,USD,Concert/Movie/Show in Uptown,2024-04-21,Uptown,entertainment
+exp1573,user_023,DINING,50.69,USD,Dining experience in Uptown,2024-04-22,Uptown,meal
+exp1574,user_024,ACTIVITIES,133.78,USD,Tour/Adventure activity in Midtown,2024-04-23,Midtown,activities
+exp1575,user_025,ACTIVITIES,141.15,USD,Tour/Adventure activity in Suburban,2024-04-24,Suburban,activities
+exp1576,user_026,ACTIVITIES,87.9,USD,Tour/Adventure activity in Plaza District,2024-04-25,Plaza District,activities
+exp1577,user_027,NIGHTLIFE,64.1,USD,Bar/Club in Midtown,2024-04-26,Midtown,nightlife
+exp1578,user_028,SHOPPING,153.35,USD,Shopping in Beach Area,2024-04-27,Beach Area,shopping
+exp1579,user_029,ACCOMMODATION,295.51,USD,Hotel/Hostel in Suburban,2024-04-28,Suburban,travel
+exp1580,user_030,SHOPPING,29.76,USD,Shopping in Old Town,2024-04-29,Old Town,shopping
+exp1581,user_031,DINING,40.44,USD,Dining experience in Plaza District,2024-04-30,Plaza District,meal
+exp1582,user_032,ACCOMMODATION,111.36,USD,Hotel/Hostel in Downtown,2024-05-01,Downtown,travel
+exp1583,user_033,ACTIVITIES,135.81,USD,Tour/Adventure activity in Harbor,2024-05-02,Harbor,activities
+exp1584,user_034,SHOPPING,83.62,USD,Shopping in Uptown,2024-05-03,Uptown,shopping
+exp1585,user_035,NIGHTLIFE,81.11,USD,Bar/Club in Old Town,2024-05-04,Old Town,nightlife
+exp1586,user_036,NIGHTLIFE,16.15,USD,Bar/Club in Downtown,2024-05-05,Downtown,nightlife
+exp1587,user_037,DINING,68.11,USD,Dining experience in Downtown,2024-05-06,Downtown,meal
+exp1588,user_038,NIGHTLIFE,92.35,USD,Bar/Club in Arts District,2024-05-07,Arts District,nightlife
+exp1589,user_039,SHOPPING,65.29,USD,Shopping in Harbor,2024-05-08,Harbor,shopping
+exp1590,user_040,SHOPPING,33.02,USD,Shopping in Uptown,2024-05-09,Uptown,shopping
+exp1591,user_041,FOOD,49.15,USD,Breakfast in Chinatown,2024-05-10,Chinatown,meal
+exp1592,user_042,DINING,39.26,USD,Dining experience in Old Town,2024-05-11,Old Town,meal
+exp1593,user_043,DINING,77.36,USD,Dining experience in Uptown,2024-05-12,Uptown,meal
+exp1594,user_044,FOOD,23.06,USD,Breakfast in Old Town,2024-05-13,Old Town,meal
+exp1595,user_045,TRANSPORT,53.66,USD,Taxi/Bus/Train rides in Harbor,2024-05-14,Harbor,travel
+exp1596,user_046,FOOD,51.78,USD,Coffee break in Beach Area,2024-05-15,Beach Area,meal
+exp1597,user_047,TRANSPORT,83.45,USD,Taxi/Bus/Train rides in Arts District,2024-05-16,Arts District,travel
+exp1598,user_048,DINING,90.83,USD,Dining experience in Chinatown,2024-05-17,Chinatown,meal
+exp1599,user_049,ACTIVITIES,112.74,USD,Tour/Adventure activity in Old Town,2024-05-18,Old Town,activities
+exp1600,user_050,ACTIVITIES,171.5,USD,Tour/Adventure activity in Midtown,2024-05-19,Midtown,activities
+exp1601,user_001,NIGHTLIFE,85.25,USD,Bar/Club in Beach Area,2024-05-20,Beach Area,nightlife
+exp1602,user_002,ACCOMMODATION,285.97,USD,Hotel/Hostel in Harbor,2024-05-21,Harbor,travel
+exp1603,user_003,DINING,68.2,USD,Dining experience in Suburban,2024-05-22,Suburban,meal
+exp1604,user_004,NIGHTLIFE,87.68,USD,Bar/Club in Midtown,2024-05-23,Midtown,nightlife
+exp1605,user_005,DINING,26.81,USD,Dining experience in Uptown,2024-05-24,Uptown,meal
+exp1606,user_006,DINING,66.47,USD,Dining experience in Beach Area,2024-05-25,Beach Area,meal
+exp1607,user_007,ENTERTAINMENT,32.48,USD,Concert/Movie/Show in Old Town,2024-05-26,Old Town,entertainment
+exp1608,user_008,DINING,71.72,USD,Dining experience in Beach Area,2024-05-27,Beach Area,meal
+exp1609,user_009,SHOPPING,163.71,USD,Shopping in Midtown,2024-05-28,Midtown,shopping
+exp1610,user_010,ACCOMMODATION,215.15,USD,Hotel/Hostel in Chinatown,2024-05-29,Chinatown,travel
+exp1611,user_011,ACCOMMODATION,109.05,USD,Hotel/Hostel in Old Town,2024-05-30,Old Town,travel
+exp1612,user_012,TRANSPORT,50.92,USD,Taxi/Bus/Train rides in Suburban,2024-05-31,Suburban,travel
+exp1613,user_013,DINING,45.41,USD,Dining experience in Beach Area,2024-06-01,Beach Area,meal
+exp1614,user_014,DINING,28.93,USD,Dining experience in Beach Area,2024-06-02,Beach Area,meal
+exp1615,user_015,ACTIVITIES,42.32,USD,Tour/Adventure activity in Uptown,2024-06-03,Uptown,activities
+exp1616,user_016,NIGHTLIFE,47.63,USD,Bar/Club in Plaza District,2024-06-04,Plaza District,nightlife
+exp1617,user_017,SHOPPING,131.45,USD,Shopping in Plaza District,2024-06-05,Plaza District,shopping
+exp1618,user_018,DINING,82.47,USD,Dining experience in Suburban,2024-06-06,Suburban,meal
+exp1619,user_019,ENTERTAINMENT,73.56,USD,Concert/Movie/Show in Midtown,2024-06-07,Midtown,entertainment
+exp1620,user_020,ENTERTAINMENT,87.7,USD,Concert/Movie/Show in Harbor,2024-06-08,Harbor,entertainment
+exp1621,user_021,ENTERTAINMENT,73.62,USD,Concert/Movie/Show in Beach Area,2024-06-09,Beach Area,entertainment
+exp1622,user_022,TRANSPORT,71.53,USD,Taxi/Bus/Train rides in Beach Area,2024-06-10,Beach Area,travel
+exp1623,user_023,TRANSPORT,62.79,USD,Taxi/Bus/Train rides in Uptown,2024-06-11,Uptown,travel
+exp1624,user_024,ENTERTAINMENT,140.27,USD,Concert/Movie/Show in Midtown,2024-06-12,Midtown,entertainment
+exp1625,user_025,TRANSPORT,22.56,USD,Taxi/Bus/Train rides in Harbor,2024-06-13,Harbor,travel
+exp1626,user_026,ACTIVITIES,177.81,USD,Tour/Adventure activity in Plaza District,2024-06-14,Plaza District,activities
+exp1627,user_027,FOOD,57.88,USD,Lunch at restaurant in Harbor,2024-06-15,Harbor,meal
+exp1628,user_028,ENTERTAINMENT,86.19,USD,Concert/Movie/Show in Chinatown,2024-06-16,Chinatown,entertainment
+exp1629,user_029,DINING,63.19,USD,Dining experience in Downtown,2024-06-17,Downtown,meal
+exp1630,user_030,DINING,52.78,USD,Dining experience in Midtown,2024-06-18,Midtown,meal
+exp1631,user_031,SHOPPING,198.85,USD,Shopping in Suburban,2024-06-19,Suburban,shopping
+exp1632,user_032,ENTERTAINMENT,35.13,USD,Concert/Movie/Show in Midtown,2024-06-20,Midtown,entertainment
+exp1633,user_033,SHOPPING,57.49,USD,Shopping in Harbor,2024-06-21,Harbor,shopping
+exp1634,user_034,FOOD,12.71,USD,Coffee break in Arts District,2024-06-22,Arts District,meal
+exp1635,user_035,TRANSPORT,35.1,USD,Taxi/Bus/Train rides in Arts District,2024-06-23,Arts District,travel
+exp1636,user_036,SHOPPING,31.64,USD,Shopping in Old Town,2024-06-24,Old Town,shopping
+exp1637,user_037,NIGHTLIFE,95.41,USD,Bar/Club in Uptown,2024-06-25,Uptown,nightlife
+exp1638,user_038,FOOD,55.67,USD,Street food in Downtown,2024-06-26,Downtown,meal
+exp1639,user_039,ACTIVITIES,149.38,USD,Tour/Adventure activity in Old Town,2024-06-27,Old Town,activities
+exp1640,user_040,ENTERTAINMENT,114.07,USD,Concert/Movie/Show in Downtown,2024-06-28,Downtown,entertainment
+exp1641,user_041,TRANSPORT,18.31,USD,Taxi/Bus/Train rides in Midtown,2024-06-29,Midtown,travel
+exp1642,user_042,SHOPPING,81.42,USD,Shopping in Beach Area,2024-06-30,Beach Area,shopping
+exp1643,user_043,SHOPPING,58.95,USD,Shopping in Chinatown,2024-07-01,Chinatown,shopping
+exp1644,user_044,FOOD,77.75,USD,Dessert in Midtown,2024-07-02,Midtown,meal
+exp1645,user_045,NIGHTLIFE,84.7,USD,Bar/Club in Arts District,2024-07-03,Arts District,nightlife
+exp1646,user_046,SHOPPING,125.31,USD,Shopping in Chinatown,2024-07-04,Chinatown,shopping
+exp1647,user_047,SHOPPING,180.6,USD,Shopping in Chinatown,2024-07-05,Chinatown,shopping
+exp1648,user_048,ACTIVITIES,26.16,USD,Tour/Adventure activity in Midtown,2024-07-06,Midtown,activities
+exp1649,user_049,ACCOMMODATION,217.26,USD,Hotel/Hostel in Arts District,2024-07-07,Arts District,travel
+exp1650,user_050,ACCOMMODATION,147.55,USD,Hotel/Hostel in Midtown,2024-07-08,Midtown,travel
+exp1651,user_001,DINING,69.32,USD,Dining experience in Arts District,2024-07-09,Arts District,meal
+exp1652,user_002,SHOPPING,192.26,USD,Shopping in Suburban,2024-07-10,Suburban,shopping
+exp1653,user_003,ACTIVITIES,131.16,USD,Tour/Adventure activity in Old Town,2024-07-11,Old Town,activities
+exp1654,user_004,FOOD,10.38,USD,Dinner at restaurant in Uptown,2024-07-12,Uptown,meal
+exp1655,user_005,ACCOMMODATION,295.09,USD,Hotel/Hostel in Midtown,2024-07-13,Midtown,travel
+exp1656,user_006,NIGHTLIFE,97.16,USD,Bar/Club in Downtown,2024-07-14,Downtown,nightlife
+exp1657,user_007,NIGHTLIFE,72.61,USD,Bar/Club in Uptown,2024-07-15,Uptown,nightlife
+exp1658,user_008,ENTERTAINMENT,44.88,USD,Concert/Movie/Show in Arts District,2024-07-16,Arts District,entertainment
+exp1659,user_009,ACCOMMODATION,275.19,USD,Hotel/Hostel in Chinatown,2024-07-17,Chinatown,travel
+exp1660,user_010,ACCOMMODATION,164.1,USD,Hotel/Hostel in Plaza District,2024-07-18,Plaza District,travel
+exp1661,user_011,ACCOMMODATION,74.35,USD,Hotel/Hostel in Uptown,2024-07-19,Uptown,travel
+exp1662,user_012,ACCOMMODATION,240.26,USD,Hotel/Hostel in Arts District,2024-07-20,Arts District,travel
+exp1663,user_013,ACCOMMODATION,70.11,USD,Hotel/Hostel in Beach Area,2024-07-21,Beach Area,travel
+exp1664,user_014,SHOPPING,194.81,USD,Shopping in Harbor,2024-07-22,Harbor,shopping
+exp1665,user_015,ACCOMMODATION,274.66,USD,Hotel/Hostel in Suburban,2024-07-23,Suburban,travel
+exp1666,user_016,NIGHTLIFE,35.51,USD,Bar/Club in Midtown,2024-07-24,Midtown,nightlife
+exp1667,user_017,TRANSPORT,55.62,USD,Taxi/Bus/Train rides in Arts District,2024-07-25,Arts District,travel
+exp1668,user_018,ENTERTAINMENT,125.84,USD,Concert/Movie/Show in Old Town,2024-07-26,Old Town,entertainment
+exp1669,user_019,FOOD,52.2,USD,Dessert in Midtown,2024-07-27,Midtown,meal
+exp1670,user_020,TRANSPORT,63.64,USD,Taxi/Bus/Train rides in Downtown,2024-07-28,Downtown,travel
+exp1671,user_021,ACTIVITIES,169.44,USD,Tour/Adventure activity in Midtown,2024-07-29,Midtown,activities
+exp1672,user_022,NIGHTLIFE,91.29,USD,Bar/Club in Old Town,2024-07-30,Old Town,nightlife
+exp1673,user_023,ACTIVITIES,116.28,USD,Tour/Adventure activity in Plaza District,2024-07-31,Plaza District,activities
+exp1674,user_024,TRANSPORT,48.35,USD,Taxi/Bus/Train rides in Uptown,2024-08-01,Uptown,travel
+exp1675,user_025,NIGHTLIFE,69.49,USD,Bar/Club in Chinatown,2024-08-02,Chinatown,nightlife
+exp1676,user_026,TRANSPORT,70.17,USD,Taxi/Bus/Train rides in Chinatown,2024-08-03,Chinatown,travel
+exp1677,user_027,ACCOMMODATION,174.59,USD,Hotel/Hostel in Harbor,2024-08-04,Harbor,travel
+exp1678,user_028,DINING,97.99,USD,Dining experience in Suburban,2024-08-05,Suburban,meal
+exp1679,user_029,ACCOMMODATION,100.31,USD,Hotel/Hostel in Old Town,2024-08-06,Old Town,travel
+exp1680,user_030,FOOD,39.59,USD,Street food in Old Town,2024-08-07,Old Town,meal
+exp1681,user_031,TRANSPORT,89.04,USD,Taxi/Bus/Train rides in Harbor,2024-08-08,Harbor,travel
+exp1682,user_032,ACCOMMODATION,70.18,USD,Hotel/Hostel in Uptown,2024-08-09,Uptown,travel
+exp1683,user_033,NIGHTLIFE,58.35,USD,Bar/Club in Plaza District,2024-08-10,Plaza District,nightlife
+exp1684,user_034,SHOPPING,66.57,USD,Shopping in Old Town,2024-08-11,Old Town,shopping
+exp1685,user_035,NIGHTLIFE,61.6,USD,Bar/Club in Uptown,2024-08-12,Uptown,nightlife
+exp1686,user_036,ACCOMMODATION,92.1,USD,Hotel/Hostel in Uptown,2024-08-13,Uptown,travel
+exp1687,user_037,ACTIVITIES,74.55,USD,Tour/Adventure activity in Beach Area,2024-08-14,Beach Area,activities
+exp1688,user_038,ACTIVITIES,67.57,USD,Tour/Adventure activity in Midtown,2024-08-15,Midtown,activities
+exp1689,user_039,SHOPPING,143.12,USD,Shopping in Harbor,2024-08-16,Harbor,shopping
+exp1690,user_040,ENTERTAINMENT,126.22,USD,Concert/Movie/Show in Uptown,2024-08-17,Uptown,entertainment
+exp1691,user_041,ENTERTAINMENT,20.12,USD,Concert/Movie/Show in Chinatown,2024-08-18,Chinatown,entertainment
+exp1692,user_042,DINING,86.26,USD,Dining experience in Beach Area,2024-08-19,Beach Area,meal
+exp1693,user_043,ACCOMMODATION,210.5,USD,Hotel/Hostel in Uptown,2024-08-20,Uptown,travel
+exp1694,user_044,ACCOMMODATION,157.54,USD,Hotel/Hostel in Suburban,2024-08-21,Suburban,travel
+exp1695,user_045,ACCOMMODATION,261.19,USD,Hotel/Hostel in Midtown,2024-08-22,Midtown,travel
+exp1696,user_046,SHOPPING,21.84,USD,Shopping in Suburban,2024-08-23,Suburban,shopping
+exp1697,user_047,SHOPPING,101.27,USD,Shopping in Arts District,2024-08-24,Arts District,shopping
+exp1698,user_048,ACCOMMODATION,109.4,USD,Hotel/Hostel in Downtown,2024-08-25,Downtown,travel
+exp1699,user_049,FOOD,57.98,USD,Coffee break in Uptown,2024-08-26,Uptown,meal
+exp1700,user_050,ENTERTAINMENT,68.94,USD,Concert/Movie/Show in Suburban,2024-08-27,Suburban,entertainment
+exp1701,user_001,ENTERTAINMENT,41.71,USD,Concert/Movie/Show in Beach Area,2024-08-28,Beach Area,entertainment
+exp1702,user_002,ACCOMMODATION,288.3,USD,Hotel/Hostel in Plaza District,2024-08-29,Plaza District,travel
+exp1703,user_003,DINING,59.44,USD,Dining experience in Uptown,2024-08-30,Uptown,meal
+exp1704,user_004,NIGHTLIFE,56.63,USD,Bar/Club in Harbor,2024-08-31,Harbor,nightlife
+exp1705,user_005,ACCOMMODATION,283.2,USD,Hotel/Hostel in Downtown,2024-09-01,Downtown,travel
+exp1706,user_006,ACCOMMODATION,241.8,USD,Hotel/Hostel in Harbor,2024-09-02,Harbor,travel
+exp1707,user_007,SHOPPING,96.38,USD,Shopping in Beach Area,2024-09-03,Beach Area,shopping
+exp1708,user_008,ACTIVITIES,164.28,USD,Tour/Adventure activity in Plaza District,2024-09-04,Plaza District,activities
+exp1709,user_009,DINING,26.44,USD,Dining experience in Chinatown,2024-09-05,Chinatown,meal
+exp1710,user_010,DINING,85.47,USD,Dining experience in Arts District,2024-09-06,Arts District,meal
+exp1711,user_011,DINING,97.91,USD,Dining experience in Plaza District,2024-09-07,Plaza District,meal
+exp1712,user_012,ACCOMMODATION,251.31,USD,Hotel/Hostel in Downtown,2024-09-08,Downtown,travel
+exp1713,user_013,NIGHTLIFE,47.2,USD,Bar/Club in Plaza District,2024-09-09,Plaza District,nightlife
+exp1714,user_014,TRANSPORT,58.3,USD,Taxi/Bus/Train rides in Arts District,2024-09-10,Arts District,travel
+exp1715,user_015,DINING,28.18,USD,Dining experience in Harbor,2024-09-11,Harbor,meal
+exp1716,user_016,ACTIVITIES,30.89,USD,Tour/Adventure activity in Midtown,2024-09-12,Midtown,activities
+exp1717,user_017,FOOD,45.94,USD,Café meal in Beach Area,2024-09-13,Beach Area,meal
+exp1718,user_018,ENTERTAINMENT,116.33,USD,Concert/Movie/Show in Suburban,2024-09-14,Suburban,entertainment
+exp1719,user_019,DINING,88.23,USD,Dining experience in Harbor,2024-09-15,Harbor,meal
+exp1720,user_020,SHOPPING,148.01,USD,Shopping in Beach Area,2024-09-16,Beach Area,shopping
+exp1721,user_021,SHOPPING,69.28,USD,Shopping in Harbor,2024-09-17,Harbor,shopping
+exp1722,user_022,SHOPPING,124.19,USD,Shopping in Suburban,2024-09-18,Suburban,shopping
+exp1723,user_023,ENTERTAINMENT,62.68,USD,Concert/Movie/Show in Uptown,2024-09-19,Uptown,entertainment
+exp1724,user_024,DINING,23.03,USD,Dining experience in Suburban,2024-09-20,Suburban,meal
+exp1725,user_025,ACCOMMODATION,90.36,USD,Hotel/Hostel in Chinatown,2024-09-21,Chinatown,travel
+exp1726,user_026,DINING,68.85,USD,Dining experience in Old Town,2024-09-22,Old Town,meal
+exp1727,user_027,TRANSPORT,99.75,USD,Taxi/Bus/Train rides in Harbor,2024-09-23,Harbor,travel
+exp1728,user_028,ENTERTAINMENT,48.78,USD,Concert/Movie/Show in Plaza District,2024-09-24,Plaza District,entertainment
+exp1729,user_029,DINING,97.91,USD,Dining experience in Plaza District,2024-09-25,Plaza District,meal
+exp1730,user_030,ACTIVITIES,80.5,USD,Tour/Adventure activity in Midtown,2024-09-26,Midtown,activities
+exp1731,user_031,ACTIVITIES,131.16,USD,Tour/Adventure activity in Plaza District,2024-09-27,Plaza District,activities
+exp1732,user_032,DINING,35.19,USD,Dining experience in Midtown,2024-09-28,Midtown,meal
+exp1733,user_033,TRANSPORT,41.9,USD,Taxi/Bus/Train rides in Old Town,2024-09-29,Old Town,travel
+exp1734,user_034,ACTIVITIES,98.04,USD,Tour/Adventure activity in Old Town,2024-09-30,Old Town,activities
+exp1735,user_035,FOOD,66.19,USD,Dessert in Plaza District,2024-10-01,Plaza District,meal
+exp1736,user_036,DINING,92.68,USD,Dining experience in Beach Area,2024-10-02,Beach Area,meal
+exp1737,user_037,ENTERTAINMENT,57.14,USD,Concert/Movie/Show in Beach Area,2024-10-03,Beach Area,entertainment
+exp1738,user_038,FOOD,47.98,USD,Café meal in Uptown,2024-10-04,Uptown,meal
+exp1739,user_039,TRANSPORT,45.67,USD,Taxi/Bus/Train rides in Midtown,2024-10-05,Midtown,travel
+exp1740,user_040,ACCOMMODATION,97.42,USD,Hotel/Hostel in Suburban,2024-10-06,Suburban,travel
+exp1741,user_041,FOOD,13.31,USD,Coffee break in Plaza District,2024-10-07,Plaza District,meal
+exp1742,user_042,NIGHTLIFE,67.81,USD,Bar/Club in Plaza District,2024-10-08,Plaza District,nightlife
+exp1743,user_043,NIGHTLIFE,86.45,USD,Bar/Club in Suburban,2024-10-09,Suburban,nightlife
+exp1744,user_044,SHOPPING,194.01,USD,Shopping in Chinatown,2024-10-10,Chinatown,shopping
+exp1745,user_045,ACTIVITIES,154.7,USD,Tour/Adventure activity in Beach Area,2024-10-11,Beach Area,activities
+exp1746,user_046,FOOD,43.16,USD,Snack in Arts District,2024-10-12,Arts District,meal
+exp1747,user_047,NIGHTLIFE,58.25,USD,Bar/Club in Suburban,2024-10-13,Suburban,nightlife
+exp1748,user_048,ENTERTAINMENT,114.4,USD,Concert/Movie/Show in Chinatown,2024-10-14,Chinatown,entertainment
+exp1749,user_049,ENTERTAINMENT,61.96,USD,Concert/Movie/Show in Arts District,2024-10-15,Arts District,entertainment
+exp1750,user_050,DINING,84.07,USD,Dining experience in Harbor,2024-10-16,Harbor,meal
+exp1751,user_001,SHOPPING,75.71,USD,Shopping in Suburban,2024-10-17,Suburban,shopping
+exp1752,user_002,DINING,34.63,USD,Dining experience in Old Town,2024-10-18,Old Town,meal
+exp1753,user_003,TRANSPORT,97.98,USD,Taxi/Bus/Train rides in Chinatown,2024-10-19,Chinatown,travel
+exp1754,user_004,FOOD,48.81,USD,Snack in Downtown,2024-10-20,Downtown,meal
+exp1755,user_005,ACTIVITIES,77.67,USD,Tour/Adventure activity in Plaza District,2024-10-21,Plaza District,activities
+exp1756,user_006,ACCOMMODATION,273.47,USD,Hotel/Hostel in Chinatown,2024-10-22,Chinatown,travel
+exp1757,user_007,ACTIVITIES,182.58,USD,Tour/Adventure activity in Plaza District,2024-10-23,Plaza District,activities
+exp1758,user_008,ACTIVITIES,143.7,USD,Tour/Adventure activity in Suburban,2024-10-24,Suburban,activities
+exp1759,user_009,SHOPPING,42.9,USD,Shopping in Plaza District,2024-10-25,Plaza District,shopping
+exp1760,user_010,FOOD,70.48,USD,Breakfast in Plaza District,2024-10-26,Plaza District,meal
+exp1761,user_011,NIGHTLIFE,66.78,USD,Bar/Club in Arts District,2024-10-27,Arts District,nightlife
+exp1762,user_012,ENTERTAINMENT,23.25,USD,Concert/Movie/Show in Downtown,2024-10-28,Downtown,entertainment
+exp1763,user_013,ACCOMMODATION,265.5,USD,Hotel/Hostel in Plaza District,2024-10-29,Plaza District,travel
+exp1764,user_014,SHOPPING,21.83,USD,Shopping in Downtown,2024-10-30,Downtown,shopping
+exp1765,user_015,DINING,51.83,USD,Dining experience in Midtown,2024-10-31,Midtown,meal
+exp1766,user_016,SHOPPING,150.31,USD,Shopping in Arts District,2024-11-01,Arts District,shopping
+exp1767,user_017,ACCOMMODATION,110.72,USD,Hotel/Hostel in Arts District,2024-11-02,Arts District,travel
+exp1768,user_018,ACCOMMODATION,65.65,USD,Hotel/Hostel in Beach Area,2024-11-03,Beach Area,travel
+exp1769,user_019,ACCOMMODATION,93.16,USD,Hotel/Hostel in Chinatown,2024-11-04,Chinatown,travel
+exp1770,user_020,DINING,59.93,USD,Dining experience in Uptown,2024-11-05,Uptown,meal
+exp1771,user_021,ACTIVITIES,162.65,USD,Tour/Adventure activity in Beach Area,2024-11-06,Beach Area,activities
+exp1772,user_022,ENTERTAINMENT,87.47,USD,Concert/Movie/Show in Old Town,2024-11-07,Old Town,entertainment
+exp1773,user_023,FOOD,17.3,USD,Breakfast in Uptown,2024-11-08,Uptown,meal
+exp1774,user_024,FOOD,10.82,USD,Dessert in Beach Area,2024-11-09,Beach Area,meal
+exp1775,user_025,DINING,27.36,USD,Dining experience in Uptown,2024-11-10,Uptown,meal
+exp1776,user_026,NIGHTLIFE,92.09,USD,Bar/Club in Downtown,2024-11-11,Downtown,nightlife
+exp1777,user_027,ACTIVITIES,143.22,USD,Tour/Adventure activity in Midtown,2024-11-12,Midtown,activities
+exp1778,user_028,TRANSPORT,6.59,USD,Taxi/Bus/Train rides in Uptown,2024-11-13,Uptown,travel
+exp1779,user_029,ENTERTAINMENT,74.38,USD,Concert/Movie/Show in Suburban,2024-11-14,Suburban,entertainment
+exp1780,user_030,DINING,31.14,USD,Dining experience in Downtown,2024-11-15,Downtown,meal
+exp1781,user_031,FOOD,48.28,USD,Lunch at restaurant in Plaza District,2024-11-16,Plaza District,meal
+exp1782,user_032,ACTIVITIES,100.43,USD,Tour/Adventure activity in Midtown,2024-11-17,Midtown,activities
+exp1783,user_033,DINING,35.45,USD,Dining experience in Old Town,2024-11-18,Old Town,meal
+exp1784,user_034,FOOD,31.02,USD,Coffee break in Midtown,2024-11-19,Midtown,meal
+exp1785,user_035,DINING,78.92,USD,Dining experience in Uptown,2024-11-20,Uptown,meal
+exp1786,user_036,DINING,79.01,USD,Dining experience in Uptown,2024-11-21,Uptown,meal
+exp1787,user_037,FOOD,78.96,USD,Breakfast in Downtown,2024-11-22,Downtown,meal
+exp1788,user_038,SHOPPING,168.23,USD,Shopping in Uptown,2024-11-23,Uptown,shopping
+exp1789,user_039,TRANSPORT,33.59,USD,Taxi/Bus/Train rides in Suburban,2024-11-24,Suburban,travel
+exp1790,user_040,FOOD,22.72,USD,Coffee break in Midtown,2024-11-25,Midtown,meal
+exp1791,user_041,NIGHTLIFE,18.65,USD,Bar/Club in Harbor,2024-11-26,Harbor,nightlife
+exp1792,user_042,FOOD,42.25,USD,Dinner at restaurant in Harbor,2024-11-27,Harbor,meal
+exp1793,user_043,TRANSPORT,55.74,USD,Taxi/Bus/Train rides in Downtown,2024-11-28,Downtown,travel
+exp1794,user_044,FOOD,79.94,USD,Lunch at restaurant in Chinatown,2024-11-29,Chinatown,meal
+exp1795,user_045,ACTIVITIES,113.14,USD,Tour/Adventure activity in Midtown,2024-11-30,Midtown,activities
+exp1796,user_046,ENTERTAINMENT,52.94,USD,Concert/Movie/Show in Downtown,2024-12-01,Downtown,entertainment
+exp1797,user_047,ENTERTAINMENT,15.79,USD,Concert/Movie/Show in Suburban,2024-12-02,Suburban,entertainment
+exp1798,user_048,SHOPPING,150.0,USD,Shopping in Uptown,2024-12-03,Uptown,shopping
+exp1799,user_049,SHOPPING,196.82,USD,Shopping in Old Town,2024-12-04,Old Town,shopping
+exp1800,user_050,TRANSPORT,65.67,USD,Taxi/Bus/Train rides in Beach Area,2024-12-05,Beach Area,travel
+exp1801,user_001,ACTIVITIES,83.96,USD,Tour/Adventure activity in Downtown,2024-12-06,Downtown,activities
+exp1802,user_002,SHOPPING,87.52,USD,Shopping in Midtown,2024-12-07,Midtown,shopping
+exp1803,user_003,SHOPPING,52.16,USD,Shopping in Plaza District,2024-12-08,Plaza District,shopping
+exp1804,user_004,SHOPPING,62.98,USD,Shopping in Downtown,2024-12-09,Downtown,shopping
+exp1805,user_005,DINING,87.96,USD,Dining experience in Uptown,2024-12-10,Uptown,meal
+exp1806,user_006,ACCOMMODATION,217.82,USD,Hotel/Hostel in Downtown,2024-12-11,Downtown,travel
+exp1807,user_007,ACTIVITIES,37.65,USD,Tour/Adventure activity in Arts District,2024-12-12,Arts District,activities
+exp1808,user_008,ACCOMMODATION,217.29,USD,Hotel/Hostel in Chinatown,2024-12-13,Chinatown,travel
+exp1809,user_009,TRANSPORT,88.56,USD,Taxi/Bus/Train rides in Midtown,2024-12-14,Midtown,travel
+exp1810,user_010,TRANSPORT,56.13,USD,Taxi/Bus/Train rides in Downtown,2024-12-15,Downtown,travel
+exp1811,user_011,FOOD,52.65,USD,Dinner at restaurant in Midtown,2024-12-16,Midtown,meal
+exp1812,user_012,TRANSPORT,71.97,USD,Taxi/Bus/Train rides in Midtown,2024-12-17,Midtown,travel
+exp1813,user_013,ACTIVITIES,90.8,USD,Tour/Adventure activity in Beach Area,2024-12-18,Beach Area,activities
+exp1814,user_014,DINING,51.56,USD,Dining experience in Suburban,2024-12-19,Suburban,meal
+exp1815,user_015,FOOD,77.67,USD,Street food in Midtown,2024-12-20,Midtown,meal
+exp1816,user_016,FOOD,46.59,USD,Lunch at restaurant in Downtown,2024-12-21,Downtown,meal
+exp1817,user_017,SHOPPING,181.55,USD,Shopping in Beach Area,2024-12-22,Beach Area,shopping
+exp1818,user_018,ACCOMMODATION,246.03,USD,Hotel/Hostel in Uptown,2024-12-23,Uptown,travel
+exp1819,user_019,ACCOMMODATION,65.59,USD,Hotel/Hostel in Beach Area,2024-12-24,Beach Area,travel
+exp1820,user_020,NIGHTLIFE,27.49,USD,Bar/Club in Arts District,2024-12-25,Arts District,nightlife
+exp1821,user_021,ACTIVITIES,182.05,USD,Tour/Adventure activity in Harbor,2024-12-26,Harbor,activities
+exp1822,user_022,TRANSPORT,33.06,USD,Taxi/Bus/Train rides in Old Town,2024-12-27,Old Town,travel
+exp1823,user_023,ACCOMMODATION,83.98,USD,Hotel/Hostel in Beach Area,2024-12-28,Beach Area,travel
+exp1824,user_024,ENTERTAINMENT,104.19,USD,Concert/Movie/Show in Downtown,2024-12-29,Downtown,entertainment
+exp1825,user_025,NIGHTLIFE,27.39,USD,Bar/Club in Suburban,2024-12-30,Suburban,nightlife
+exp1826,user_026,SHOPPING,195.17,USD,Shopping in Plaza District,2024-01-01,Plaza District,shopping
+exp1827,user_027,NIGHTLIFE,57.36,USD,Bar/Club in Harbor,2024-01-02,Harbor,nightlife
+exp1828,user_028,ACTIVITIES,188.09,USD,Tour/Adventure activity in Suburban,2024-01-03,Suburban,activities
+exp1829,user_029,FOOD,53.14,USD,Dinner at restaurant in Beach Area,2024-01-04,Beach Area,meal
+exp1830,user_030,ACCOMMODATION,82.28,USD,Hotel/Hostel in Downtown,2024-01-05,Downtown,travel
+exp1831,user_031,DINING,50.95,USD,Dining experience in Uptown,2024-01-06,Uptown,meal
+exp1832,user_032,SHOPPING,183.83,USD,Shopping in Arts District,2024-01-07,Arts District,shopping
+exp1833,user_033,SHOPPING,22.26,USD,Shopping in Beach Area,2024-01-08,Beach Area,shopping
+exp1834,user_034,ACCOMMODATION,136.28,USD,Hotel/Hostel in Plaza District,2024-01-09,Plaza District,travel
+exp1835,user_035,ACTIVITIES,62.62,USD,Tour/Adventure activity in Midtown,2024-01-10,Midtown,activities
+exp1836,user_036,FOOD,55.89,USD,Coffee break in Chinatown,2024-01-11,Chinatown,meal
+exp1837,user_037,TRANSPORT,79.48,USD,Taxi/Bus/Train rides in Downtown,2024-01-12,Downtown,travel
+exp1838,user_038,ACTIVITIES,89.06,USD,Tour/Adventure activity in Uptown,2024-01-13,Uptown,activities
+exp1839,user_039,DINING,91.05,USD,Dining experience in Harbor,2024-01-14,Harbor,meal
+exp1840,user_040,FOOD,66.39,USD,Snack in Harbor,2024-01-15,Harbor,meal
+exp1841,user_041,FOOD,40.87,USD,Snack in Uptown,2024-01-16,Uptown,meal
+exp1842,user_042,NIGHTLIFE,47.58,USD,Bar/Club in Chinatown,2024-01-17,Chinatown,nightlife
+exp1843,user_043,FOOD,38.46,USD,Street food in Plaza District,2024-01-18,Plaza District,meal
+exp1844,user_044,ACTIVITIES,108.18,USD,Tour/Adventure activity in Downtown,2024-01-19,Downtown,activities
+exp1845,user_045,DINING,76.63,USD,Dining experience in Suburban,2024-01-20,Suburban,meal
+exp1846,user_046,ACTIVITIES,119.0,USD,Tour/Adventure activity in Plaza District,2024-01-21,Plaza District,activities
+exp1847,user_047,TRANSPORT,12.44,USD,Taxi/Bus/Train rides in Beach Area,2024-01-22,Beach Area,travel
+exp1848,user_048,SHOPPING,52.44,USD,Shopping in Beach Area,2024-01-23,Beach Area,shopping
+exp1849,user_049,ACTIVITIES,156.77,USD,Tour/Adventure activity in Harbor,2024-01-24,Harbor,activities
+exp1850,user_050,TRANSPORT,84.78,USD,Taxi/Bus/Train rides in Arts District,2024-01-25,Arts District,travel
+exp1851,user_001,TRANSPORT,48.31,USD,Taxi/Bus/Train rides in Old Town,2024-01-26,Old Town,travel
+exp1852,user_002,ENTERTAINMENT,84.72,USD,Concert/Movie/Show in Midtown,2024-01-27,Midtown,entertainment
+exp1853,user_003,ACTIVITIES,148.44,USD,Tour/Adventure activity in Uptown,2024-01-28,Uptown,activities
+exp1854,user_004,ACCOMMODATION,189.06,USD,Hotel/Hostel in Suburban,2024-01-29,Suburban,travel
+exp1855,user_005,FOOD,64.79,USD,Café meal in Uptown,2024-01-30,Uptown,meal
+exp1856,user_006,ENTERTAINMENT,109.76,USD,Concert/Movie/Show in Suburban,2024-01-31,Suburban,entertainment
+exp1857,user_007,FOOD,21.32,USD,Breakfast in Harbor,2024-02-01,Harbor,meal
+exp1858,user_008,ACTIVITIES,43.18,USD,Tour/Adventure activity in Downtown,2024-02-02,Downtown,activities
+exp1859,user_009,FOOD,30.09,USD,Café meal in Midtown,2024-02-03,Midtown,meal
+exp1860,user_010,SHOPPING,77.55,USD,Shopping in Arts District,2024-02-04,Arts District,shopping
+exp1861,user_011,TRANSPORT,44.21,USD,Taxi/Bus/Train rides in Suburban,2024-02-05,Suburban,travel
+exp1862,user_012,DINING,27.52,USD,Dining experience in Uptown,2024-02-06,Uptown,meal
+exp1863,user_013,TRANSPORT,10.53,USD,Taxi/Bus/Train rides in Suburban,2024-02-07,Suburban,travel
+exp1864,user_014,ACCOMMODATION,235.54,USD,Hotel/Hostel in Beach Area,2024-02-08,Beach Area,travel
+exp1865,user_015,DINING,88.51,USD,Dining experience in Midtown,2024-02-09,Midtown,meal
+exp1866,user_016,ACTIVITIES,140.85,USD,Tour/Adventure activity in Old Town,2024-02-10,Old Town,activities
+exp1867,user_017,ENTERTAINMENT,120.07,USD,Concert/Movie/Show in Old Town,2024-02-11,Old Town,entertainment
+exp1868,user_018,TRANSPORT,8.87,USD,Taxi/Bus/Train rides in Arts District,2024-02-12,Arts District,travel
+exp1869,user_019,DINING,94.39,USD,Dining experience in Midtown,2024-02-13,Midtown,meal
+exp1870,user_020,TRANSPORT,71.31,USD,Taxi/Bus/Train rides in Arts District,2024-02-14,Arts District,travel
+exp1871,user_021,TRANSPORT,66.27,USD,Taxi/Bus/Train rides in Chinatown,2024-02-15,Chinatown,travel
+exp1872,user_022,SHOPPING,28.71,USD,Shopping in Uptown,2024-02-16,Uptown,shopping
+exp1873,user_023,ACTIVITIES,151.28,USD,Tour/Adventure activity in Uptown,2024-02-17,Uptown,activities
+exp1874,user_024,DINING,81.52,USD,Dining experience in Downtown,2024-02-18,Downtown,meal
+exp1875,user_025,DINING,59.38,USD,Dining experience in Uptown,2024-02-19,Uptown,meal
+exp1876,user_026,ACTIVITIES,114.66,USD,Tour/Adventure activity in Plaza District,2024-02-20,Plaza District,activities
+exp1877,user_027,ACCOMMODATION,108.7,USD,Hotel/Hostel in Beach Area,2024-02-21,Beach Area,travel
+exp1878,user_028,NIGHTLIFE,49.08,USD,Bar/Club in Downtown,2024-02-22,Downtown,nightlife
+exp1879,user_029,TRANSPORT,24.96,USD,Taxi/Bus/Train rides in Chinatown,2024-02-23,Chinatown,travel
+exp1880,user_030,ENTERTAINMENT,124.67,USD,Concert/Movie/Show in Plaza District,2024-02-24,Plaza District,entertainment
+exp1881,user_031,DINING,82.89,USD,Dining experience in Arts District,2024-02-25,Arts District,meal
+exp1882,user_032,ACCOMMODATION,88.55,USD,Hotel/Hostel in Downtown,2024-02-26,Downtown,travel
+exp1883,user_033,TRANSPORT,81.19,USD,Taxi/Bus/Train rides in Uptown,2024-02-27,Uptown,travel
+exp1884,user_034,NIGHTLIFE,58.65,USD,Bar/Club in Arts District,2024-02-28,Arts District,nightlife
+exp1885,user_035,SHOPPING,109.54,USD,Shopping in Beach Area,2024-02-29,Beach Area,shopping
+exp1886,user_036,TRANSPORT,28.81,USD,Taxi/Bus/Train rides in Old Town,2024-03-01,Old Town,travel
+exp1887,user_037,FOOD,37.83,USD,Coffee break in Midtown,2024-03-02,Midtown,meal
+exp1888,user_038,SHOPPING,60.08,USD,Shopping in Harbor,2024-03-03,Harbor,shopping
+exp1889,user_039,FOOD,75.79,USD,Snack in Arts District,2024-03-04,Arts District,meal
+exp1890,user_040,TRANSPORT,12.54,USD,Taxi/Bus/Train rides in Arts District,2024-03-05,Arts District,travel
+exp1891,user_041,TRANSPORT,37.16,USD,Taxi/Bus/Train rides in Plaza District,2024-03-06,Plaza District,travel
+exp1892,user_042,ENTERTAINMENT,123.69,USD,Concert/Movie/Show in Beach Area,2024-03-07,Beach Area,entertainment
+exp1893,user_043,ACCOMMODATION,79.37,USD,Hotel/Hostel in Uptown,2024-03-08,Uptown,travel
+exp1894,user_044,FOOD,26.52,USD,Café meal in Arts District,2024-03-09,Arts District,meal
+exp1895,user_045,DINING,99.94,USD,Dining experience in Harbor,2024-03-10,Harbor,meal
+exp1896,user_046,ENTERTAINMENT,51.9,USD,Concert/Movie/Show in Harbor,2024-03-11,Harbor,entertainment
+exp1897,user_047,DINING,30.57,USD,Dining experience in Harbor,2024-03-12,Harbor,meal
+exp1898,user_048,ACCOMMODATION,262.69,USD,Hotel/Hostel in Suburban,2024-03-13,Suburban,travel
+exp1899,user_049,ACTIVITIES,192.22,USD,Tour/Adventure activity in Plaza District,2024-03-14,Plaza District,activities
+exp1900,user_050,ENTERTAINMENT,79.03,USD,Concert/Movie/Show in Arts District,2024-03-15,Arts District,entertainment
+exp1901,user_001,TRANSPORT,96.31,USD,Taxi/Bus/Train rides in Chinatown,2024-03-16,Chinatown,travel
+exp1902,user_002,TRANSPORT,18.95,USD,Taxi/Bus/Train rides in Old Town,2024-03-17,Old Town,travel
+exp1903,user_003,TRANSPORT,23.52,USD,Taxi/Bus/Train rides in Midtown,2024-03-18,Midtown,travel
+exp1904,user_004,ENTERTAINMENT,133.78,USD,Concert/Movie/Show in Downtown,2024-03-19,Downtown,entertainment
+exp1905,user_005,SHOPPING,140.09,USD,Shopping in Old Town,2024-03-20,Old Town,shopping
+exp1906,user_006,ENTERTAINMENT,123.56,USD,Concert/Movie/Show in Uptown,2024-03-21,Uptown,entertainment
+exp1907,user_007,TRANSPORT,18.63,USD,Taxi/Bus/Train rides in Chinatown,2024-03-22,Chinatown,travel
+exp1908,user_008,ACTIVITIES,44.21,USD,Tour/Adventure activity in Beach Area,2024-03-23,Beach Area,activities
+exp1909,user_009,SHOPPING,39.17,USD,Shopping in Harbor,2024-03-24,Harbor,shopping
+exp1910,user_010,ACTIVITIES,87.47,USD,Tour/Adventure activity in Downtown,2024-03-25,Downtown,activities
+exp1911,user_011,ACCOMMODATION,182.15,USD,Hotel/Hostel in Beach Area,2024-03-26,Beach Area,travel
+exp1912,user_012,TRANSPORT,99.02,USD,Taxi/Bus/Train rides in Suburban,2024-03-27,Suburban,travel
+exp1913,user_013,ACCOMMODATION,145.28,USD,Hotel/Hostel in Downtown,2024-03-28,Downtown,travel
+exp1914,user_014,ACCOMMODATION,186.75,USD,Hotel/Hostel in Beach Area,2024-03-29,Beach Area,travel
+exp1915,user_015,FOOD,61.79,USD,Coffee break in Harbor,2024-03-30,Harbor,meal
+exp1916,user_016,TRANSPORT,87.14,USD,Taxi/Bus/Train rides in Harbor,2024-03-31,Harbor,travel
+exp1917,user_017,FOOD,77.12,USD,Dinner at restaurant in Uptown,2024-04-01,Uptown,meal
+exp1918,user_018,ENTERTAINMENT,63.57,USD,Concert/Movie/Show in Harbor,2024-04-02,Harbor,entertainment
+exp1919,user_019,TRANSPORT,82.41,USD,Taxi/Bus/Train rides in Chinatown,2024-04-03,Chinatown,travel
+exp1920,user_020,ACTIVITIES,163.59,USD,Tour/Adventure activity in Downtown,2024-04-04,Downtown,activities
+exp1921,user_021,ENTERTAINMENT,105.59,USD,Concert/Movie/Show in Chinatown,2024-04-05,Chinatown,entertainment
+exp1922,user_022,NIGHTLIFE,90.61,USD,Bar/Club in Old Town,2024-04-06,Old Town,nightlife
+exp1923,user_023,NIGHTLIFE,17.72,USD,Bar/Club in Suburban,2024-04-07,Suburban,nightlife
+exp1924,user_024,DINING,47.87,USD,Dining experience in Midtown,2024-04-08,Midtown,meal
+exp1925,user_025,FOOD,63.07,USD,Lunch at restaurant in Old Town,2024-04-09,Old Town,meal
+exp1926,user_026,ACCOMMODATION,74.55,USD,Hotel/Hostel in Chinatown,2024-04-10,Chinatown,travel
+exp1927,user_027,SHOPPING,63.54,USD,Shopping in Beach Area,2024-04-11,Beach Area,shopping
+exp1928,user_028,DINING,91.81,USD,Dining experience in Uptown,2024-04-12,Uptown,meal
+exp1929,user_029,ACTIVITIES,63.66,USD,Tour/Adventure activity in Harbor,2024-04-13,Harbor,activities
+exp1930,user_030,ACCOMMODATION,130.39,USD,Hotel/Hostel in Suburban,2024-04-14,Suburban,travel
+exp1931,user_031,ENTERTAINMENT,130.53,USD,Concert/Movie/Show in Chinatown,2024-04-15,Chinatown,entertainment
+exp1932,user_032,ACCOMMODATION,191.45,USD,Hotel/Hostel in Beach Area,2024-04-16,Beach Area,travel
+exp1933,user_033,ACTIVITIES,110.2,USD,Tour/Adventure activity in Midtown,2024-04-17,Midtown,activities
+exp1934,user_034,ACCOMMODATION,252.85,USD,Hotel/Hostel in Midtown,2024-04-18,Midtown,travel
+exp1935,user_035,TRANSPORT,99.57,USD,Taxi/Bus/Train rides in Plaza District,2024-04-19,Plaza District,travel
+exp1936,user_036,ENTERTAINMENT,60.55,USD,Concert/Movie/Show in Beach Area,2024-04-20,Beach Area,entertainment
+exp1937,user_037,SHOPPING,116.09,USD,Shopping in Harbor,2024-04-21,Harbor,shopping
+exp1938,user_038,ACCOMMODATION,192.92,USD,Hotel/Hostel in Old Town,2024-04-22,Old Town,travel
+exp1939,user_039,ACTIVITIES,63.55,USD,Tour/Adventure activity in Downtown,2024-04-23,Downtown,activities
+exp1940,user_040,SHOPPING,52.04,USD,Shopping in Harbor,2024-04-24,Harbor,shopping
+exp1941,user_041,ACCOMMODATION,228.02,USD,Hotel/Hostel in Old Town,2024-04-25,Old Town,travel
+exp1942,user_042,ACTIVITIES,130.59,USD,Tour/Adventure activity in Arts District,2024-04-26,Arts District,activities
+exp1943,user_043,ACCOMMODATION,281.27,USD,Hotel/Hostel in Midtown,2024-04-27,Midtown,travel
+exp1944,user_044,SHOPPING,78.09,USD,Shopping in Harbor,2024-04-28,Harbor,shopping
+exp1945,user_045,NIGHTLIFE,72.56,USD,Bar/Club in Beach Area,2024-04-29,Beach Area,nightlife
+exp1946,user_046,NIGHTLIFE,69.86,USD,Bar/Club in Suburban,2024-04-30,Suburban,nightlife
+exp1947,user_047,ACCOMMODATION,293.99,USD,Hotel/Hostel in Downtown,2024-05-01,Downtown,travel
+exp1948,user_048,SHOPPING,144.94,USD,Shopping in Old Town,2024-05-02,Old Town,shopping
+exp1949,user_049,ACCOMMODATION,188.92,USD,Hotel/Hostel in Suburban,2024-05-03,Suburban,travel
+exp1950,user_050,SHOPPING,96.85,USD,Shopping in Uptown,2024-05-04,Uptown,shopping
+exp1951,user_001,NIGHTLIFE,95.8,USD,Bar/Club in Downtown,2024-05-05,Downtown,nightlife
+exp1952,user_002,ACTIVITIES,165.52,USD,Tour/Adventure activity in Old Town,2024-05-06,Old Town,activities
+exp1953,user_003,ACCOMMODATION,185.91,USD,Hotel/Hostel in Arts District,2024-05-07,Arts District,travel
+exp1954,user_004,ACCOMMODATION,178.95,USD,Hotel/Hostel in Arts District,2024-05-08,Arts District,travel
+exp1955,user_005,ACCOMMODATION,63.15,USD,Hotel/Hostel in Suburban,2024-05-09,Suburban,travel
+exp1956,user_006,ENTERTAINMENT,91.64,USD,Concert/Movie/Show in Arts District,2024-05-10,Arts District,entertainment
+exp1957,user_007,DINING,65.03,USD,Dining experience in Arts District,2024-05-11,Arts District,meal
+exp1958,user_008,ACCOMMODATION,220.72,USD,Hotel/Hostel in Plaza District,2024-05-12,Plaza District,travel
+exp1959,user_009,ACCOMMODATION,228.11,USD,Hotel/Hostel in Old Town,2024-05-13,Old Town,travel
+exp1960,user_010,TRANSPORT,23.34,USD,Taxi/Bus/Train rides in Old Town,2024-05-14,Old Town,travel
+exp1961,user_011,TRANSPORT,20.92,USD,Taxi/Bus/Train rides in Plaza District,2024-05-15,Plaza District,travel
+exp1962,user_012,FOOD,29.75,USD,Lunch at restaurant in Beach Area,2024-05-16,Beach Area,meal
+exp1963,user_013,DINING,72.86,USD,Dining experience in Harbor,2024-05-17,Harbor,meal
+exp1964,user_014,SHOPPING,40.77,USD,Shopping in Harbor,2024-05-18,Harbor,shopping
+exp1965,user_015,FOOD,29.93,USD,Street food in Arts District,2024-05-19,Arts District,meal
+exp1966,user_016,DINING,72.27,USD,Dining experience in Chinatown,2024-05-20,Chinatown,meal
+exp1967,user_017,ACTIVITIES,136.76,USD,Tour/Adventure activity in Beach Area,2024-05-21,Beach Area,activities
+exp1968,user_018,ENTERTAINMENT,56.05,USD,Concert/Movie/Show in Old Town,2024-05-22,Old Town,entertainment
+exp1969,user_019,TRANSPORT,22.86,USD,Taxi/Bus/Train rides in Downtown,2024-05-23,Downtown,travel
+exp1970,user_020,DINING,42.8,USD,Dining experience in Chinatown,2024-05-24,Chinatown,meal
+exp1971,user_021,SHOPPING,173.59,USD,Shopping in Chinatown,2024-05-25,Chinatown,shopping
+exp1972,user_022,ACTIVITIES,85.53,USD,Tour/Adventure activity in Chinatown,2024-05-26,Chinatown,activities
+exp1973,user_023,ENTERTAINMENT,98.53,USD,Concert/Movie/Show in Beach Area,2024-05-27,Beach Area,entertainment
+exp1974,user_024,DINING,69.65,USD,Dining experience in Harbor,2024-05-28,Harbor,meal
+exp1975,user_025,ENTERTAINMENT,28.87,USD,Concert/Movie/Show in Arts District,2024-05-29,Arts District,entertainment
+exp1976,user_026,ENTERTAINMENT,67.92,USD,Concert/Movie/Show in Beach Area,2024-05-30,Beach Area,entertainment
+exp1977,user_027,TRANSPORT,32.03,USD,Taxi/Bus/Train rides in Harbor,2024-05-31,Harbor,travel
+exp1978,user_028,NIGHTLIFE,25.39,USD,Bar/Club in Harbor,2024-06-01,Harbor,nightlife
+exp1979,user_029,TRANSPORT,9.06,USD,Taxi/Bus/Train rides in Uptown,2024-06-02,Uptown,travel
+exp1980,user_030,ENTERTAINMENT,136.82,USD,Concert/Movie/Show in Old Town,2024-06-03,Old Town,entertainment
+exp1981,user_031,NIGHTLIFE,86.77,USD,Bar/Club in Uptown,2024-06-04,Uptown,nightlife
+exp1982,user_032,TRANSPORT,53.67,USD,Taxi/Bus/Train rides in Suburban,2024-06-05,Suburban,travel
+exp1983,user_033,ACCOMMODATION,145.82,USD,Hotel/Hostel in Downtown,2024-06-06,Downtown,travel
+exp1984,user_034,DINING,88.65,USD,Dining experience in Harbor,2024-06-07,Harbor,meal
+exp1985,user_035,DINING,72.09,USD,Dining experience in Plaza District,2024-06-08,Plaza District,meal
+exp1986,user_036,ACCOMMODATION,108.87,USD,Hotel/Hostel in Old Town,2024-06-09,Old Town,travel
+exp1987,user_037,ACTIVITIES,61.89,USD,Tour/Adventure activity in Suburban,2024-06-10,Suburban,activities
+exp1988,user_038,SHOPPING,150.99,USD,Shopping in Suburban,2024-06-11,Suburban,shopping
+exp1989,user_039,NIGHTLIFE,51.27,USD,Bar/Club in Suburban,2024-06-12,Suburban,nightlife
+exp1990,user_040,NIGHTLIFE,98.17,USD,Bar/Club in Suburban,2024-06-13,Suburban,nightlife
+exp1991,user_041,ENTERTAINMENT,73.51,USD,Concert/Movie/Show in Downtown,2024-06-14,Downtown,entertainment
+exp1992,user_042,ENTERTAINMENT,42.09,USD,Concert/Movie/Show in Beach Area,2024-06-15,Beach Area,entertainment
+exp1993,user_043,FOOD,65.23,USD,Dessert in Downtown,2024-06-16,Downtown,meal
+exp1994,user_044,DINING,85.76,USD,Dining experience in Old Town,2024-06-17,Old Town,meal
+exp1995,user_045,NIGHTLIFE,26.21,USD,Bar/Club in Old Town,2024-06-18,Old Town,nightlife
+exp1996,user_046,SHOPPING,55.77,USD,Shopping in Harbor,2024-06-19,Harbor,shopping
+exp1997,user_047,ENTERTAINMENT,118.37,USD,Concert/Movie/Show in Plaza District,2024-06-20,Plaza District,entertainment
+exp1998,user_048,TRANSPORT,9.44,USD,Taxi/Bus/Train rides in Harbor,2024-06-21,Harbor,travel
+exp1999,user_049,ENTERTAINMENT,72.06,USD,Concert/Movie/Show in Harbor,2024-06-22,Harbor,entertainment
+exp2000,user_050,ACTIVITIES,140.94,USD,Tour/Adventure activity in Harbor,2024-06-23,Harbor,activities

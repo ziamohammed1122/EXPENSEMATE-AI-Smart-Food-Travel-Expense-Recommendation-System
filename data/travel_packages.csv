@@ -1,0 +1,16 @@
+package_id,destination,duration_days,accommodation_cost,food_cost_daily,activities_cost,transport_cost,total_budget,currency,description,best_for,rating
+tp1,Paris,3,225,75,120,150,1200,EUR,"Romantic getaway with Eiffel Tower, Louvre, fine dining","Couples, Culture enthusiasts",4.9
+tp2,Rome,3,200,80,100,140,1100,EUR,"Historical tour of ancient ruins and Vatican City","History buffs, Families",4.8
+tp3,Barcelona,4,220,70,140,160,1400,EUR,"Beach and architecture - Sagrada Familia, Park Guell","Beach lovers, Architecture fans",4.8
+tp4,Tokyo,5,280,90,200,200,2000,JPY,"Modern meets traditional - temples, nightlife, cuisine","Culture enthusiasts, Adventure seekers",4.9
+tp5,Bali,7,150,50,180,300,1500,IDR,"Tropical paradise - beaches, temples, rice terraces","Relaxation, Budget travelers",4.8
+tp6,Dubai,4,250,100,150,200,1500,AED,"Luxury shopping and desert adventures","Luxury travelers, Shoppers",4.7
+tp7,Amsterdam,3,210,65,110,140,1050,EUR,"Canals, museums, cycling culture","Students, Art enthusiasts",4.7
+tp8,Bangkok,4,120,40,100,150,750,THB,"Street food, temples, shopping, nightlife","Foodies, Budget travelers",4.8
+tp9,New York,5,300,120,200,180,2100,USD,"City that never sleeps - Broadway, museums, shopping","City explorers, Entertainment seekers",4.9
+tp10,London,4,240,90,130,170,1380,GBP,"Royal palaces, museums, theater, shopping","Culture lovers, Theater enthusiasts",4.8
+tp11,Switzerland,5,280,100,180,250,1800,CHF,"Alps, hiking, scenic trains, chocolate","Adventure seekers, Nature lovers",4.9
+tp12,Greece,5,180,70,110,130,1100,EUR,"Islands, mythology, white-washed villages","Beach lovers, History enthusiasts",4.8
+tp13,Egypt,5,160,60,150,200,1400,EGP,"Pyramids, Nile cruise, ancient history","History buffs, Adventure seekers",4.7
+tp14,India - Taj Mahal,4,100,30,80,120,580,INR,"Taj Mahal, Agra Fort, local culture","Culture enthusiasts, Budget travelers",4.8
+tp15,Australia,7,250,80,220,300,2240,AUD,"Sydney, Great Barrier Reef, outback","Adventure seekers, Beach lovers",4.9

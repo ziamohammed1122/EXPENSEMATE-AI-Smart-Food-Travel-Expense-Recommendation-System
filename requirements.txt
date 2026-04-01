@@ -1,0 +1,4 @@
+streamlit
+flask
+flask-cors
+# The repo already depends on pandas/numpy/matplotlib
